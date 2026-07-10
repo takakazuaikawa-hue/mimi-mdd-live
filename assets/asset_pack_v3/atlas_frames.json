@@ -1,0 +1,2262 @@
+{
+  "version": "2.0.0",
+  "coordinateSystem": "pixel-top-left",
+  "note": "Frame rectangles are coarse grid cells. Trim transparent padding at render time if needed.",
+  "atlases": [
+    {
+      "path": "atlases/atlas_dice.png",
+      "width": 1774,
+      "height": 887,
+      "grid": [
+        5,
+        1
+      ],
+      "frames": [
+        {
+          "id": "dice_normal_white",
+          "x": 0,
+          "y": 0,
+          "w": 354,
+          "h": 887
+        },
+        {
+          "id": "dice_stable_blue",
+          "x": 354,
+          "y": 0,
+          "w": 354,
+          "h": 887
+        },
+        {
+          "id": "dice_explosive_red",
+          "x": 708,
+          "y": 0,
+          "w": 354,
+          "h": 887
+        },
+        {
+          "id": "dice_sync_yellow",
+          "x": 1062,
+          "y": 0,
+          "w": 354,
+          "h": 887
+        },
+        {
+          "id": "dice_mutation_purple",
+          "x": 1416,
+          "y": 0,
+          "w": 358,
+          "h": 887
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_players.png",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        3,
+        3
+      ],
+      "frames": [
+        {
+          "id": "player_sanada_shigeru",
+          "x": 0,
+          "y": 0,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "player_sakaki_naoki",
+          "x": 418,
+          "y": 0,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "player_isaka_kotaro",
+          "x": 836,
+          "y": 0,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "player_sasaki_ponta",
+          "x": 0,
+          "y": 418,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "player_takimura_yuji",
+          "x": 418,
+          "y": 418,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "player_kuze_minoru",
+          "x": 836,
+          "y": 418,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "player_hada_saburo",
+          "x": 0,
+          "y": 836,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "player_makabe_tetsuo",
+          "x": 418,
+          "y": 836,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "player_noguchi_takumi",
+          "x": 836,
+          "y": 836,
+          "w": 418,
+          "h": 418
+        }
+      ]
+    },
+    {
+      "path": "atlases/sheet_player_expressions.png",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        3,
+        3
+      ],
+      "frames": [
+        {
+          "id": "expr_sanada_shigeru",
+          "x": 0,
+          "y": 0,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "expr_sakaki_naoki",
+          "x": 418,
+          "y": 0,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "expr_isaka_kotaro",
+          "x": 836,
+          "y": 0,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "expr_sasaki_ponta",
+          "x": 0,
+          "y": 418,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "expr_takimura_yuji",
+          "x": 418,
+          "y": 418,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "expr_kuze_minoru",
+          "x": 836,
+          "y": 418,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "expr_hada_saburo",
+          "x": 0,
+          "y": 836,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "expr_makabe_tetsuo",
+          "x": 418,
+          "y": 836,
+          "w": 418,
+          "h": 418
+        },
+        {
+          "id": "expr_noguchi_takumi",
+          "x": 836,
+          "y": 836,
+          "w": 418,
+          "h": 418
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_enemy_teams.png",
+      "width": 1536,
+      "height": 1024,
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "id": "enemy_body_shirogane",
+          "x": 0,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        {
+          "id": "enemy_body_kanayama",
+          "x": 384,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        {
+          "id": "enemy_body_yamanobe",
+          "x": 768,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        {
+          "id": "enemy_body_imperial",
+          "x": 1152,
+          "y": 0,
+          "w": 384,
+          "h": 512
+        },
+        {
+          "id": "enemy_ace_shirogane",
+          "x": 0,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        {
+          "id": "enemy_ace_kanayama",
+          "x": 384,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        {
+          "id": "enemy_ace_yamanobe",
+          "x": 768,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        },
+        {
+          "id": "enemy_ace_imperial",
+          "x": 1152,
+          "y": 512,
+          "w": 384,
+          "h": 512
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_team_logos.png",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        4,
+        2
+      ],
+      "frames": [
+        {
+          "id": "logo_hinomoto_explosions",
+          "x": 0,
+          "y": 0,
+          "w": 313,
+          "h": 627
+        },
+        {
+          "id": "logo_shirogane_bravers",
+          "x": 313,
+          "y": 0,
+          "w": 313,
+          "h": 627
+        },
+        {
+          "id": "logo_kanayama_twin_drives",
+          "x": 626,
+          "y": 0,
+          "w": 313,
+          "h": 627
+        },
+        {
+          "id": "logo_yamanobe_long_runners",
+          "x": 939,
+          "y": 0,
+          "w": 315,
+          "h": 627
+        },
+        {
+          "id": "logo_imperial_crowns",
+          "x": 0,
+          "y": 627,
+          "w": 313,
+          "h": 627
+        },
+        {
+          "id": "logo_league_ai_coin",
+          "x": 313,
+          "y": 627,
+          "w": 313,
+          "h": 627
+        },
+        {
+          "id": "logo_citizens_medical_support",
+          "x": 626,
+          "y": 627,
+          "w": 313,
+          "h": 627
+        },
+        {
+          "id": "logo_underground_finance",
+          "x": 939,
+          "y": 627,
+          "w": 315,
+          "h": 627
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_sponsor_logos_full.png",
+      "width": 1402,
+      "height": 1122,
+      "grid": [
+        4,
+        3
+      ],
+      "frames": [
+        {
+          "id": "sponsor_common_medical",
+          "x": 0,
+          "y": 0,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_black_orange_heavy",
+          "x": 350,
+          "y": 0,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_bio_research",
+          "x": 700,
+          "y": 0,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_gambling_union",
+          "x": 1050,
+          "y": 0,
+          "w": 352,
+          "h": 374
+        },
+        {
+          "id": "sponsor_citizens_support",
+          "x": 0,
+          "y": 374,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_ninth_finance",
+          "x": 350,
+          "y": 374,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_eastern_nerve",
+          "x": 700,
+          "y": 374,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_former_players_aid",
+          "x": 1050,
+          "y": 374,
+          "w": 352,
+          "h": 374
+        },
+        {
+          "id": "sponsor_imperial_medical",
+          "x": 0,
+          "y": 748,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_crown_betting",
+          "x": 350,
+          "y": 748,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_modified_league_lab",
+          "x": 700,
+          "y": 748,
+          "w": 350,
+          "h": 374
+        },
+        {
+          "id": "sponsor_forbidden_archive",
+          "x": 1050,
+          "y": 748,
+          "w": 352,
+          "h": 374
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_surgery_methods.png",
+      "width": 1310,
+      "height": 1201,
+      "grid": [
+        4,
+        3
+      ],
+      "frames": [
+        {
+          "id": "surgery_live_wire_suture",
+          "x": 0,
+          "y": 0,
+          "w": 327,
+          "h": 400
+        },
+        {
+          "id": "surgery_nerve_knot_thunder",
+          "x": 327,
+          "y": 0,
+          "w": 327,
+          "h": 400
+        },
+        {
+          "id": "surgery_bone_rearrange_99",
+          "x": 654,
+          "y": 0,
+          "w": 327,
+          "h": 400
+        },
+        {
+          "id": "surgery_basic_treatment",
+          "x": 981,
+          "y": 0,
+          "w": 329,
+          "h": 400
+        },
+        {
+          "id": "surgery_body_part_mod",
+          "x": 0,
+          "y": 400,
+          "w": 327,
+          "h": 400
+        },
+        {
+          "id": "surgery_mental_aptitude",
+          "x": 327,
+          "y": 400,
+          "w": 327,
+          "h": 400
+        },
+        {
+          "id": "surgery_mechanical_mod",
+          "x": 654,
+          "y": 400,
+          "w": 327,
+          "h": 400
+        },
+        {
+          "id": "surgery_biological_mutation",
+          "x": 981,
+          "y": 400,
+          "w": 329,
+          "h": 400
+        },
+        {
+          "id": "surgery_hybrid_mod",
+          "x": 0,
+          "y": 800,
+          "w": 327,
+          "h": 401
+        },
+        {
+          "id": "surgery_full_body_engine",
+          "x": 327,
+          "y": 800,
+          "w": 327,
+          "h": 401
+        },
+        {
+          "id": "surgery_ninth_inning_ghost",
+          "x": 654,
+          "y": 800,
+          "w": 327,
+          "h": 401
+        },
+        {
+          "id": "surgery_human_redefinition",
+          "x": 981,
+          "y": 800,
+          "w": 329,
+          "h": 401
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_status_icons.png",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        8,
+        8
+      ],
+      "frames": [
+        {
+          "id": "spirit_1",
+          "x": 0,
+          "y": 0,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "spirit_2",
+          "x": 156,
+          "y": 0,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "spirit_3",
+          "x": 312,
+          "y": 0,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "spirit_4",
+          "x": 468,
+          "y": 0,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "spirit_5",
+          "x": 624,
+          "y": 0,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "tension_1",
+          "x": 780,
+          "y": 0,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "tension_2",
+          "x": 936,
+          "y": 0,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "tension_3",
+          "x": 1092,
+          "y": 0,
+          "w": 162,
+          "h": 156
+        },
+        {
+          "id": "tension_4",
+          "x": 0,
+          "y": 156,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "tension_5",
+          "x": 156,
+          "y": 156,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "state_explosive",
+          "x": 312,
+          "y": 156,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "state_hidden_injury",
+          "x": 468,
+          "y": 156,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "injury_light",
+          "x": 624,
+          "y": 156,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "injury_heavy",
+          "x": 780,
+          "y": 156,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "injury_bandage",
+          "x": 936,
+          "y": 156,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "injury_fracture",
+          "x": 1092,
+          "y": 156,
+          "w": 162,
+          "h": 156
+        },
+        {
+          "id": "injury_bruise",
+          "x": 0,
+          "y": 312,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "pain_tolerance",
+          "x": 156,
+          "y": 312,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "surgery_required",
+          "x": 312,
+          "y": 312,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "surgery_complete",
+          "x": 468,
+          "y": 312,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "body_modified",
+          "x": 624,
+          "y": 312,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "part_mechanical",
+          "x": 780,
+          "y": 312,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "mutation_biological",
+          "x": 936,
+          "y": 312,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "mental_inversion",
+          "x": 1092,
+          "y": 312,
+          "w": 162,
+          "h": 156
+        },
+        {
+          "id": "role_complete",
+          "x": 0,
+          "y": 468,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "nickname",
+          "x": 156,
+          "y": 468,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "coin",
+          "x": 312,
+          "y": 468,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "debt",
+          "x": 468,
+          "y": 468,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "payout",
+          "x": 624,
+          "y": 468,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "medical_progress",
+          "x": 780,
+          "y": 468,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "action_point",
+          "x": 936,
+          "y": 468,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "research_point",
+          "x": 1092,
+          "y": 468,
+          "w": 162,
+          "h": 156
+        },
+        {
+          "id": "sponsor",
+          "x": 0,
+          "y": 624,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "standings",
+          "x": 156,
+          "y": 624,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "next_match",
+          "x": 312,
+          "y": 624,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "auto_process",
+          "x": 468,
+          "y": 624,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "save",
+          "x": 624,
+          "y": 624,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "load",
+          "x": 780,
+          "y": 624,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "warning",
+          "x": 936,
+          "y": 624,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "locked",
+          "x": 1092,
+          "y": 624,
+          "w": 162,
+          "h": 156
+        },
+        {
+          "id": "unlocked",
+          "x": 0,
+          "y": 780,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "reroll",
+          "x": 156,
+          "y": 780,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "dice_result",
+          "x": 312,
+          "y": 780,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "success",
+          "x": 468,
+          "y": 780,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "great_success",
+          "x": 624,
+          "y": 780,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "failure",
+          "x": 780,
+          "y": 780,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "critical_failure",
+          "x": 936,
+          "y": 780,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "ability_up",
+          "x": 1092,
+          "y": 780,
+          "w": 162,
+          "h": 156
+        },
+        {
+          "id": "ability_down",
+          "x": 0,
+          "y": 936,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "batting",
+          "x": 156,
+          "y": 936,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "running",
+          "x": 312,
+          "y": 936,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "defense",
+          "x": 468,
+          "y": 936,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "pitching",
+          "x": 624,
+          "y": 936,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "catcher",
+          "x": 780,
+          "y": 936,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "infielder",
+          "x": 936,
+          "y": 936,
+          "w": 156,
+          "h": 156
+        },
+        {
+          "id": "outfielder",
+          "x": 1092,
+          "y": 936,
+          "w": 162,
+          "h": 156
+        },
+        {
+          "id": "ace",
+          "x": 0,
+          "y": 1092,
+          "w": 156,
+          "h": 162
+        },
+        {
+          "id": "substitute",
+          "x": 156,
+          "y": 1092,
+          "w": 156,
+          "h": 162
+        },
+        {
+          "id": "fatigue_internal",
+          "x": 312,
+          "y": 1092,
+          "w": 156,
+          "h": 162
+        },
+        {
+          "id": "parley",
+          "x": 468,
+          "y": 1092,
+          "w": 156,
+          "h": 162
+        },
+        {
+          "id": "stay",
+          "x": 624,
+          "y": 1092,
+          "w": 156,
+          "h": 162
+        },
+        {
+          "id": "cash_out",
+          "x": 780,
+          "y": 1092,
+          "w": 156,
+          "h": 162
+        },
+        {
+          "id": "opponent_raise",
+          "x": 936,
+          "y": 1092,
+          "w": 156,
+          "h": 162
+        },
+        {
+          "id": "fan_bet",
+          "x": 1092,
+          "y": 1092,
+          "w": 162,
+          "h": 162
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_ui_icons_base.png",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        6,
+        6
+      ],
+      "frames": [
+        {
+          "id": "icon_next_match",
+          "x": 0,
+          "y": 0,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_coin",
+          "x": 209,
+          "y": 0,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_medical_progress",
+          "x": 418,
+          "y": 0,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_action_point",
+          "x": 627,
+          "y": 0,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_standings",
+          "x": 836,
+          "y": 0,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_team",
+          "x": 1045,
+          "y": 0,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_medical",
+          "x": 0,
+          "y": 209,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_club",
+          "x": 209,
+          "y": 209,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_records",
+          "x": 418,
+          "y": 209,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_settings",
+          "x": 627,
+          "y": 209,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_player_detail",
+          "x": 836,
+          "y": 209,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_role",
+          "x": 1045,
+          "y": 209,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_nickname",
+          "x": 0,
+          "y": 418,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_bet_card",
+          "x": 209,
+          "y": 418,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_payout",
+          "x": 418,
+          "y": 418,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_injury",
+          "x": 627,
+          "y": 418,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_surgery_scalpel",
+          "x": 836,
+          "y": 418,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_research",
+          "x": 1045,
+          "y": 418,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_sponsor",
+          "x": 0,
+          "y": 627,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_debt",
+          "x": 209,
+          "y": 627,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_save",
+          "x": 418,
+          "y": 627,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_load",
+          "x": 627,
+          "y": 627,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_spirit",
+          "x": 836,
+          "y": 627,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_tension",
+          "x": 1045,
+          "y": 627,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_baseball",
+          "x": 0,
+          "y": 836,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_bat",
+          "x": 209,
+          "y": 836,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_glove",
+          "x": 418,
+          "y": 836,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_syringe",
+          "x": 627,
+          "y": 836,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_dice",
+          "x": 836,
+          "y": 836,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_warning",
+          "x": 1045,
+          "y": 836,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_auto_bet",
+          "x": 0,
+          "y": 1045,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_stay",
+          "x": 209,
+          "y": 1045,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_cash_out",
+          "x": 418,
+          "y": 1045,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_replay",
+          "x": 627,
+          "y": 1045,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_home",
+          "x": 836,
+          "y": 1045,
+          "w": 209,
+          "h": 209
+        },
+        {
+          "id": "icon_sound",
+          "x": 1045,
+          "y": 1045,
+          "w": 209,
+          "h": 209
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_match_cutins.png",
+      "width": 1536,
+      "height": 1024,
+      "grid": [
+        2,
+        4
+      ],
+      "frames": [
+        {
+          "id": "cutin_pitch",
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 256
+        },
+        {
+          "id": "cutin_bat_impact",
+          "x": 768,
+          "y": 0,
+          "w": 768,
+          "h": 256
+        },
+        {
+          "id": "cutin_steal",
+          "x": 0,
+          "y": 256,
+          "w": 768,
+          "h": 256
+        },
+        {
+          "id": "cutin_diving_catch",
+          "x": 768,
+          "y": 256,
+          "w": 768,
+          "h": 256
+        },
+        {
+          "id": "cutin_injury_warning",
+          "x": 0,
+          "y": 512,
+          "w": 768,
+          "h": 256
+        },
+        {
+          "id": "cutin_bet_accepted",
+          "x": 768,
+          "y": 512,
+          "w": 768,
+          "h": 256
+        },
+        {
+          "id": "cutin_bet_failed",
+          "x": 0,
+          "y": 768,
+          "w": 768,
+          "h": 256
+        },
+        {
+          "id": "cutin_explosive_state",
+          "x": 768,
+          "y": 768,
+          "w": 768,
+          "h": 256
+        }
+      ]
+    },
+    {
+      "path": "events/sheet_story_events.png",
+      "width": 1536,
+      "height": 1024,
+      "grid": [
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "id": "event_intro_nine",
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 341
+        },
+        {
+          "id": "event_first_treatment",
+          "x": 768,
+          "y": 0,
+          "w": 768,
+          "h": 341
+        },
+        {
+          "id": "event_betting_decision",
+          "x": 0,
+          "y": 341,
+          "w": 768,
+          "h": 341
+        },
+        {
+          "id": "event_post_defeat",
+          "x": 768,
+          "y": 341,
+          "w": 768,
+          "h": 341
+        },
+        {
+          "id": "event_final_boss_pressure",
+          "x": 0,
+          "y": 682,
+          "w": 768,
+          "h": 342
+        },
+        {
+          "id": "event_doctor_registration",
+          "x": 768,
+          "y": 682,
+          "w": 768,
+          "h": 342
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_mimi.png",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        3,
+        2
+      ],
+      "frames": [
+        {
+          "id": "mimi_neutral",
+          "x": 0,
+          "y": 0,
+          "w": 418,
+          "h": 627
+        },
+        {
+          "id": "mimi_embarrassed_pashipashi",
+          "x": 418,
+          "y": 0,
+          "w": 418,
+          "h": 627
+        },
+        {
+          "id": "mimi_match_cut_in",
+          "x": 836,
+          "y": 0,
+          "w": 418,
+          "h": 627
+        },
+        {
+          "id": "mimi_surgery_mask",
+          "x": 0,
+          "y": 627,
+          "w": 418,
+          "h": 627
+        },
+        {
+          "id": "mimi_dice_throw",
+          "x": 418,
+          "y": 627,
+          "w": 418,
+          "h": 627
+        },
+        {
+          "id": "mimi_doctor_clear",
+          "x": 836,
+          "y": 627,
+          "w": 418,
+          "h": 627
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_research_cards.png",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        6,
+        5
+      ],
+      "frames": [
+        {
+          "id": "research_card_01",
+          "x": 0,
+          "y": 0,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_02",
+          "x": 209,
+          "y": 0,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_03",
+          "x": 418,
+          "y": 0,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_04",
+          "x": 627,
+          "y": 0,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_05",
+          "x": 836,
+          "y": 0,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_06",
+          "x": 1045,
+          "y": 0,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_07",
+          "x": 0,
+          "y": 250,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_08",
+          "x": 209,
+          "y": 250,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_09",
+          "x": 418,
+          "y": 250,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_10",
+          "x": 627,
+          "y": 250,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_11",
+          "x": 836,
+          "y": 250,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_12",
+          "x": 1045,
+          "y": 250,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_13",
+          "x": 0,
+          "y": 500,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_14",
+          "x": 209,
+          "y": 500,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_15",
+          "x": 418,
+          "y": 500,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_16",
+          "x": 627,
+          "y": 500,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_17",
+          "x": 836,
+          "y": 500,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_18",
+          "x": 1045,
+          "y": 500,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_19",
+          "x": 0,
+          "y": 750,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_20",
+          "x": 209,
+          "y": 750,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_21",
+          "x": 418,
+          "y": 750,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_22",
+          "x": 627,
+          "y": 750,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_23",
+          "x": 836,
+          "y": 750,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_24",
+          "x": 1045,
+          "y": 750,
+          "w": 209,
+          "h": 250
+        },
+        {
+          "id": "research_card_25",
+          "x": 0,
+          "y": 1000,
+          "w": 209,
+          "h": 254
+        },
+        {
+          "id": "research_card_26",
+          "x": 209,
+          "y": 1000,
+          "w": 209,
+          "h": 254
+        },
+        {
+          "id": "research_card_27",
+          "x": 418,
+          "y": 1000,
+          "w": 209,
+          "h": 254
+        },
+        {
+          "id": "research_card_28",
+          "x": 627,
+          "y": 1000,
+          "w": 209,
+          "h": 254
+        },
+        {
+          "id": "research_card_29",
+          "x": 836,
+          "y": 1000,
+          "w": 209,
+          "h": 254
+        },
+        {
+          "id": "research_card_30",
+          "x": 1045,
+          "y": 1000,
+          "w": 209,
+          "h": 254
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_mod_parts_expanded.png",
+      "width": 1254,
+      "height": 1254,
+      "grid": [
+        8,
+        5
+      ],
+      "frames": [
+        {
+          "id": "mod_part_01",
+          "x": 0,
+          "y": 0,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_02",
+          "x": 156,
+          "y": 0,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_03",
+          "x": 312,
+          "y": 0,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_04",
+          "x": 468,
+          "y": 0,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_05",
+          "x": 624,
+          "y": 0,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_06",
+          "x": 780,
+          "y": 0,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_07",
+          "x": 936,
+          "y": 0,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_08",
+          "x": 1092,
+          "y": 0,
+          "w": 162,
+          "h": 250
+        },
+        {
+          "id": "mod_part_09",
+          "x": 0,
+          "y": 250,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_10",
+          "x": 156,
+          "y": 250,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_11",
+          "x": 312,
+          "y": 250,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_12",
+          "x": 468,
+          "y": 250,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_13",
+          "x": 624,
+          "y": 250,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_14",
+          "x": 780,
+          "y": 250,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_15",
+          "x": 936,
+          "y": 250,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_16",
+          "x": 1092,
+          "y": 250,
+          "w": 162,
+          "h": 250
+        },
+        {
+          "id": "mod_part_17",
+          "x": 0,
+          "y": 500,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_18",
+          "x": 156,
+          "y": 500,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_19",
+          "x": 312,
+          "y": 500,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_20",
+          "x": 468,
+          "y": 500,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_21",
+          "x": 624,
+          "y": 500,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_22",
+          "x": 780,
+          "y": 500,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_23",
+          "x": 936,
+          "y": 500,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_24",
+          "x": 1092,
+          "y": 500,
+          "w": 162,
+          "h": 250
+        },
+        {
+          "id": "mod_part_25",
+          "x": 0,
+          "y": 750,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_26",
+          "x": 156,
+          "y": 750,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_27",
+          "x": 312,
+          "y": 750,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_28",
+          "x": 468,
+          "y": 750,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_29",
+          "x": 624,
+          "y": 750,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_30",
+          "x": 780,
+          "y": 750,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_31",
+          "x": 936,
+          "y": 750,
+          "w": 156,
+          "h": 250
+        },
+        {
+          "id": "mod_part_32",
+          "x": 1092,
+          "y": 750,
+          "w": 162,
+          "h": 250
+        },
+        {
+          "id": "mod_part_33",
+          "x": 0,
+          "y": 1000,
+          "w": 156,
+          "h": 254
+        },
+        {
+          "id": "mod_part_34",
+          "x": 156,
+          "y": 1000,
+          "w": 156,
+          "h": 254
+        },
+        {
+          "id": "mod_part_35",
+          "x": 312,
+          "y": 1000,
+          "w": 156,
+          "h": 254
+        },
+        {
+          "id": "mod_part_36",
+          "x": 468,
+          "y": 1000,
+          "w": 156,
+          "h": 254
+        },
+        {
+          "id": "mod_part_37",
+          "x": 624,
+          "y": 1000,
+          "w": 156,
+          "h": 254
+        },
+        {
+          "id": "mod_part_38",
+          "x": 780,
+          "y": 1000,
+          "w": 156,
+          "h": 254
+        },
+        {
+          "id": "mod_part_39",
+          "x": 936,
+          "y": 1000,
+          "w": 156,
+          "h": 254
+        },
+        {
+          "id": "mod_part_40",
+          "x": 1092,
+          "y": 1000,
+          "w": 162,
+          "h": 254
+        }
+      ]
+    },
+    {
+      "path": "atlases/atlas_surgery_ui.png",
+      "width": 1536,
+      "height": 1024,
+      "grid": [
+        6,
+        4
+      ],
+      "frames": [
+        {
+          "id": "surgery_ui_01",
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_02",
+          "x": 256,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_03",
+          "x": 512,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_04",
+          "x": 768,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_05",
+          "x": 1024,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_06",
+          "x": 1280,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_07",
+          "x": 0,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_08",
+          "x": 256,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_09",
+          "x": 512,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_10",
+          "x": 768,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_11",
+          "x": 1024,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_12",
+          "x": 1280,
+          "y": 256,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_13",
+          "x": 0,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_14",
+          "x": 256,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_15",
+          "x": 512,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_16",
+          "x": 768,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_17",
+          "x": 1024,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_18",
+          "x": 1280,
+          "y": 512,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_19",
+          "x": 0,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_20",
+          "x": 256,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_21",
+          "x": 512,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_22",
+          "x": 768,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_23",
+          "x": 1024,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        },
+        {
+          "id": "surgery_ui_24",
+          "x": 1280,
+          "y": 768,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    {
+      "path": "ui/atlas_result_panels.png",
+      "width": 1402,
+      "height": 1122,
+      "grid": [
+        5,
+        4
+      ],
+      "frames": [
+        {
+          "id": "panel_01",
+          "x": 0,
+          "y": 0,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_02",
+          "x": 280,
+          "y": 0,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_03",
+          "x": 560,
+          "y": 0,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_04",
+          "x": 840,
+          "y": 0,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_05",
+          "x": 1120,
+          "y": 0,
+          "w": 282,
+          "h": 280
+        },
+        {
+          "id": "panel_06",
+          "x": 0,
+          "y": 280,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_07",
+          "x": 280,
+          "y": 280,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_08",
+          "x": 560,
+          "y": 280,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_09",
+          "x": 840,
+          "y": 280,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_10",
+          "x": 1120,
+          "y": 280,
+          "w": 282,
+          "h": 280
+        },
+        {
+          "id": "panel_11",
+          "x": 0,
+          "y": 560,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_12",
+          "x": 280,
+          "y": 560,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_13",
+          "x": 560,
+          "y": 560,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_14",
+          "x": 840,
+          "y": 560,
+          "w": 280,
+          "h": 280
+        },
+        {
+          "id": "panel_15",
+          "x": 1120,
+          "y": 560,
+          "w": 282,
+          "h": 280
+        },
+        {
+          "id": "panel_16",
+          "x": 0,
+          "y": 840,
+          "w": 280,
+          "h": 282
+        },
+        {
+          "id": "panel_17",
+          "x": 280,
+          "y": 840,
+          "w": 280,
+          "h": 282
+        },
+        {
+          "id": "panel_18",
+          "x": 560,
+          "y": 840,
+          "w": 280,
+          "h": 282
+        },
+        {
+          "id": "panel_19",
+          "x": 840,
+          "y": 840,
+          "w": 280,
+          "h": 282
+        },
+        {
+          "id": "panel_20",
+          "x": 1120,
+          "y": 840,
+          "w": 282,
+          "h": 282
+        }
+      ]
+    }
+  ]
+}

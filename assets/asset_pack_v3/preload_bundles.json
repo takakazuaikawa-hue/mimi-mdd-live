@@ -1,0 +1,67 @@
+{
+  "version": "3.1.0",
+  "baseRequired": [
+    "asset_index",
+    "atlas_frames_runtime",
+    "screen_asset_map",
+    "sprite_layout_hints"
+  ],
+  "bundles": {
+    "boot": {
+      "assets": ["title_logo", "bg_title_a", "bg_title_b", "atlas_ui_icons_base"],
+      "frames": ["icon_sound", "icon_settings", "icon_home"]
+    },
+    "home": {
+      "assets": ["bg_medical_room", "atlas_mimi", "atlas_status_icons", "atlas_ui_icons_base", "atlas_result_panels"],
+      "frames": ["mimi_neutral", "icon_next_match", "icon_coin", "icon_medical_progress", "icon_action_point", "icon_standings"]
+    },
+    "team": {
+      "assets": ["atlas_players", "atlas_player_parts", "sheet_player_expressions", "atlas_mod_parts_expanded", "atlas_status_icons"],
+      "frames": ["player_sanada_shigeru", "player_sakaki_naoki", "player_isaka_kotaro", "role_complete", "injury_light", "injury_heavy"]
+    },
+    "match_core": {
+      "assets": [
+        "bg_stadium_default",
+        "atlas_match_silhouettes",
+        "atlas_match_props_effects",
+        "atlas_match_status_overlays",
+        "atlas_field_props",
+        "atlas_match_cutins",
+        "atlas_enemy_teams",
+        "atlas_status_icons"
+      ],
+      "frames": [
+        "sil_pitcher_windup_1",
+        "sil_pitcher_throw_1",
+        "sil_batter_idle",
+        "sil_batter_contact",
+        "sil_runner_1",
+        "ball_idle",
+        "ball_fast_streak_1",
+        "field_home_plate",
+        "field_pitcher_mound",
+        "shadow_ellipse_1"
+      ]
+    },
+    "match_league_stadiums": {
+      "assets": ["bg_stadium_shirogane", "bg_stadium_kanayama", "bg_stadium_yamanobe", "bg_stadium_imperial", "bg_stadium_modified"],
+      "frames": []
+    },
+    "surgery": {
+      "assets": ["bg_surgery_room", "atlas_surgery_ui", "atlas_surgery_methods", "atlas_dice", "atlas_mimi", "atlas_status_icons"],
+      "frames": ["mimi_surgery_mask", "mimi_dice_throw", "dice_normal_white", "dice_explosive_red", "surgery_live_wire_suture", "surgery_nerve_knot_thunder", "surgery_bone_rearrange_99"]
+    },
+    "research": {
+      "assets": ["atlas_research_cards", "atlas_status_icons", "atlas_result_panels"],
+      "frames": ["research_card_01", "research_card_02", "research_card_03", "locked", "unlocked", "research_point"]
+    },
+    "sponsors": {
+      "assets": ["atlas_sponsor_logos_full", "atlas_result_panels"],
+      "frames": ["sponsor_common_medical", "sponsor_black_orange_heavy", "sponsor_bio_research", "sponsor_gambling_union"]
+    },
+    "story": {
+      "assets": ["sheet_story_events", "atlas_mimi"],
+      "frames": ["event_intro_nine", "event_first_treatment", "event_betting_decision", "event_doctor_registration"]
+    }
+  }
+}

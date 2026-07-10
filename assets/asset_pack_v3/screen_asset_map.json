@@ -1,0 +1,219 @@
+{
+  "version": "3.0.0",
+  "screens": {
+    "title": {
+      "backgrounds": [
+        "bg_title_a",
+        "bg_title_b"
+      ],
+      "ui": [
+        "title_logo"
+      ],
+      "frames": [
+        "icon_sound",
+        "icon_settings"
+      ]
+    },
+    "medical_home": {
+      "backgrounds": [
+        "bg_medical_room"
+      ],
+      "frames": [
+        "mimi_neutral",
+        "icon_next_match",
+        "icon_coin",
+        "icon_medical_progress",
+        "icon_action_point",
+        "icon_standings",
+        "icon_team",
+        "icon_medical",
+        "icon_club",
+        "icon_records"
+      ]
+    },
+    "player_grid": {
+      "backgrounds": [
+        "bg_medical_room"
+      ],
+      "frames": [
+        "player_sanada_shigeru",
+        "player_sakaki_naoki",
+        "player_isaka_kotaro",
+        "player_sasaki_ponta",
+        "player_takimura_yuji",
+        "player_kuze_minoru",
+        "player_hada_saburo",
+        "player_makabe_tetsuo",
+        "player_noguchi_takumi",
+        "role_complete",
+        "injury_light",
+        "injury_heavy"
+      ]
+    },
+    "player_detail": {
+      "backgrounds": [
+        "bg_medical_room"
+      ],
+      "frames": [
+        "expr_sanada_shigeru",
+        "expr_sakaki_naoki",
+        "expr_isaka_kotaro",
+        "expr_sasaki_ponta",
+        "expr_takimura_yuji",
+        "expr_kuze_minoru",
+        "expr_hada_saburo",
+        "expr_makabe_tetsuo",
+        "expr_noguchi_takumi",
+        "body_modified",
+        "part_mechanical",
+        "mutation_biological",
+        "mental_inversion"
+      ]
+    },
+    "match": {
+      "backgrounds": [
+        "bg_stadium_default",
+        "bg_stadium_shirogane",
+        "bg_stadium_kanayama",
+        "bg_stadium_yamanobe",
+        "bg_stadium_imperial",
+        "bg_stadium_modified"
+      ],
+      "frames": [
+        "mimi_match_cut_in",
+        "cutin_pitch",
+        "cutin_bat_impact",
+        "cutin_steal",
+        "cutin_diving_catch",
+        "cutin_injury_warning",
+        "cutin_bet_accepted",
+        "cutin_bet_failed",
+        "cutin_explosive_state",
+        "coin",
+        "payout",
+        "state_explosive",
+        "spirit_1",
+        "spirit_2",
+        "spirit_3",
+        "spirit_4",
+        "spirit_5",
+        "tension_1",
+        "tension_2",
+        "tension_3",
+        "tension_4",
+        "tension_5",
+        "sil_pitcher_windup_1",
+        "sil_pitcher_throw_2",
+        "sil_batter_contact",
+        "sil_runner_1",
+        "sil_fielder_catch",
+        "sil_catcher_crouch",
+        "ball_idle",
+        "ball_fast_streak_1",
+        "bat_swing_arc_1",
+        "dust_ground_1",
+        "base_home",
+        "shadow_ellipse_1",
+        "speed_line_1",
+        "hit_spark_1",
+        "safe_burst",
+        "out_burst",
+        "fx_explosive_aura_1",
+        "fx_spirit_flame_3",
+        "fx_tension_electric_3",
+        "fx_injury_crack_1",
+        "field_home_plate",
+        "field_pitcher_mound",
+        "field_betting_side_rail"
+      ]
+    },
+    "injury_report": {
+      "backgrounds": [
+        "bg_medical_room"
+      ],
+      "frames": [
+        "panel_03",
+        "injury_light",
+        "injury_heavy",
+        "injury_bandage",
+        "injury_fracture",
+        "injury_bruise",
+        "surgery_required"
+      ]
+    },
+    "surgery": {
+      "backgrounds": [
+        "bg_surgery_room"
+      ],
+      "frames": [
+        "mimi_surgery_mask",
+        "mimi_dice_throw",
+        "dice_normal_white",
+        "dice_stable_blue",
+        "dice_explosive_red",
+        "dice_sync_yellow",
+        "dice_mutation_purple",
+        "surgery_live_wire_suture",
+        "surgery_nerve_knot_thunder",
+        "surgery_bone_rearrange_99",
+        "surgery_ui_01",
+        "surgery_ui_02",
+        "surgery_ui_03",
+        "success",
+        "great_success",
+        "failure",
+        "critical_failure",
+        "ability_up",
+        "ability_down"
+      ]
+    },
+    "research": {
+      "backgrounds": [
+        "bg_medical_room"
+      ],
+      "frames": [
+        "research_card_01",
+        "research_card_02",
+        "research_card_03",
+        "research_card_04",
+        "research_card_05",
+        "research_card_06",
+        "research_point",
+        "locked",
+        "unlocked"
+      ]
+    },
+    "sponsors": {
+      "backgrounds": [
+        "bg_medical_room"
+      ],
+      "frames": [
+        "sponsor_common_medical",
+        "sponsor_black_orange_heavy",
+        "sponsor_bio_research",
+        "sponsor_gambling_union",
+        "sponsor_citizens_support",
+        "sponsor_ninth_finance",
+        "sponsor_eastern_nerve",
+        "sponsor_former_players_aid",
+        "sponsor_imperial_medical",
+        "sponsor_crown_betting",
+        "sponsor_modified_league_lab",
+        "sponsor_forbidden_archive"
+      ]
+    },
+    "story_events": {
+      "eventSheets": [
+        "sheet_story_events"
+      ],
+      "frames": [
+        "event_intro_nine",
+        "event_first_treatment",
+        "event_betting_decision",
+        "event_post_defeat",
+        "event_final_boss_pressure",
+        "event_doctor_registration"
+      ]
+    }
+  }
+}

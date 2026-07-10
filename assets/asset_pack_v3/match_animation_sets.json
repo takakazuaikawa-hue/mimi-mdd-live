@@ -1,0 +1,86 @@
+{
+  "version": "3.1.0",
+  "frameRate": 12,
+  "sets": {
+    "pitcher_windup": {
+      "frames": ["sil_pitcher_windup_1", "sil_pitcher_windup_2", "sil_pitcher_windup_3", "sil_pitcher_windup_4"],
+      "loop": false,
+      "suggestedMs": 520
+    },
+    "pitcher_throw": {
+      "frames": ["sil_pitcher_throw_1", "sil_pitcher_throw_2", "sil_pitcher_throw_3", "sil_pitcher_throw_4"],
+      "loop": false,
+      "suggestedMs": 420
+    },
+    "batter_swing": {
+      "frames": ["sil_batter_idle", "sil_batter_swing_1", "sil_batter_contact", "sil_batter_follow"],
+      "loop": false,
+      "suggestedMs": 360
+    },
+    "runner_loop": {
+      "frames": ["sil_runner_1", "sil_runner_2", "sil_runner_3", "sil_runner_4", "sil_runner_5", "sil_runner_6"],
+      "loop": true,
+      "suggestedMs": 540
+    },
+    "fielder_play": {
+      "frames": ["sil_fielder_ready", "sil_fielder_dive", "sil_fielder_catch", "sil_fielder_throw"],
+      "loop": false,
+      "suggestedMs": 560
+    },
+    "catcher_play": {
+      "frames": ["sil_catcher_crouch", "sil_catcher_catch", "sil_catcher_throw"],
+      "loop": false,
+      "suggestedMs": 420
+    },
+    "official_signal": {
+      "frames": ["sil_official_signal_1", "sil_official_signal_2", "sil_official_signal_3"],
+      "loop": false,
+      "suggestedMs": 360
+    },
+    "injured_stumble": {
+      "frames": ["sil_injured_stumble_1", "sil_injured_stumble_2"],
+      "loop": false,
+      "suggestedMs": 500
+    },
+    "explosive_pose": {
+      "frames": ["sil_explosive_pose_1", "sil_explosive_pose_2"],
+      "loop": true,
+      "suggestedMs": 420
+    },
+    "ball_pitch_fast": {
+      "frames": ["ball_fast_streak_1", "ball_fast_streak_2", "ball_fast_streak_3", "ball_fast_streak_4"],
+      "loop": false,
+      "suggestedMs": 280
+    },
+    "hit_impact": {
+      "frames": ["hit_spark_1", "hit_spark_2", "hit_spark_3", "hit_spark_4", "ball_impact_burst"],
+      "loop": false,
+      "suggestedMs": 260
+    },
+    "ground_dust": {
+      "frames": ["dust_ground_1", "dust_ground_2", "dust_ground_3", "dust_ground_4", "dust_ground_5", "dust_ground_6"],
+      "loop": false,
+      "suggestedMs": 420
+    },
+    "slide_dust": {
+      "frames": ["dust_slide_1", "dust_slide_2", "dust_slide_3", "dust_slide_4"],
+      "loop": false,
+      "suggestedMs": 320
+    },
+    "spirit_aura": {
+      "frames": ["fx_spirit_flame_1", "fx_spirit_flame_2", "fx_spirit_flame_3", "fx_spirit_flame_4", "fx_spirit_flame_5"],
+      "loop": true,
+      "suggestedMs": 700
+    },
+    "tension_aura": {
+      "frames": ["fx_tension_electric_1", "fx_tension_electric_2", "fx_tension_electric_3", "fx_tension_electric_4", "fx_tension_electric_5"],
+      "loop": true,
+      "suggestedMs": 620
+    },
+    "explosive_aura": {
+      "frames": ["fx_explosive_aura_1", "fx_explosive_aura_2", "fx_explosive_aura_3", "fx_explosive_aura_4"],
+      "loop": true,
+      "suggestedMs": 520
+    }
+  }
+}

@@ -1,0 +1,7690 @@
+{
+  "version": "3.1.0",
+  "coordinateSystem": "local pixels",
+  "sprites": {
+    "dice_normal_white": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        301,
+        356
+      ],
+      "size": [
+        301,
+        356
+      ],
+      "category": "dice"
+    },
+    "dice_stable_blue": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        299,
+        353
+      ],
+      "size": [
+        299,
+        353
+      ],
+      "category": "dice"
+    },
+    "dice_explosive_red": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        299,
+        354
+      ],
+      "size": [
+        299,
+        354
+      ],
+      "category": "dice"
+    },
+    "dice_sync_yellow": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        299,
+        355
+      ],
+      "size": [
+        299,
+        355
+      ],
+      "category": "dice"
+    },
+    "dice_mutation_purple": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        301,
+        355
+      ],
+      "size": [
+        301,
+        355
+      ],
+      "category": "dice"
+    },
+    "player_sanada_shigeru": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        58,
+        20,
+        209,
+        360
+      ],
+      "size": [
+        327,
+        401
+      ],
+      "category": "players"
+    },
+    "player_sakaki_naoki": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        40,
+        20,
+        142,
+        363
+      ],
+      "size": [
+        223,
+        404
+      ],
+      "category": "players"
+    },
+    "player_isaka_kotaro": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        53,
+        19,
+        191,
+        353
+      ],
+      "size": [
+        299,
+        393
+      ],
+      "category": "players"
+    },
+    "player_sasaki_ponta": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        58,
+        20,
+        208,
+        375
+      ],
+      "size": [
+        326,
+        417
+      ],
+      "category": "players"
+    },
+    "player_takimura_yuji": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        51,
+        20,
+        184,
+        374
+      ],
+      "size": [
+        288,
+        416
+      ],
+      "category": "players"
+    },
+    "player_kuze_minoru": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        62,
+        20,
+        220,
+        374
+      ],
+      "size": [
+        345,
+        416
+      ],
+      "category": "players"
+    },
+    "player_hada_saburo": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        53,
+        20,
+        188,
+        376
+      ],
+      "size": [
+        295,
+        418
+      ],
+      "category": "players"
+    },
+    "player_makabe_tetsuo": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        61,
+        20,
+        218,
+        372
+      ],
+      "size": [
+        341,
+        414
+      ],
+      "category": "players"
+    },
+    "player_noguchi_takumi": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        50,
+        20,
+        179,
+        368
+      ],
+      "size": [
+        280,
+        409
+      ],
+      "category": "players"
+    },
+    "expr_sanada_shigeru": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        390,
+        403
+      ],
+      "size": [
+        390,
+        403
+      ],
+      "category": "players"
+    },
+    "expr_sakaki_naoki": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        418,
+        400
+      ],
+      "size": [
+        418,
+        400
+      ],
+      "category": "players"
+    },
+    "expr_isaka_kotaro": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        365,
+        400
+      ],
+      "size": [
+        365,
+        400
+      ],
+      "category": "players"
+    },
+    "expr_sasaki_ponta": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        392,
+        410
+      ],
+      "size": [
+        392,
+        410
+      ],
+      "category": "players"
+    },
+    "expr_takimura_yuji": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        418,
+        418
+      ],
+      "size": [
+        418,
+        418
+      ],
+      "category": "players"
+    },
+    "expr_kuze_minoru": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        385,
+        416
+      ],
+      "size": [
+        385,
+        416
+      ],
+      "category": "players"
+    },
+    "expr_hada_saburo": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        377,
+        393
+      ],
+      "size": [
+        377,
+        393
+      ],
+      "category": "players"
+    },
+    "expr_makabe_tetsuo": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        417,
+        393
+      ],
+      "size": [
+        417,
+        393
+      ],
+      "category": "players"
+    },
+    "expr_noguchi_takumi": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        385,
+        393
+      ],
+      "size": [
+        385,
+        393
+      ],
+      "category": "players"
+    },
+    "enemy_body_shirogane": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        58,
+        24,
+        209,
+        436
+      ],
+      "size": [
+        327,
+        485
+      ],
+      "category": "enemies"
+    },
+    "enemy_body_kanayama": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        61,
+        24,
+        217,
+        440
+      ],
+      "size": [
+        340,
+        489
+      ],
+      "category": "enemies"
+    },
+    "enemy_body_yamanobe": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        63,
+        24,
+        224,
+        437
+      ],
+      "size": [
+        350,
+        486
+      ],
+      "category": "enemies"
+    },
+    "enemy_body_imperial": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        64,
+        24,
+        230,
+        438
+      ],
+      "size": [
+        360,
+        487
+      ],
+      "category": "enemies"
+    },
+    "enemy_ace_shirogane": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        64,
+        23,
+        230,
+        431
+      ],
+      "size": [
+        360,
+        479
+      ],
+      "category": "enemies"
+    },
+    "enemy_ace_kanayama": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        69,
+        23,
+        245,
+        431
+      ],
+      "size": [
+        384,
+        479
+      ],
+      "category": "enemies"
+    },
+    "enemy_ace_yamanobe": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        69,
+        23,
+        245,
+        431
+      ],
+      "size": [
+        384,
+        479
+      ],
+      "category": "enemies"
+    },
+    "enemy_ace_imperial": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        67,
+        23,
+        239,
+        431
+      ],
+      "size": [
+        374,
+        479
+      ],
+      "category": "enemies"
+    },
+    "logo_hinomoto_explosions": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        290,
+        388
+      ],
+      "size": [
+        290,
+        388
+      ],
+      "category": "logos"
+    },
+    "logo_shirogane_bravers": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        288,
+        367
+      ],
+      "size": [
+        288,
+        367
+      ],
+      "category": "logos"
+    },
+    "logo_kanayama_twin_drives": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        307,
+        289
+      ],
+      "size": [
+        307,
+        289
+      ],
+      "category": "logos"
+    },
+    "logo_yamanobe_long_runners": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        301,
+        358
+      ],
+      "size": [
+        301,
+        358
+      ],
+      "category": "logos"
+    },
+    "logo_imperial_crowns": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        279,
+        374
+      ],
+      "size": [
+        279,
+        374
+      ],
+      "category": "logos"
+    },
+    "logo_league_ai_coin": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        308,
+        318
+      ],
+      "size": [
+        308,
+        318
+      ],
+      "category": "logos"
+    },
+    "logo_citizens_medical_support": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        313,
+        312
+      ],
+      "size": [
+        313,
+        312
+      ],
+      "category": "logos"
+    },
+    "logo_underground_finance": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        290,
+        316
+      ],
+      "size": [
+        290,
+        316
+      ],
+      "category": "logos"
+    },
+    "sponsor_common_medical": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        288,
+        297
+      ],
+      "size": [
+        288,
+        297
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_black_orange_heavy": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        335,
+        285
+      ],
+      "size": [
+        335,
+        285
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_bio_research": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        275,
+        282
+      ],
+      "size": [
+        275,
+        282
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_gambling_union": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        260,
+        306
+      ],
+      "size": [
+        260,
+        306
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_citizens_support": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        288,
+        350
+      ],
+      "size": [
+        288,
+        350
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_ninth_finance": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        357
+      ],
+      "size": [
+        280,
+        357
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_eastern_nerve": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        294,
+        346
+      ],
+      "size": [
+        294,
+        346
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_former_players_aid": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        274,
+        350
+      ],
+      "size": [
+        274,
+        350
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_imperial_medical": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        297,
+        291
+      ],
+      "size": [
+        297,
+        291
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_crown_betting": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        268,
+        284
+      ],
+      "size": [
+        268,
+        284
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_modified_league_lab": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        274,
+        295
+      ],
+      "size": [
+        274,
+        295
+      ],
+      "category": "status_icons"
+    },
+    "sponsor_forbidden_archive": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        299,
+        297
+      ],
+      "size": [
+        299,
+        297
+      ],
+      "category": "status_icons"
+    },
+    "surgery_live_wire_suture": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        274,
+        379
+      ],
+      "size": [
+        274,
+        379
+      ],
+      "category": "surgery"
+    },
+    "surgery_nerve_knot_thunder": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        274,
+        379
+      ],
+      "size": [
+        274,
+        379
+      ],
+      "category": "surgery"
+    },
+    "surgery_bone_rearrange_99": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        274,
+        379
+      ],
+      "size": [
+        274,
+        379
+      ],
+      "category": "surgery"
+    },
+    "surgery_basic_treatment": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        272,
+        379
+      ],
+      "size": [
+        272,
+        379
+      ],
+      "category": "surgery"
+    },
+    "surgery_body_part_mod": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        277,
+        400
+      ],
+      "size": [
+        277,
+        400
+      ],
+      "category": "surgery"
+    },
+    "surgery_mental_aptitude": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        279,
+        400
+      ],
+      "size": [
+        279,
+        400
+      ],
+      "category": "surgery"
+    },
+    "surgery_mechanical_mod": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        278,
+        400
+      ],
+      "size": [
+        278,
+        400
+      ],
+      "category": "surgery"
+    },
+    "surgery_biological_mutation": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        275,
+        400
+      ],
+      "size": [
+        275,
+        400
+      ],
+      "category": "surgery"
+    },
+    "surgery_hybrid_mod": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        301,
+        382
+      ],
+      "size": [
+        301,
+        382
+      ],
+      "category": "surgery"
+    },
+    "surgery_full_body_engine": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        327,
+        382
+      ],
+      "size": [
+        327,
+        382
+      ],
+      "category": "surgery"
+    },
+    "surgery_ninth_inning_ghost": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        327,
+        381
+      ],
+      "size": [
+        327,
+        381
+      ],
+      "category": "surgery"
+    },
+    "surgery_human_redefinition": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        296,
+        382
+      ],
+      "size": [
+        296,
+        382
+      ],
+      "category": "surgery"
+    },
+    "spirit_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        110
+      ],
+      "size": [
+        117,
+        110
+      ],
+      "category": "status_icons"
+    },
+    "spirit_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        148,
+        110
+      ],
+      "size": [
+        148,
+        110
+      ],
+      "category": "status_icons"
+    },
+    "spirit_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        110
+      ],
+      "size": [
+        156,
+        110
+      ],
+      "category": "status_icons"
+    },
+    "spirit_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        110
+      ],
+      "size": [
+        156,
+        110
+      ],
+      "category": "status_icons"
+    },
+    "spirit_5": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        110
+      ],
+      "size": [
+        156,
+        110
+      ],
+      "category": "status_icons"
+    },
+    "tension_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        110
+      ],
+      "size": [
+        156,
+        110
+      ],
+      "category": "status_icons"
+    },
+    "tension_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        110
+      ],
+      "size": [
+        147,
+        110
+      ],
+      "category": "status_icons"
+    },
+    "tension_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        119,
+        110
+      ],
+      "size": [
+        119,
+        110
+      ],
+      "category": "status_icons"
+    },
+    "tension_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        118,
+        156
+      ],
+      "size": [
+        118,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "tension_5": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "state_explosive": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "state_hidden_injury": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "injury_light": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "injury_heavy": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "injury_bandage": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "injury_fracture": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        118,
+        156
+      ],
+      "size": [
+        118,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "injury_bruise": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "pain_tolerance": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        148,
+        156
+      ],
+      "size": [
+        148,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "surgery_required": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "surgery"
+    },
+    "surgery_complete": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "surgery"
+    },
+    "body_modified": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "part_mechanical": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "mutation_biological": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "mental_inversion": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "role_complete": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "nickname": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        148,
+        156
+      ],
+      "size": [
+        148,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "coin": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "debt": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "payout": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "medical_progress": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "action_point": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "research_point": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "sponsor": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "standings": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        148,
+        156
+      ],
+      "size": [
+        148,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "next_match": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "auto_process": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "save": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "load": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "warning": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "locked": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "unlocked": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "reroll": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        148,
+        156
+      ],
+      "size": [
+        148,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "dice_result": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "dice"
+    },
+    "success": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "great_success": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "failure": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "critical_failure": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "ability_up": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ],
+      "category": "status_icons"
+    },
+    "ability_down": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        116,
+        148
+      ],
+      "size": [
+        116,
+        148
+      ],
+      "category": "status_icons"
+    },
+    "batting": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        148,
+        148
+      ],
+      "size": [
+        148,
+        148
+      ],
+      "category": "status_icons"
+    },
+    "running": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        148
+      ],
+      "size": [
+        156,
+        148
+      ],
+      "category": "status_icons"
+    },
+    "defense": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        148
+      ],
+      "size": [
+        156,
+        148
+      ],
+      "category": "status_icons"
+    },
+    "pitching": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        148
+      ],
+      "size": [
+        156,
+        148
+      ],
+      "category": "status_icons"
+    },
+    "catcher": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        148
+      ],
+      "size": [
+        156,
+        148
+      ],
+      "category": "status_icons"
+    },
+    "infielder": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        148
+      ],
+      "size": [
+        147,
+        148
+      ],
+      "category": "status_icons"
+    },
+    "outfielder": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        116,
+        148
+      ],
+      "size": [
+        116,
+        148
+      ],
+      "category": "status_icons"
+    },
+    "ace": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        114
+      ],
+      "size": [
+        117,
+        114
+      ],
+      "category": "status_icons"
+    },
+    "substitute": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        148,
+        114
+      ],
+      "size": [
+        148,
+        114
+      ],
+      "category": "status_icons"
+    },
+    "fatigue_internal": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        114
+      ],
+      "size": [
+        156,
+        114
+      ],
+      "category": "status_icons"
+    },
+    "parley": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        114
+      ],
+      "size": [
+        156,
+        114
+      ],
+      "category": "status_icons"
+    },
+    "stay": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        114
+      ],
+      "size": [
+        156,
+        114
+      ],
+      "category": "status_icons"
+    },
+    "cash_out": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        114
+      ],
+      "size": [
+        156,
+        114
+      ],
+      "category": "status_icons"
+    },
+    "opponent_raise": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        147,
+        114
+      ],
+      "size": [
+        147,
+        114
+      ],
+      "category": "status_icons"
+    },
+    "fan_bet": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        116,
+        114
+      ],
+      "size": [
+        116,
+        114
+      ],
+      "category": "status_icons"
+    },
+    "icon_next_match": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        158,
+        160
+      ],
+      "size": [
+        158,
+        160
+      ],
+      "category": "ui_icons"
+    },
+    "icon_coin": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        200,
+        160
+      ],
+      "size": [
+        200,
+        160
+      ],
+      "category": "ui_icons"
+    },
+    "icon_medical_progress": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        175,
+        160
+      ],
+      "size": [
+        175,
+        160
+      ],
+      "category": "ui_icons"
+    },
+    "icon_action_point": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        199,
+        160
+      ],
+      "size": [
+        199,
+        160
+      ],
+      "category": "ui_icons"
+    },
+    "icon_standings": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        160
+      ],
+      "size": [
+        209,
+        160
+      ],
+      "category": "ui_icons"
+    },
+    "icon_team": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        146,
+        160
+      ],
+      "size": [
+        146,
+        160
+      ],
+      "category": "ui_icons"
+    },
+    "icon_medical": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        158,
+        195
+      ],
+      "size": [
+        158,
+        195
+      ],
+      "category": "ui_icons"
+    },
+    "icon_club": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        200,
+        196
+      ],
+      "size": [
+        200,
+        196
+      ],
+      "category": "ui_icons"
+    },
+    "icon_records": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        175,
+        195
+      ],
+      "size": [
+        175,
+        195
+      ],
+      "category": "ui_icons"
+    },
+    "icon_settings": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        200,
+        195
+      ],
+      "size": [
+        200,
+        195
+      ],
+      "category": "ui_icons"
+    },
+    "icon_player_detail": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        196
+      ],
+      "size": [
+        209,
+        196
+      ],
+      "category": "ui_icons"
+    },
+    "icon_role": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        146,
+        196
+      ],
+      "size": [
+        146,
+        196
+      ],
+      "category": "ui_icons"
+    },
+    "icon_nickname": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        158,
+        209
+      ],
+      "size": [
+        158,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_bet_card": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        199,
+        209
+      ],
+      "size": [
+        199,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_payout": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        176,
+        209
+      ],
+      "size": [
+        176,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_injury": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        200,
+        209
+      ],
+      "size": [
+        200,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_surgery_scalpel": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        209
+      ],
+      "size": [
+        209,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_research": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        146,
+        209
+      ],
+      "size": [
+        146,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_sponsor": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        158,
+        209
+      ],
+      "size": [
+        158,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_debt": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        199,
+        209
+      ],
+      "size": [
+        199,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_save": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        176,
+        209
+      ],
+      "size": [
+        176,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_load": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        200,
+        209
+      ],
+      "size": [
+        200,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_spirit": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        209
+      ],
+      "size": [
+        209,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_tension": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        146,
+        209
+      ],
+      "size": [
+        146,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_baseball": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        158,
+        209
+      ],
+      "size": [
+        158,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_bat": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        199,
+        209
+      ],
+      "size": [
+        199,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_glove": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        176,
+        209
+      ],
+      "size": [
+        176,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_syringe": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        200,
+        209
+      ],
+      "size": [
+        200,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_dice": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        209
+      ],
+      "size": [
+        209,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_warning": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        146,
+        209
+      ],
+      "size": [
+        146,
+        209
+      ],
+      "category": "ui_icons"
+    },
+    "icon_auto_bet": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        158,
+        175
+      ],
+      "size": [
+        158,
+        175
+      ],
+      "category": "ui_icons"
+    },
+    "icon_stay": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        199,
+        175
+      ],
+      "size": [
+        199,
+        175
+      ],
+      "category": "ui_icons"
+    },
+    "icon_cash_out": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        176,
+        175
+      ],
+      "size": [
+        176,
+        175
+      ],
+      "category": "ui_icons"
+    },
+    "icon_replay": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        200,
+        175
+      ],
+      "size": [
+        200,
+        175
+      ],
+      "category": "ui_icons"
+    },
+    "icon_home": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        27
+      ],
+      "size": [
+        209,
+        27
+      ],
+      "category": "ui_icons"
+    },
+    "icon_sound": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        146,
+        27
+      ],
+      "size": [
+        146,
+        27
+      ],
+      "category": "ui_icons"
+    },
+    "cutin_pitch": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        733,
+        235
+      ],
+      "size": [
+        733,
+        235
+      ],
+      "category": "cutins"
+    },
+    "cutin_bat_impact": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        733,
+        235
+      ],
+      "size": [
+        733,
+        235
+      ],
+      "category": "cutins"
+    },
+    "cutin_steal": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        733,
+        249
+      ],
+      "size": [
+        733,
+        249
+      ],
+      "category": "cutins"
+    },
+    "cutin_diving_catch": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        733,
+        250
+      ],
+      "size": [
+        733,
+        250
+      ],
+      "category": "cutins"
+    },
+    "cutin_injury_warning": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        732,
+        248
+      ],
+      "size": [
+        732,
+        248
+      ],
+      "category": "cutins"
+    },
+    "cutin_bet_accepted": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        733,
+        248
+      ],
+      "size": [
+        733,
+        248
+      ],
+      "category": "cutins"
+    },
+    "cutin_bet_failed": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        732,
+        230
+      ],
+      "size": [
+        732,
+        230
+      ],
+      "category": "cutins"
+    },
+    "cutin_explosive_state": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        733,
+        230
+      ],
+      "size": [
+        733,
+        230
+      ],
+      "category": "cutins"
+    },
+    "event_intro_nine": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        768,
+        341
+      ],
+      "size": [
+        768,
+        341
+      ],
+      "category": "events"
+    },
+    "event_first_treatment": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        768,
+        341
+      ],
+      "size": [
+        768,
+        341
+      ],
+      "category": "events"
+    },
+    "event_betting_decision": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        768,
+        341
+      ],
+      "size": [
+        768,
+        341
+      ],
+      "category": "events"
+    },
+    "event_post_defeat": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        768,
+        341
+      ],
+      "size": [
+        768,
+        341
+      ],
+      "category": "events"
+    },
+    "event_final_boss_pressure": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        768,
+        342
+      ],
+      "size": [
+        768,
+        342
+      ],
+      "category": "events"
+    },
+    "event_doctor_registration": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        768,
+        342
+      ],
+      "size": [
+        768,
+        342
+      ],
+      "category": "events"
+    },
+    "mimi_neutral": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        38,
+        29,
+        137,
+        536
+      ],
+      "size": [
+        215,
+        596
+      ],
+      "category": "mimi"
+    },
+    "mimi_embarrassed_pashipashi": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        63,
+        29,
+        224,
+        536
+      ],
+      "size": [
+        350,
+        596
+      ],
+      "category": "mimi"
+    },
+    "mimi_match_cut_in": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        54,
+        29,
+        195,
+        536
+      ],
+      "size": [
+        305,
+        596
+      ],
+      "category": "mimi"
+    },
+    "mimi_surgery_mask": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        48,
+        28,
+        174,
+        511
+      ],
+      "size": [
+        272,
+        568
+      ],
+      "category": "mimi"
+    },
+    "mimi_dice_throw": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        55,
+        29,
+        198,
+        538
+      ],
+      "size": [
+        310,
+        598
+      ],
+      "category": "mimi"
+    },
+    "mimi_doctor_clear": {
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "hitbox": [
+        55,
+        28,
+        198,
+        516
+      ],
+      "size": [
+        310,
+        574
+      ],
+      "category": "mimi"
+    },
+    "research_card_01": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        220
+      ],
+      "size": [
+        157,
+        220
+      ],
+      "category": "status_icons"
+    },
+    "research_card_02": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        220
+      ],
+      "size": [
+        209,
+        220
+      ],
+      "category": "status_icons"
+    },
+    "research_card_03": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        220
+      ],
+      "size": [
+        157,
+        220
+      ],
+      "category": "status_icons"
+    },
+    "research_card_04": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        220
+      ],
+      "size": [
+        157,
+        220
+      ],
+      "category": "status_icons"
+    },
+    "research_card_05": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        220
+      ],
+      "size": [
+        209,
+        220
+      ],
+      "category": "status_icons"
+    },
+    "research_card_06": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        220
+      ],
+      "size": [
+        140,
+        220
+      ],
+      "category": "status_icons"
+    },
+    "research_card_07": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_08": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_09": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_10": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_11": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_12": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        250
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_13": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_14": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_15": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_16": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_17": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_18": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        250
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_19": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_20": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_21": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_22": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_23": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_24": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        250
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "category": "status_icons"
+    },
+    "research_card_25": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        228
+      ],
+      "size": [
+        157,
+        228
+      ],
+      "category": "status_icons"
+    },
+    "research_card_26": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        228
+      ],
+      "size": [
+        209,
+        228
+      ],
+      "category": "status_icons"
+    },
+    "research_card_27": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        228
+      ],
+      "size": [
+        157,
+        228
+      ],
+      "category": "status_icons"
+    },
+    "research_card_28": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        157,
+        228
+      ],
+      "size": [
+        157,
+        228
+      ],
+      "category": "status_icons"
+    },
+    "research_card_29": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        209,
+        228
+      ],
+      "size": [
+        209,
+        228
+      ],
+      "category": "status_icons"
+    },
+    "research_card_30": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        100
+      ],
+      "size": [
+        140,
+        100
+      ],
+      "category": "status_icons"
+    },
+    "mod_part_01": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        126,
+        220
+      ],
+      "size": [
+        126,
+        220
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_02": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        142,
+        214
+      ],
+      "size": [
+        142,
+        214
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_03": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        217
+      ],
+      "size": [
+        156,
+        217
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_04": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        127,
+        217
+      ],
+      "size": [
+        127,
+        217
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_05": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        125,
+        216
+      ],
+      "size": [
+        125,
+        216
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_06": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        112,
+        153
+      ],
+      "size": [
+        112,
+        153
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_07": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        153,
+        181
+      ],
+      "size": [
+        153,
+        181
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_08": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        132,
+        223
+      ],
+      "size": [
+        132,
+        223
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_09": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        102,
+        250
+      ],
+      "size": [
+        102,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_10": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        142,
+        250
+      ],
+      "size": [
+        142,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_11": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_12": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_13": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_14": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_15": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_16": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        125,
+        250
+      ],
+      "size": [
+        125,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_17": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        126,
+        250
+      ],
+      "size": [
+        126,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_18": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        250
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_19": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        136,
+        250
+      ],
+      "size": [
+        136,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_20": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        135,
+        229
+      ],
+      "size": [
+        135,
+        229
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_21": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_22": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        240
+      ],
+      "size": [
+        156,
+        240
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_23": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        131,
+        231
+      ],
+      "size": [
+        131,
+        231
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_24": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        118,
+        235
+      ],
+      "size": [
+        118,
+        235
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_25": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        126,
+        250
+      ],
+      "size": [
+        126,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_26": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        132,
+        250
+      ],
+      "size": [
+        132,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_27": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_28": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        154,
+        240
+      ],
+      "size": [
+        154,
+        240
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_29": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        129,
+        250
+      ],
+      "size": [
+        129,
+        250
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_30": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        127,
+        235
+      ],
+      "size": [
+        127,
+        235
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_31": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        142,
+        248
+      ],
+      "size": [
+        142,
+        248
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_32": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        120,
+        244
+      ],
+      "size": [
+        120,
+        244
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_33": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        132,
+        235
+      ],
+      "size": [
+        132,
+        235
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_34": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        237
+      ],
+      "size": [
+        156,
+        237
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_35": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        221
+      ],
+      "size": [
+        156,
+        221
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_36": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        135,
+        234
+      ],
+      "size": [
+        135,
+        234
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_37": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        223
+      ],
+      "size": [
+        145,
+        223
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_38": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        226
+      ],
+      "size": [
+        156,
+        226
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_39": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        156,
+        233
+      ],
+      "size": [
+        156,
+        233
+      ],
+      "category": "mod_parts"
+    },
+    "mod_part_40": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        136,
+        228
+      ],
+      "size": [
+        136,
+        228
+      ],
+      "category": "mod_parts"
+    },
+    "surgery_ui_01": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        229,
+        213
+      ],
+      "size": [
+        229,
+        213
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_02": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        240
+      ],
+      "size": [
+        256,
+        240
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_03": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        221
+      ],
+      "size": [
+        256,
+        221
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_04": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        222
+      ],
+      "size": [
+        256,
+        222
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_05": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        222
+      ],
+      "size": [
+        256,
+        222
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_06": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        223,
+        221
+      ],
+      "size": [
+        223,
+        221
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_07": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        226,
+        254
+      ],
+      "size": [
+        226,
+        254
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_08": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        254
+      ],
+      "size": [
+        256,
+        254
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_09": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        254
+      ],
+      "size": [
+        256,
+        254
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_10": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        250
+      ],
+      "size": [
+        256,
+        250
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_11": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        243
+      ],
+      "size": [
+        256,
+        243
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_12": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        218,
+        249
+      ],
+      "size": [
+        218,
+        249
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_13": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        233,
+        233
+      ],
+      "size": [
+        233,
+        233
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_14": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        234
+      ],
+      "size": [
+        256,
+        234
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_15": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        234
+      ],
+      "size": [
+        256,
+        234
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_16": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        234
+      ],
+      "size": [
+        256,
+        234
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_17": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        216
+      ],
+      "size": [
+        256,
+        216
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_18": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        230,
+        216
+      ],
+      "size": [
+        230,
+        216
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_19": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        207,
+        192
+      ],
+      "size": [
+        207,
+        192
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_20": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        181
+      ],
+      "size": [
+        256,
+        181
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_21": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        226
+      ],
+      "size": [
+        256,
+        226
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_22": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        223
+      ],
+      "size": [
+        256,
+        223
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_23": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        256,
+        190
+      ],
+      "size": [
+        256,
+        190
+      ],
+      "category": "surgery"
+    },
+    "surgery_ui_24": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        206,
+        199
+      ],
+      "size": [
+        206,
+        199
+      ],
+      "category": "surgery"
+    },
+    "panel_01": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        263,
+        256
+      ],
+      "size": [
+        263,
+        256
+      ],
+      "category": "ui_panels"
+    },
+    "panel_02": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        268
+      ],
+      "size": [
+        280,
+        268
+      ],
+      "category": "ui_panels"
+    },
+    "panel_03": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        246
+      ],
+      "size": [
+        280,
+        246
+      ],
+      "category": "ui_panels"
+    },
+    "panel_04": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        239
+      ],
+      "size": [
+        280,
+        239
+      ],
+      "category": "ui_panels"
+    },
+    "panel_05": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        264,
+        257
+      ],
+      "size": [
+        264,
+        257
+      ],
+      "category": "ui_panels"
+    },
+    "panel_06": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        269,
+        271
+      ],
+      "size": [
+        269,
+        271
+      ],
+      "category": "ui_panels"
+    },
+    "panel_07": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        273
+      ],
+      "size": [
+        280,
+        273
+      ],
+      "category": "ui_panels"
+    },
+    "panel_08": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        274
+      ],
+      "size": [
+        280,
+        274
+      ],
+      "category": "ui_panels"
+    },
+    "panel_09": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        276
+      ],
+      "size": [
+        280,
+        276
+      ],
+      "category": "ui_panels"
+    },
+    "panel_10": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        276,
+        269
+      ],
+      "size": [
+        276,
+        269
+      ],
+      "category": "ui_panels"
+    },
+    "panel_11": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        275,
+        240
+      ],
+      "size": [
+        275,
+        240
+      ],
+      "category": "ui_panels"
+    },
+    "panel_12": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        280
+      ],
+      "size": [
+        280,
+        280
+      ],
+      "category": "ui_panels"
+    },
+    "panel_13": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        262
+      ],
+      "size": [
+        280,
+        262
+      ],
+      "category": "ui_panels"
+    },
+    "panel_14": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        270
+      ],
+      "size": [
+        280,
+        270
+      ],
+      "category": "ui_panels"
+    },
+    "panel_15": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        268,
+        280
+      ],
+      "size": [
+        268,
+        280
+      ],
+      "category": "ui_panels"
+    },
+    "panel_16": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        271,
+        189
+      ],
+      "size": [
+        271,
+        189
+      ],
+      "category": "ui_panels"
+    },
+    "panel_17": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        258
+      ],
+      "size": [
+        280,
+        258
+      ],
+      "category": "ui_panels"
+    },
+    "panel_18": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        256
+      ],
+      "size": [
+        280,
+        256
+      ],
+      "category": "ui_panels"
+    },
+    "panel_19": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        280,
+        257
+      ],
+      "size": [
+        280,
+        257
+      ],
+      "category": "ui_panels"
+    },
+    "panel_20": {
+      "anchor": [
+        0,
+        0
+      ],
+      "hitbox": [
+        0,
+        0,
+        254,
+        257
+      ],
+      "size": [
+        254,
+        257
+      ],
+      "category": "ui_panels"
+    },
+    "sil_pitcher_windup_1": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        26,
+        17,
+        41,
+        115
+      ],
+      "size": [
+        95,
+        148
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_pitcher_windup_2": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        29,
+        17,
+        47,
+        115
+      ],
+      "size": [
+        107,
+        148
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_pitcher_windup_3": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        32,
+        18,
+        50,
+        117
+      ],
+      "size": [
+        115,
+        150
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_pitcher_windup_4": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        26,
+        17,
+        41,
+        115
+      ],
+      "size": [
+        95,
+        148
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_pitcher_throw_1": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        26,
+        15,
+        41,
+        97
+      ],
+      "size": [
+        94,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_pitcher_throw_2": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        44,
+        14,
+        70,
+        92
+      ],
+      "size": [
+        160,
+        119
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_pitcher_throw_3": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        44,
+        14,
+        70,
+        91
+      ],
+      "size": [
+        160,
+        117
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_pitcher_throw_4": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        44,
+        14,
+        70,
+        92
+      ],
+      "size": [
+        160,
+        119
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_batter_idle": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        35,
+        16,
+        55,
+        106
+      ],
+      "size": [
+        126,
+        137
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_batter_swing_1": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        37,
+        16,
+        58,
+        105
+      ],
+      "size": [
+        133,
+        135
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_batter_contact": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        37,
+        15,
+        58,
+        101
+      ],
+      "size": [
+        133,
+        130
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_batter_follow": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        44,
+        15,
+        70,
+        103
+      ],
+      "size": [
+        160,
+        133
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_runner_1": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        39,
+        15,
+        62,
+        102
+      ],
+      "size": [
+        141,
+        131
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_runner_2": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        22,
+        14,
+        35,
+        94
+      ],
+      "size": [
+        80,
+        121
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_runner_3": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        25,
+        14,
+        39,
+        95
+      ],
+      "size": [
+        90,
+        122
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_runner_4": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        22,
+        14,
+        35,
+        94
+      ],
+      "size": [
+        80,
+        121
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_runner_5": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        25,
+        14,
+        39,
+        95
+      ],
+      "size": [
+        90,
+        122
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_runner_6": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        22,
+        14,
+        35,
+        94
+      ],
+      "size": [
+        80,
+        121
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_fielder_ready": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        32,
+        15,
+        50,
+        97
+      ],
+      "size": [
+        115,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_fielder_dive": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        24,
+        15,
+        38,
+        98
+      ],
+      "size": [
+        87,
+        126
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_fielder_catch": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        27,
+        15,
+        42,
+        97
+      ],
+      "size": [
+        97,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_fielder_throw": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        26,
+        15,
+        42,
+        97
+      ],
+      "size": [
+        96,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_catcher_crouch": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        30,
+        13,
+        48,
+        89
+      ],
+      "size": [
+        110,
+        115
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_catcher_catch": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        22,
+        13,
+        36,
+        89
+      ],
+      "size": [
+        82,
+        115
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_catcher_throw": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        26,
+        13,
+        41,
+        89
+      ],
+      "size": [
+        95,
+        115
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_official_signal_1": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        36,
+        15,
+        56,
+        97
+      ],
+      "size": [
+        129,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_official_signal_2": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        27,
+        15,
+        43,
+        97
+      ],
+      "size": [
+        98,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_official_signal_3": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        14,
+        15,
+        22,
+        97
+      ],
+      "size": [
+        51,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_injured_stumble_1": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        22,
+        15,
+        35,
+        97
+      ],
+      "size": [
+        81,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_injured_stumble_2": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        24,
+        15,
+        37,
+        97
+      ],
+      "size": [
+        86,
+        125
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_explosive_pose_1": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        31,
+        15,
+        48,
+        98
+      ],
+      "size": [
+        111,
+        126
+      ],
+      "category": "match_silhouettes"
+    },
+    "sil_explosive_pose_2": {
+      "anchor": [
+        0.5,
+        0.92
+      ],
+      "hitbox": [
+        32,
+        14,
+        51,
+        96
+      ],
+      "size": [
+        116,
+        124
+      ],
+      "category": "match_silhouettes"
+    },
+    "ball_idle": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        29,
+        29
+      ],
+      "size": [
+        29,
+        29
+      ],
+      "category": "match_props"
+    },
+    "ball_fast_streak_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        23
+      ],
+      "size": [
+        93,
+        23
+      ],
+      "category": "match_props"
+    },
+    "ball_fast_streak_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        23
+      ],
+      "size": [
+        93,
+        23
+      ],
+      "category": "match_props"
+    },
+    "ball_fast_streak_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        23
+      ],
+      "size": [
+        93,
+        23
+      ],
+      "category": "match_props"
+    },
+    "ball_fast_streak_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        23
+      ],
+      "size": [
+        93,
+        23
+      ],
+      "category": "match_props"
+    },
+    "ball_impact_burst": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        93
+      ],
+      "size": [
+        93,
+        93
+      ],
+      "category": "match_props"
+    },
+    "bat_swing_arc_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        81,
+        53
+      ],
+      "size": [
+        81,
+        53
+      ],
+      "category": "match_props"
+    },
+    "bat_swing_arc_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        75,
+        60
+      ],
+      "size": [
+        75,
+        60
+      ],
+      "category": "match_props"
+    },
+    "bat_swing_arc_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        69,
+        67
+      ],
+      "size": [
+        69,
+        67
+      ],
+      "category": "match_props"
+    },
+    "bat_swing_arc_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        62,
+        73
+      ],
+      "size": [
+        62,
+        73
+      ],
+      "category": "match_props"
+    },
+    "bat_swing_arc_5": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        55,
+        79
+      ],
+      "size": [
+        55,
+        79
+      ],
+      "category": "match_props"
+    },
+    "bat_swing_arc_6": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        49,
+        85
+      ],
+      "size": [
+        49,
+        85
+      ],
+      "category": "match_props"
+    },
+    "dust_ground_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        81,
+        37
+      ],
+      "size": [
+        81,
+        37
+      ],
+      "category": "match_props"
+    },
+    "dust_ground_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        81,
+        35
+      ],
+      "size": [
+        81,
+        35
+      ],
+      "category": "match_props"
+    },
+    "dust_ground_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        81,
+        39
+      ],
+      "size": [
+        81,
+        39
+      ],
+      "category": "match_props"
+    },
+    "dust_ground_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        81,
+        33
+      ],
+      "size": [
+        81,
+        33
+      ],
+      "category": "match_props"
+    },
+    "dust_ground_5": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        81,
+        31
+      ],
+      "size": [
+        81,
+        31
+      ],
+      "category": "match_props"
+    },
+    "dust_ground_6": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        81,
+        32
+      ],
+      "size": [
+        81,
+        32
+      ],
+      "category": "match_props"
+    },
+    "dust_slide_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        28
+      ],
+      "size": [
+        93,
+        28
+      ],
+      "category": "match_props"
+    },
+    "dust_slide_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        28
+      ],
+      "size": [
+        93,
+        28
+      ],
+      "category": "match_props"
+    },
+    "dust_slide_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        26
+      ],
+      "size": [
+        93,
+        26
+      ],
+      "category": "match_props"
+    },
+    "dust_slide_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        25
+      ],
+      "size": [
+        93,
+        25
+      ],
+      "category": "match_props"
+    },
+    "base_home": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        13,
+        37,
+        26
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "category": "match_props"
+    },
+    "base_first": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        13,
+        37,
+        26
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "category": "match_props"
+    },
+    "base_second": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        13,
+        37,
+        26
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "category": "match_props"
+    },
+    "base_third": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        13,
+        37,
+        26
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "category": "match_props"
+    },
+    "base_glow_home": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        13,
+        37,
+        26
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "category": "match_props"
+    },
+    "base_glow_first": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        13,
+        37,
+        26
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "category": "match_props"
+    },
+    "base_glow_second": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        13,
+        37,
+        26
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "category": "match_props"
+    },
+    "base_glow_third": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        13,
+        37,
+        26
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "category": "match_props"
+    },
+    "shadow_ellipse_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        45,
+        15
+      ],
+      "size": [
+        45,
+        15
+      ],
+      "category": "match_props"
+    },
+    "shadow_ellipse_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        69,
+        21
+      ],
+      "size": [
+        69,
+        21
+      ],
+      "category": "match_props"
+    },
+    "shadow_ellipse_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        93,
+        27
+      ],
+      "size": [
+        93,
+        27
+      ],
+      "category": "match_props"
+    },
+    "shadow_ellipse_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        33
+      ],
+      "size": [
+        117,
+        33
+      ],
+      "category": "match_props"
+    },
+    "shadow_ellipse_5": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        39
+      ],
+      "size": [
+        140,
+        39
+      ],
+      "category": "match_props"
+    },
+    "shadow_ellipse_6": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        45
+      ],
+      "size": [
+        140,
+        45
+      ],
+      "category": "match_props"
+    },
+    "speed_line_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        123,
+        37
+      ],
+      "size": [
+        123,
+        37
+      ],
+      "category": "match_props"
+    },
+    "speed_line_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        9
+      ],
+      "size": [
+        105,
+        9
+      ],
+      "category": "match_props"
+    },
+    "speed_line_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        29
+      ],
+      "size": [
+        105,
+        29
+      ],
+      "category": "match_props"
+    },
+    "speed_line_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        29
+      ],
+      "size": [
+        105,
+        29
+      ],
+      "category": "match_props"
+    },
+    "speed_line_5": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        9
+      ],
+      "size": [
+        105,
+        9
+      ],
+      "category": "match_props"
+    },
+    "speed_line_6": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        29
+      ],
+      "size": [
+        105,
+        29
+      ],
+      "category": "match_props"
+    },
+    "hit_spark_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        89,
+        78
+      ],
+      "size": [
+        89,
+        78
+      ],
+      "category": "match_props"
+    },
+    "hit_spark_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        89,
+        78
+      ],
+      "size": [
+        89,
+        78
+      ],
+      "category": "match_props"
+    },
+    "hit_spark_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        89,
+        78
+      ],
+      "size": [
+        89,
+        78
+      ],
+      "category": "match_props"
+    },
+    "hit_spark_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        89,
+        78
+      ],
+      "size": [
+        89,
+        78
+      ],
+      "category": "match_props"
+    },
+    "catch_pop": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        85,
+        55
+      ],
+      "size": [
+        85,
+        55
+      ],
+      "category": "match_props"
+    },
+    "foul_effect": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        85,
+        55
+      ],
+      "size": [
+        85,
+        55
+      ],
+      "category": "match_props"
+    },
+    "safe_burst": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ],
+      "category": "match_props"
+    },
+    "out_burst": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ],
+      "category": "match_props"
+    },
+    "steal_marker": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ],
+      "category": "match_props"
+    },
+    "injury_warning_spark": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ],
+      "category": "match_props"
+    },
+    "betting_coin_pop": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ],
+      "category": "match_props"
+    },
+    "scoreboard_blip": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ],
+      "category": "match_props"
+    },
+    "fx_explosive_aura_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        119,
+        119
+      ],
+      "size": [
+        119,
+        119
+      ],
+      "category": "match_overlays"
+    },
+    "fx_explosive_aura_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        119,
+        119
+      ],
+      "size": [
+        119,
+        119
+      ],
+      "category": "match_overlays"
+    },
+    "fx_explosive_aura_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        119,
+        119
+      ],
+      "size": [
+        119,
+        119
+      ],
+      "category": "match_overlays"
+    },
+    "fx_explosive_aura_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        119,
+        119
+      ],
+      "size": [
+        119,
+        119
+      ],
+      "category": "match_overlays"
+    },
+    "fx_spirit_flame_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        43,
+        82
+      ],
+      "size": [
+        43,
+        82
+      ],
+      "category": "match_overlays"
+    },
+    "fx_spirit_flame_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        51,
+        84
+      ],
+      "size": [
+        51,
+        84
+      ],
+      "category": "match_overlays"
+    },
+    "fx_spirit_flame_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        59,
+        86
+      ],
+      "size": [
+        59,
+        86
+      ],
+      "category": "match_overlays"
+    },
+    "fx_spirit_flame_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        67,
+        88
+      ],
+      "size": [
+        67,
+        88
+      ],
+      "category": "match_overlays"
+    },
+    "fx_spirit_flame_5": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        75,
+        90
+      ],
+      "size": [
+        75,
+        90
+      ],
+      "category": "match_overlays"
+    },
+    "fx_tension_electric_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        38,
+        96
+      ],
+      "size": [
+        38,
+        96
+      ],
+      "category": "match_overlays"
+    },
+    "fx_tension_electric_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        56,
+        96
+      ],
+      "size": [
+        56,
+        96
+      ],
+      "category": "match_overlays"
+    },
+    "fx_tension_electric_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        74,
+        96
+      ],
+      "size": [
+        74,
+        96
+      ],
+      "category": "match_overlays"
+    },
+    "fx_tension_electric_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        92,
+        96
+      ],
+      "size": [
+        92,
+        96
+      ],
+      "category": "match_overlays"
+    },
+    "fx_tension_electric_5": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        110,
+        96
+      ],
+      "size": [
+        110,
+        96
+      ],
+      "category": "match_overlays"
+    },
+    "fx_injury_crack_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        117
+      ],
+      "size": [
+        117,
+        117
+      ],
+      "category": "match_overlays"
+    },
+    "fx_injury_crack_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        117
+      ],
+      "size": [
+        117,
+        117
+      ],
+      "category": "match_overlays"
+    },
+    "fx_injury_crack_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        117
+      ],
+      "size": [
+        117,
+        117
+      ],
+      "category": "match_overlays"
+    },
+    "fx_injury_crack_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        117
+      ],
+      "size": [
+        117,
+        117
+      ],
+      "category": "match_overlays"
+    },
+    "fx_hidden_injury_pulse_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        95,
+        95
+      ],
+      "size": [
+        95,
+        95
+      ],
+      "category": "match_overlays"
+    },
+    "fx_hidden_injury_pulse_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        95,
+        95
+      ],
+      "size": [
+        95,
+        95
+      ],
+      "category": "match_overlays"
+    },
+    "fx_hidden_injury_pulse_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        95,
+        95
+      ],
+      "size": [
+        95,
+        95
+      ],
+      "category": "match_overlays"
+    },
+    "fx_mod_activation_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        125
+      ],
+      "size": [
+        105,
+        125
+      ],
+      "category": "match_overlays"
+    },
+    "fx_mod_activation_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        125
+      ],
+      "size": [
+        105,
+        125
+      ],
+      "category": "match_overlays"
+    },
+    "fx_mod_activation_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        125
+      ],
+      "size": [
+        105,
+        125
+      ],
+      "category": "match_overlays"
+    },
+    "fx_mod_activation_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        105,
+        125
+      ],
+      "size": [
+        105,
+        125
+      ],
+      "category": "match_overlays"
+    },
+    "fx_surgery_scar_flash_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        121,
+        125
+      ],
+      "size": [
+        121,
+        125
+      ],
+      "category": "match_overlays"
+    },
+    "fx_surgery_scar_flash_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        121,
+        125
+      ],
+      "size": [
+        121,
+        125
+      ],
+      "category": "match_overlays"
+    },
+    "fx_surgery_scar_flash_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        121,
+        125
+      ],
+      "size": [
+        121,
+        125
+      ],
+      "category": "match_overlays"
+    },
+    "fx_betting_pressure_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        47
+      ],
+      "size": [
+        145,
+        47
+      ],
+      "category": "match_overlays"
+    },
+    "fx_betting_pressure_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        47
+      ],
+      "size": [
+        145,
+        47
+      ],
+      "category": "match_overlays"
+    },
+    "fx_betting_pressure_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        47
+      ],
+      "size": [
+        145,
+        47
+      ],
+      "category": "match_overlays"
+    },
+    "fx_betting_pressure_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        47
+      ],
+      "size": [
+        145,
+        47
+      ],
+      "category": "match_overlays"
+    },
+    "fx_final_boss_gold_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        135,
+        135
+      ],
+      "size": [
+        135,
+        135
+      ],
+      "category": "match_overlays"
+    },
+    "fx_final_boss_gold_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        135,
+        135
+      ],
+      "size": [
+        135,
+        135
+      ],
+      "category": "match_overlays"
+    },
+    "fx_post_clear_hazard_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        125,
+        135
+      ],
+      "size": [
+        125,
+        135
+      ],
+      "category": "match_overlays"
+    },
+    "fx_post_clear_hazard_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        125,
+        135
+      ],
+      "size": [
+        125,
+        135
+      ],
+      "category": "match_overlays"
+    },
+    "field_home_plate": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        12,
+        34,
+        24
+      ],
+      "size": [
+        49,
+        49
+      ],
+      "category": "field_props"
+    },
+    "field_base_first": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        12,
+        34,
+        24
+      ],
+      "size": [
+        49,
+        49
+      ],
+      "category": "field_props"
+    },
+    "field_base_second": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        12,
+        34,
+        24
+      ],
+      "size": [
+        49,
+        49
+      ],
+      "category": "field_props"
+    },
+    "field_base_third": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        7,
+        12,
+        34,
+        24
+      ],
+      "size": [
+        49,
+        49
+      ],
+      "category": "field_props"
+    },
+    "field_pitcher_mound": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        89,
+        41
+      ],
+      "size": [
+        89,
+        41
+      ],
+      "category": "field_props"
+    },
+    "field_infield_dirt": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        111,
+        75
+      ],
+      "size": [
+        111,
+        75
+      ],
+      "category": "field_props"
+    },
+    "field_outfield_stripe": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        111,
+        75
+      ],
+      "size": [
+        111,
+        75
+      ],
+      "category": "field_props"
+    },
+    "field_foul_line": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        107
+      ],
+      "size": [
+        117,
+        107
+      ],
+      "category": "field_props"
+    },
+    "field_chalk_curve": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        107
+      ],
+      "size": [
+        117,
+        107
+      ],
+      "category": "field_props"
+    },
+    "field_dugout": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        115,
+        50
+      ],
+      "size": [
+        115,
+        50
+      ],
+      "category": "field_props"
+    },
+    "field_bench": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        115,
+        50
+      ],
+      "size": [
+        115,
+        50
+      ],
+      "category": "field_props"
+    },
+    "field_betting_side_rail": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        95,
+        115
+      ],
+      "size": [
+        95,
+        115
+      ],
+      "category": "field_props"
+    },
+    "field_light_cone": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        115,
+        110
+      ],
+      "size": [
+        115,
+        110
+      ],
+      "category": "field_props"
+    },
+    "field_crowd_strip_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        35
+      ],
+      "size": [
+        145,
+        35
+      ],
+      "category": "field_props"
+    },
+    "field_crowd_strip_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        35
+      ],
+      "size": [
+        145,
+        35
+      ],
+      "category": "field_props"
+    },
+    "field_crowd_strip_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        35
+      ],
+      "size": [
+        145,
+        35
+      ],
+      "category": "field_props"
+    },
+    "field_crowd_strip_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        145,
+        35
+      ],
+      "size": [
+        145,
+        35
+      ],
+      "category": "field_props"
+    },
+    "field_score_light_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        111,
+        65
+      ],
+      "size": [
+        111,
+        65
+      ],
+      "category": "field_props"
+    },
+    "field_score_light_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        111,
+        65
+      ],
+      "size": [
+        111,
+        65
+      ],
+      "category": "field_props"
+    },
+    "field_score_light_3": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        111,
+        65
+      ],
+      "size": [
+        111,
+        65
+      ],
+      "category": "field_props"
+    },
+    "field_score_light_4": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        111,
+        65
+      ],
+      "size": [
+        111,
+        65
+      ],
+      "category": "field_props"
+    },
+    "field_league_ai_booth": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        117,
+        127
+      ],
+      "size": [
+        117,
+        127
+      ],
+      "category": "field_props"
+    },
+    "field_medical_stretcher": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        150,
+        122
+      ],
+      "size": [
+        150,
+        122
+      ],
+      "category": "field_props"
+    },
+    "field_ball_shadow": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        150,
+        87
+      ],
+      "size": [
+        150,
+        87
+      ],
+      "category": "field_props"
+    },
+    "field_player_shadow": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        77,
+        25
+      ],
+      "size": [
+        77,
+        25
+      ],
+      "category": "field_props"
+    },
+    "field_camera_cut_marker": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        75,
+        75
+      ],
+      "size": [
+        75,
+        75
+      ],
+      "category": "field_props"
+    },
+    "field_inning_marker_blank": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        65,
+        65
+      ],
+      "size": [
+        65,
+        65
+      ],
+      "category": "field_props"
+    },
+    "field_hazard_stripe": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        119,
+        30
+      ],
+      "size": [
+        119,
+        30
+      ],
+      "category": "field_props"
+    },
+    "field_base_path_arrow": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        16,
+        18,
+        77,
+        36
+      ],
+      "size": [
+        110,
+        73
+      ],
+      "category": "field_props"
+    },
+    "field_dust_overlay": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        132,
+        103
+      ],
+      "size": [
+        132,
+        103
+      ],
+      "category": "field_props"
+    },
+    "field_vignette_corner": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        150,
+        78
+      ],
+      "size": [
+        150,
+        78
+      ],
+      "category": "field_props"
+    },
+    "field_prop_extra_1": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        150,
+        78
+      ],
+      "size": [
+        150,
+        78
+      ],
+      "category": "field_props"
+    },
+    "field_prop_extra_2": {
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "hitbox": [
+        0,
+        0,
+        150,
+        150
+      ],
+      "size": [
+        150,
+        150
+      ],
+      "category": "field_props"
+    }
+  }
+}

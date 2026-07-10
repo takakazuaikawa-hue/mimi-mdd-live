@@ -1,0 +1,635 @@
+{
+  "schema": "mimi-mad-doctor-stadium-ready-assets-v5-clean-1",
+  "updated_at": "2026-06-25T00:09:04",
+  "status": "clean current V5 source pack",
+  "assets": [
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_01_shun_hanashiro_v5_rgb.png",
+      "bytes": 226336,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_02_yu_igarashi_v5_rgb.png",
+      "bytes": 227046,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_03_kazuki_osawa_v5_rgb.png",
+      "bytes": 231720,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_04_go_takayasu_v5_rgb.png",
+      "bytes": 232049,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_05_ryota_araki_v5_rgb.png",
+      "bytes": 225568,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_06_miki_yamamoto_v5_rgb.png",
+      "bytes": 229971,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_07_naoyuki_haruno_v5_rgb.png",
+      "bytes": 226322,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_08_mochikane_suzuki_v5_rgb.png",
+      "bytes": 238428,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_rgb_v5/player_09_takuro_miyazaki_v5_rgb.png",
+      "bytes": 226709,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_01_shun_hanashiro_v5_transparent.png",
+      "bytes": 123226,
+      "mode": "RGBA",
+      "size": [
+        158,
+        403
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_02_yu_igarashi_v5_transparent.png",
+      "bytes": 121655,
+      "mode": "RGBA",
+      "size": [
+        153,
+        410
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_03_kazuki_osawa_v5_transparent.png",
+      "bytes": 146920,
+      "mode": "RGBA",
+      "size": [
+        193,
+        409
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_04_go_takayasu_v5_transparent.png",
+      "bytes": 149298,
+      "mode": "RGBA",
+      "size": [
+        196,
+        413
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_05_ryota_araki_v5_transparent.png",
+      "bytes": 117131,
+      "mode": "RGBA",
+      "size": [
+        146,
+        412
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_06_miki_yamamoto_v5_transparent.png",
+      "bytes": 157206,
+      "mode": "RGBA",
+      "size": [
+        227,
+        392
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_07_naoyuki_haruno_v5_transparent.png",
+      "bytes": 117294,
+      "mode": "RGBA",
+      "size": [
+        146,
+        412
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_08_mochikane_suzuki_v5_transparent.png",
+      "bytes": 135909,
+      "mode": "RGBA",
+      "size": [
+        159,
+        411
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/individual_transparent_v5/player_09_takuro_miyazaki_v5_transparent.png",
+      "bytes": 119636,
+      "mode": "RGBA",
+      "size": [
+        150,
+        413
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/previews/fixed_nine_v5_fullbody_sheet_candidate_v02_corrected_alpha_dark_preview.png",
+      "bytes": 557942,
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "characters/fixed_nine/sheets/fixed_nine_v5_fullbody_sheet_candidate_v02_corrected.png",
+      "bytes": 2073365,
+      "mode": "RGB",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/fixed_nine/sheets/fixed_nine_v5_fullbody_sheet_candidate_v02_corrected_transparent_candidate.png",
+      "bytes": 2038257,
+      "mode": "RGBA",
+      "size": [
+        1064,
+        1243
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "characters/mimi/fullbody/mimi_fullbody_mysterious_eye_hidden_doctor_v01.png",
+      "bytes": 1900622,
+      "mode": "RGB",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": null
+    },
+    {
+      "path": "characters/mimi/previews/mimi_fullbody_mysterious_eye_hidden_doctor_v01_transparent_dark_preview.png",
+      "bytes": 927510,
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "characters/mimi/transparent/mimi_fullbody_mysterious_eye_hidden_doctor_v01_transparent.png",
+      "bytes": 1894016,
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/atlases/fixed_nine_fullbody_transparent_atlas_v5.png",
+      "bytes": 1152765,
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1536
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/atlases/modular_player_expressions_sheet_v5.png",
+      "bytes": 1194576,
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/atlases/modular_player_parts_atlas_v5.png",
+      "bytes": 2331076,
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_01_shun_hanashiro_fullbody_rgb_v5.png",
+      "bytes": 226336,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_02_yu_igarashi_fullbody_rgb_v5.png",
+      "bytes": 227046,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_03_kazuki_osawa_fullbody_rgb_v5.png",
+      "bytes": 231720,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_04_go_takayasu_fullbody_rgb_v5.png",
+      "bytes": 232049,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_05_ryota_araki_fullbody_rgb_v5.png",
+      "bytes": 225568,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_06_miki_yamamoto_fullbody_rgb_v5.png",
+      "bytes": 229971,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_07_naoyuki_haruno_fullbody_rgb_v5.png",
+      "bytes": 226322,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_08_mochikane_suzuki_fullbody_rgb_v5.png",
+      "bytes": 238428,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_rgb_v5/player_09_takuro_miyazaki_fullbody_rgb_v5.png",
+      "bytes": 226709,
+      "mode": "RGB",
+      "size": [
+        418,
+        418
+      ],
+      "alpha": null
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_01_shun_hanashiro_fullbody_transparent_v5.png",
+      "bytes": 123226,
+      "mode": "RGBA",
+      "size": [
+        158,
+        403
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_02_yu_igarashi_fullbody_transparent_v5.png",
+      "bytes": 121655,
+      "mode": "RGBA",
+      "size": [
+        153,
+        410
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_03_kazuki_osawa_fullbody_transparent_v5.png",
+      "bytes": 146920,
+      "mode": "RGBA",
+      "size": [
+        193,
+        409
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_04_go_takayasu_fullbody_transparent_v5.png",
+      "bytes": 149298,
+      "mode": "RGBA",
+      "size": [
+        196,
+        413
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_05_ryota_araki_fullbody_transparent_v5.png",
+      "bytes": 117131,
+      "mode": "RGBA",
+      "size": [
+        146,
+        412
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_06_miki_yamamoto_fullbody_transparent_v5.png",
+      "bytes": 157206,
+      "mode": "RGBA",
+      "size": [
+        227,
+        392
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_07_naoyuki_haruno_fullbody_transparent_v5.png",
+      "bytes": 117294,
+      "mode": "RGBA",
+      "size": [
+        146,
+        412
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_08_mochikane_suzuki_fullbody_transparent_v5.png",
+      "bytes": 135909,
+      "mode": "RGBA",
+      "size": [
+        159,
+        411
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/fullbody_transparent_v5/player_09_takuro_miyazaki_fullbody_transparent_v5.png",
+      "bytes": 119636,
+      "mode": "RGBA",
+      "size": [
+        150,
+        413
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/manifests/modular_character_parts_v5_fixed_nine_manifest.json",
+      "bytes": 4128
+    },
+    {
+      "path": "modular_character_parts_v5/previews/fixed_nine_fullbody_transparent_atlas_v5_light_check_preview.png",
+      "bytes": 1112597,
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1536
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/previews/fixed_nine_fullbody_transparent_atlas_v5_preview.png",
+      "bytes": 1051110,
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1536
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "modular_character_parts_v5/sheets/fixed_nine_v5_fullbody_sheet_source.png",
+      "bytes": 2073365,
+      "mode": "RGB",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 594
+    }
+  ],
+  "fixed_nine": [
+    {
+      "id": "player_01_shun_hanashiro",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_01_shun_hanashiro_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_01_shun_hanashiro_v5_transparent.png"
+    },
+    {
+      "id": "player_02_yu_igarashi",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_02_yu_igarashi_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_02_yu_igarashi_v5_transparent.png"
+    },
+    {
+      "id": "player_03_kazuki_osawa",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_03_kazuki_osawa_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_03_kazuki_osawa_v5_transparent.png"
+    },
+    {
+      "id": "player_04_go_takayasu",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_04_go_takayasu_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_04_go_takayasu_v5_transparent.png"
+    },
+    {
+      "id": "player_05_ryota_araki",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_05_ryota_araki_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_05_ryota_araki_v5_transparent.png"
+    },
+    {
+      "id": "player_06_miki_yamamoto",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_06_miki_yamamoto_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_06_miki_yamamoto_v5_transparent.png"
+    },
+    {
+      "id": "player_07_naoyuki_haruno",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_07_naoyuki_haruno_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_07_naoyuki_haruno_v5_transparent.png"
+    },
+    {
+      "id": "player_08_mochikane_suzuki",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_08_mochikane_suzuki_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_08_mochikane_suzuki_v5_transparent.png"
+    },
+    {
+      "id": "player_09_takuro_miyazaki",
+      "rgb": "characters/fixed_nine/individual_rgb_v5/player_09_takuro_miyazaki_v5_rgb.png",
+      "transparent": "characters/fixed_nine/individual_transparent_v5/player_09_takuro_miyazaki_v5_transparent.png"
+    }
+  ],
+  "canonical_atlases": {
+    "fullbody_sheet": "characters/fixed_nine/sheets/fixed_nine_v5_fullbody_sheet_candidate_v02_corrected.png",
+    "fullbody_transparent": "characters/fixed_nine/sheets/fixed_nine_v5_fullbody_sheet_candidate_v02_corrected_transparent_candidate.png",
+    "modular_parts": "modular_character_parts_v5/atlases/modular_player_parts_atlas_v5.png",
+    "expressions": "modular_character_parts_v5/atlases/modular_player_expressions_sheet_v5.png"
+  },
+  "removed_obsolete_categories": [
+    "pre-V5 individual_transparent folder",
+    "old fixed-nine chromakey/transparent sheets",
+    "old generic expression raw reference",
+    "old review contact sheet"
+  ]
+}

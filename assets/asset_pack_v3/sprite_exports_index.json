@@ -1,0 +1,7238 @@
+{
+  "version": "3.1.0",
+  "count": 452,
+  "sprites": [
+    {
+      "id": "dice_normal_white",
+      "category": "dice",
+      "path": "sprites_all/dice/dice_normal_white.png",
+      "sourceAtlas": "atlases/atlas_dice.png",
+      "sourceRect": [
+        39,
+        281,
+        301,
+        356
+      ],
+      "size": [
+        301,
+        356
+      ]
+    },
+    {
+      "id": "dice_stable_blue",
+      "category": "dice",
+      "path": "sprites_all/dice/dice_stable_blue.png",
+      "sourceAtlas": "atlases/atlas_dice.png",
+      "sourceRect": [
+        387,
+        284,
+        299,
+        353
+      ],
+      "size": [
+        299,
+        353
+      ]
+    },
+    {
+      "id": "dice_explosive_red",
+      "category": "dice",
+      "path": "sprites_all/dice/dice_explosive_red.png",
+      "sourceAtlas": "atlases/atlas_dice.png",
+      "sourceRect": [
+        734,
+        284,
+        299,
+        354
+      ],
+      "size": [
+        299,
+        354
+      ]
+    },
+    {
+      "id": "dice_sync_yellow",
+      "category": "dice",
+      "path": "sprites_all/dice/dice_sync_yellow.png",
+      "sourceAtlas": "atlases/atlas_dice.png",
+      "sourceRect": [
+        1080,
+        283,
+        299,
+        355
+      ],
+      "size": [
+        299,
+        355
+      ]
+    },
+    {
+      "id": "dice_mutation_purple",
+      "category": "dice",
+      "path": "sprites_all/dice/dice_mutation_purple.png",
+      "sourceAtlas": "atlases/atlas_dice.png",
+      "sourceRect": [
+        1425,
+        283,
+        301,
+        355
+      ],
+      "size": [
+        301,
+        355
+      ]
+    },
+    {
+      "id": "player_sanada_shigeru",
+      "category": "players",
+      "path": "sprites_all/players/player_sanada_shigeru.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        57,
+        17,
+        327,
+        401
+      ],
+      "size": [
+        327,
+        401
+      ]
+    },
+    {
+      "id": "player_sakaki_naoki",
+      "category": "players",
+      "path": "sprites_all/players/player_sakaki_naoki.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        504,
+        14,
+        223,
+        404
+      ],
+      "size": [
+        223,
+        404
+      ]
+    },
+    {
+      "id": "player_isaka_kotaro",
+      "category": "players",
+      "path": "sprites_all/players/player_isaka_kotaro.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        847,
+        25,
+        299,
+        393
+      ],
+      "size": [
+        299,
+        393
+      ]
+    },
+    {
+      "id": "player_sasaki_ponta",
+      "category": "players",
+      "path": "sprites_all/players/player_sasaki_ponta.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        45,
+        418,
+        326,
+        417
+      ],
+      "size": [
+        326,
+        417
+      ]
+    },
+    {
+      "id": "player_takimura_yuji",
+      "category": "players",
+      "path": "sprites_all/players/player_takimura_yuji.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        454,
+        418,
+        288,
+        416
+      ],
+      "size": [
+        288,
+        416
+      ]
+    },
+    {
+      "id": "player_kuze_minoru",
+      "category": "players",
+      "path": "sprites_all/players/player_kuze_minoru.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        839,
+        418,
+        345,
+        416
+      ],
+      "size": [
+        345,
+        416
+      ]
+    },
+    {
+      "id": "player_hada_saburo",
+      "category": "players",
+      "path": "sprites_all/players/player_hada_saburo.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        67,
+        836,
+        295,
+        418
+      ],
+      "size": [
+        295,
+        418
+      ]
+    },
+    {
+      "id": "player_makabe_tetsuo",
+      "category": "players",
+      "path": "sprites_all/players/player_makabe_tetsuo.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        444,
+        840,
+        341,
+        414
+      ],
+      "size": [
+        341,
+        414
+      ]
+    },
+    {
+      "id": "player_noguchi_takumi",
+      "category": "players",
+      "path": "sprites_all/players/player_noguchi_takumi.png",
+      "sourceAtlas": "atlases/atlas_players.png",
+      "sourceRect": [
+        857,
+        845,
+        280,
+        409
+      ],
+      "size": [
+        280,
+        409
+      ]
+    },
+    {
+      "id": "expr_sanada_shigeru",
+      "category": "players",
+      "path": "sprites_all/players/expr_sanada_shigeru.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        28,
+        12,
+        390,
+        403
+      ],
+      "size": [
+        390,
+        403
+      ]
+    },
+    {
+      "id": "expr_sakaki_naoki",
+      "category": "players",
+      "path": "sprites_all/players/expr_sakaki_naoki.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        418,
+        15,
+        418,
+        400
+      ],
+      "size": [
+        418,
+        400
+      ]
+    },
+    {
+      "id": "expr_isaka_kotaro",
+      "category": "players",
+      "path": "sprites_all/players/expr_isaka_kotaro.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        836,
+        15,
+        365,
+        400
+      ],
+      "size": [
+        365,
+        400
+      ]
+    },
+    {
+      "id": "expr_sasaki_ponta",
+      "category": "players",
+      "path": "sprites_all/players/expr_sasaki_ponta.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        26,
+        426,
+        392,
+        410
+      ],
+      "size": [
+        392,
+        410
+      ]
+    },
+    {
+      "id": "expr_takimura_yuji",
+      "category": "players",
+      "path": "sprites_all/players/expr_takimura_yuji.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        418,
+        418,
+        418,
+        418
+      ],
+      "size": [
+        418,
+        418
+      ]
+    },
+    {
+      "id": "expr_kuze_minoru",
+      "category": "players",
+      "path": "sprites_all/players/expr_kuze_minoru.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        836,
+        420,
+        385,
+        416
+      ],
+      "size": [
+        385,
+        416
+      ]
+    },
+    {
+      "id": "expr_hada_saburo",
+      "category": "players",
+      "path": "sprites_all/players/expr_hada_saburo.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        35,
+        836,
+        377,
+        393
+      ],
+      "size": [
+        377,
+        393
+      ]
+    },
+    {
+      "id": "expr_makabe_tetsuo",
+      "category": "players",
+      "path": "sprites_all/players/expr_makabe_tetsuo.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        419,
+        836,
+        417,
+        393
+      ],
+      "size": [
+        417,
+        393
+      ]
+    },
+    {
+      "id": "expr_noguchi_takumi",
+      "category": "players",
+      "path": "sprites_all/players/expr_noguchi_takumi.png",
+      "sourceAtlas": "atlases/sheet_player_expressions.png",
+      "sourceRect": [
+        836,
+        836,
+        385,
+        393
+      ],
+      "size": [
+        385,
+        393
+      ]
+    },
+    {
+      "id": "enemy_body_shirogane",
+      "category": "enemies",
+      "path": "sprites_all/enemies/enemy_body_shirogane.png",
+      "sourceAtlas": "atlases/atlas_enemy_teams.png",
+      "sourceRect": [
+        57,
+        27,
+        327,
+        485
+      ],
+      "size": [
+        327,
+        485
+      ]
+    },
+    {
+      "id": "enemy_body_kanayama",
+      "category": "enemies",
+      "path": "sprites_all/enemies/enemy_body_kanayama.png",
+      "sourceAtlas": "atlases/atlas_enemy_teams.png",
+      "sourceRect": [
+        384,
+        23,
+        340,
+        489
+      ],
+      "size": [
+        340,
+        489
+      ]
+    },
+    {
+      "id": "enemy_body_yamanobe",
+      "category": "enemies",
+      "path": "sprites_all/enemies/enemy_body_yamanobe.png",
+      "sourceAtlas": "atlases/atlas_enemy_teams.png",
+      "sourceRect": [
+        802,
+        26,
+        350,
+        486
+      ],
+      "size": [
+        350,
+        486
+      ]
+    },
+    {
+      "id": "enemy_body_imperial",
+      "category": "enemies",
+      "path": "sprites_all/enemies/enemy_body_imperial.png",
+      "sourceAtlas": "atlases/atlas_enemy_teams.png",
+      "sourceRect": [
+        1152,
+        25,
+        360,
+        487
+      ],
+      "size": [
+        360,
+        487
+      ]
+    },
+    {
+      "id": "enemy_ace_shirogane",
+      "category": "enemies",
+      "path": "sprites_all/enemies/enemy_ace_shirogane.png",
+      "sourceAtlas": "atlases/atlas_enemy_teams.png",
+      "sourceRect": [
+        24,
+        512,
+        360,
+        479
+      ],
+      "size": [
+        360,
+        479
+      ]
+    },
+    {
+      "id": "enemy_ace_kanayama",
+      "category": "enemies",
+      "path": "sprites_all/enemies/enemy_ace_kanayama.png",
+      "sourceAtlas": "atlases/atlas_enemy_teams.png",
+      "sourceRect": [
+        384,
+        512,
+        384,
+        479
+      ],
+      "size": [
+        384,
+        479
+      ]
+    },
+    {
+      "id": "enemy_ace_yamanobe",
+      "category": "enemies",
+      "path": "sprites_all/enemies/enemy_ace_yamanobe.png",
+      "sourceAtlas": "atlases/atlas_enemy_teams.png",
+      "sourceRect": [
+        768,
+        512,
+        384,
+        479
+      ],
+      "size": [
+        384,
+        479
+      ]
+    },
+    {
+      "id": "enemy_ace_imperial",
+      "category": "enemies",
+      "path": "sprites_all/enemies/enemy_ace_imperial.png",
+      "sourceAtlas": "atlases/atlas_enemy_teams.png",
+      "sourceRect": [
+        1152,
+        512,
+        374,
+        479
+      ],
+      "size": [
+        374,
+        479
+      ]
+    },
+    {
+      "id": "logo_hinomoto_explosions",
+      "category": "logos",
+      "path": "sprites_all/logos/logo_hinomoto_explosions.png",
+      "sourceAtlas": "atlases/atlas_team_logos.png",
+      "sourceRect": [
+        17,
+        211,
+        290,
+        388
+      ],
+      "size": [
+        290,
+        388
+      ]
+    },
+    {
+      "id": "logo_shirogane_bravers",
+      "category": "logos",
+      "path": "sprites_all/logos/logo_shirogane_bravers.png",
+      "sourceAtlas": "atlases/atlas_team_logos.png",
+      "sourceRect": [
+        320,
+        223,
+        288,
+        367
+      ],
+      "size": [
+        288,
+        367
+      ]
+    },
+    {
+      "id": "logo_kanayama_twin_drives",
+      "category": "logos",
+      "path": "sprites_all/logos/logo_kanayama_twin_drives.png",
+      "sourceAtlas": "atlases/atlas_team_logos.png",
+      "sourceRect": [
+        632,
+        274,
+        307,
+        289
+      ],
+      "size": [
+        307,
+        289
+      ]
+    },
+    {
+      "id": "logo_yamanobe_long_runners",
+      "category": "logos",
+      "path": "sprites_all/logos/logo_yamanobe_long_runners.png",
+      "sourceAtlas": "atlases/atlas_team_logos.png",
+      "sourceRect": [
+        939,
+        248,
+        301,
+        358
+      ],
+      "size": [
+        301,
+        358
+      ]
+    },
+    {
+      "id": "logo_imperial_crowns",
+      "category": "logos",
+      "path": "sprites_all/logos/logo_imperial_crowns.png",
+      "sourceAtlas": "atlases/atlas_team_logos.png",
+      "sourceRect": [
+        18,
+        651,
+        279,
+        374
+      ],
+      "size": [
+        279,
+        374
+      ]
+    },
+    {
+      "id": "logo_league_ai_coin",
+      "category": "logos",
+      "path": "sprites_all/logos/logo_league_ai_coin.png",
+      "sourceAtlas": "atlases/atlas_team_logos.png",
+      "sourceRect": [
+        318,
+        702,
+        308,
+        318
+      ],
+      "size": [
+        308,
+        318
+      ]
+    },
+    {
+      "id": "logo_citizens_medical_support",
+      "category": "logos",
+      "path": "sprites_all/logos/logo_citizens_medical_support.png",
+      "sourceAtlas": "atlases/atlas_team_logos.png",
+      "sourceRect": [
+        626,
+        704,
+        313,
+        312
+      ],
+      "size": [
+        313,
+        312
+      ]
+    },
+    {
+      "id": "logo_underground_finance",
+      "category": "logos",
+      "path": "sprites_all/logos/logo_underground_finance.png",
+      "sourceAtlas": "atlases/atlas_team_logos.png",
+      "sourceRect": [
+        939,
+        704,
+        290,
+        316
+      ],
+      "size": [
+        290,
+        316
+      ]
+    },
+    {
+      "id": "sponsor_common_medical",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_common_medical.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        62,
+        64,
+        288,
+        297
+      ],
+      "size": [
+        288,
+        297
+      ]
+    },
+    {
+      "id": "sponsor_black_orange_heavy",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_black_orange_heavy.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        350,
+        65,
+        335,
+        285
+      ],
+      "size": [
+        335,
+        285
+      ]
+    },
+    {
+      "id": "sponsor_bio_research",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_bio_research.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        729,
+        67,
+        275,
+        282
+      ],
+      "size": [
+        275,
+        282
+      ]
+    },
+    {
+      "id": "sponsor_gambling_union",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_gambling_union.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        1071,
+        55,
+        260,
+        306
+      ],
+      "size": [
+        260,
+        306
+      ]
+    },
+    {
+      "id": "sponsor_citizens_support",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_citizens_support.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        61,
+        398,
+        288,
+        350
+      ],
+      "size": [
+        288,
+        350
+      ]
+    },
+    {
+      "id": "sponsor_ninth_finance",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_ninth_finance.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        397,
+        391,
+        280,
+        357
+      ],
+      "size": [
+        280,
+        357
+      ]
+    },
+    {
+      "id": "sponsor_eastern_nerve",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_eastern_nerve.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        720,
+        402,
+        294,
+        346
+      ],
+      "size": [
+        294,
+        346
+      ]
+    },
+    {
+      "id": "sponsor_former_players_aid",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_former_players_aid.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        1063,
+        398,
+        274,
+        350
+      ],
+      "size": [
+        274,
+        350
+      ]
+    },
+    {
+      "id": "sponsor_imperial_medical",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_imperial_medical.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        53,
+        748,
+        297,
+        291
+      ],
+      "size": [
+        297,
+        291
+      ]
+    },
+    {
+      "id": "sponsor_crown_betting",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_crown_betting.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        398,
+        748,
+        268,
+        284
+      ],
+      "size": [
+        268,
+        284
+      ]
+    },
+    {
+      "id": "sponsor_modified_league_lab",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_modified_league_lab.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        726,
+        748,
+        274,
+        295
+      ],
+      "size": [
+        274,
+        295
+      ]
+    },
+    {
+      "id": "sponsor_forbidden_archive",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor_forbidden_archive.png",
+      "sourceAtlas": "atlases/atlas_sponsor_logos_full.png",
+      "sourceRect": [
+        1050,
+        748,
+        299,
+        297
+      ],
+      "size": [
+        299,
+        297
+      ]
+    },
+    {
+      "id": "surgery_live_wire_suture",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_live_wire_suture.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        42,
+        21,
+        274,
+        379
+      ],
+      "size": [
+        274,
+        379
+      ]
+    },
+    {
+      "id": "surgery_nerve_knot_thunder",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_nerve_knot_thunder.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        356,
+        21,
+        274,
+        379
+      ],
+      "size": [
+        274,
+        379
+      ]
+    },
+    {
+      "id": "surgery_bone_rearrange_99",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_bone_rearrange_99.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        670,
+        21,
+        274,
+        379
+      ],
+      "size": [
+        274,
+        379
+      ]
+    },
+    {
+      "id": "surgery_basic_treatment",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_basic_treatment.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        986,
+        21,
+        272,
+        379
+      ],
+      "size": [
+        272,
+        379
+      ]
+    },
+    {
+      "id": "surgery_body_part_mod",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_body_part_mod.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        39,
+        400,
+        277,
+        400
+      ],
+      "size": [
+        277,
+        400
+      ]
+    },
+    {
+      "id": "surgery_mental_aptitude",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_mental_aptitude.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        351,
+        400,
+        279,
+        400
+      ],
+      "size": [
+        279,
+        400
+      ]
+    },
+    {
+      "id": "surgery_mechanical_mod",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_mechanical_mod.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        666,
+        400,
+        278,
+        400
+      ],
+      "size": [
+        278,
+        400
+      ]
+    },
+    {
+      "id": "surgery_biological_mutation",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_biological_mutation.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        985,
+        400,
+        275,
+        400
+      ],
+      "size": [
+        275,
+        400
+      ]
+    },
+    {
+      "id": "surgery_hybrid_mod",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_hybrid_mod.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        26,
+        800,
+        301,
+        382
+      ],
+      "size": [
+        301,
+        382
+      ]
+    },
+    {
+      "id": "surgery_full_body_engine",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_full_body_engine.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        327,
+        800,
+        327,
+        382
+      ],
+      "size": [
+        327,
+        382
+      ]
+    },
+    {
+      "id": "surgery_ninth_inning_ghost",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ninth_inning_ghost.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        654,
+        800,
+        327,
+        381
+      ],
+      "size": [
+        327,
+        381
+      ]
+    },
+    {
+      "id": "surgery_human_redefinition",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_human_redefinition.png",
+      "sourceAtlas": "atlases/atlas_surgery_methods.png",
+      "sourceRect": [
+        981,
+        800,
+        296,
+        382
+      ],
+      "size": [
+        296,
+        382
+      ]
+    },
+    {
+      "id": "spirit_1",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/spirit_1.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        31,
+        46,
+        117,
+        110
+      ],
+      "size": [
+        117,
+        110
+      ]
+    },
+    {
+      "id": "spirit_2",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/spirit_2.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        164,
+        46,
+        148,
+        110
+      ],
+      "size": [
+        148,
+        110
+      ]
+    },
+    {
+      "id": "spirit_3",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/spirit_3.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        312,
+        46,
+        156,
+        110
+      ],
+      "size": [
+        156,
+        110
+      ]
+    },
+    {
+      "id": "spirit_4",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/spirit_4.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        468,
+        46,
+        156,
+        110
+      ],
+      "size": [
+        156,
+        110
+      ]
+    },
+    {
+      "id": "spirit_5",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/spirit_5.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        624,
+        46,
+        156,
+        110
+      ],
+      "size": [
+        156,
+        110
+      ]
+    },
+    {
+      "id": "tension_1",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/tension_1.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        780,
+        46,
+        156,
+        110
+      ],
+      "size": [
+        156,
+        110
+      ]
+    },
+    {
+      "id": "tension_2",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/tension_2.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        936,
+        46,
+        147,
+        110
+      ],
+      "size": [
+        147,
+        110
+      ]
+    },
+    {
+      "id": "tension_3",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/tension_3.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        1100,
+        46,
+        119,
+        110
+      ],
+      "size": [
+        119,
+        110
+      ]
+    },
+    {
+      "id": "tension_4",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/tension_4.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        31,
+        156,
+        118,
+        156
+      ],
+      "size": [
+        118,
+        156
+      ]
+    },
+    {
+      "id": "tension_5",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/tension_5.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        165,
+        156,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ]
+    },
+    {
+      "id": "state_explosive",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/state_explosive.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        312,
+        156,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "state_hidden_injury",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/state_hidden_injury.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        468,
+        156,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "injury_light",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/injury_light.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        624,
+        156,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "injury_heavy",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/injury_heavy.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        780,
+        156,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "injury_bandage",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/injury_bandage.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        936,
+        156,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ]
+    },
+    {
+      "id": "injury_fracture",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/injury_fracture.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        1101,
+        156,
+        118,
+        156
+      ],
+      "size": [
+        118,
+        156
+      ]
+    },
+    {
+      "id": "injury_bruise",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/injury_bruise.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        31,
+        312,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ]
+    },
+    {
+      "id": "pain_tolerance",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/pain_tolerance.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        164,
+        312,
+        148,
+        156
+      ],
+      "size": [
+        148,
+        156
+      ]
+    },
+    {
+      "id": "surgery_required",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_required.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        312,
+        312,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "surgery_complete",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_complete.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        468,
+        312,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "body_modified",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/body_modified.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        624,
+        312,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "part_mechanical",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/part_mechanical.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        780,
+        312,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "mutation_biological",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/mutation_biological.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        936,
+        312,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ]
+    },
+    {
+      "id": "mental_inversion",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/mental_inversion.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        1101,
+        312,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ]
+    },
+    {
+      "id": "role_complete",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/role_complete.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        31,
+        468,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ]
+    },
+    {
+      "id": "nickname",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/nickname.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        164,
+        468,
+        148,
+        156
+      ],
+      "size": [
+        148,
+        156
+      ]
+    },
+    {
+      "id": "coin",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/coin.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        312,
+        468,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "debt",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/debt.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        468,
+        468,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "payout",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/payout.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        624,
+        468,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "medical_progress",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/medical_progress.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        780,
+        468,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "action_point",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/action_point.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        936,
+        468,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ]
+    },
+    {
+      "id": "research_point",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_point.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        1101,
+        468,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ]
+    },
+    {
+      "id": "sponsor",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/sponsor.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        31,
+        624,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ]
+    },
+    {
+      "id": "standings",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/standings.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        164,
+        624,
+        148,
+        156
+      ],
+      "size": [
+        148,
+        156
+      ]
+    },
+    {
+      "id": "next_match",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/next_match.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        312,
+        624,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "auto_process",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/auto_process.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        468,
+        624,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "save",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/save.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        624,
+        624,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "load",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/load.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        780,
+        624,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "warning",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/warning.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        936,
+        624,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ]
+    },
+    {
+      "id": "locked",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/locked.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        1101,
+        624,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ]
+    },
+    {
+      "id": "unlocked",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/unlocked.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        31,
+        780,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ]
+    },
+    {
+      "id": "reroll",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/reroll.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        164,
+        780,
+        148,
+        156
+      ],
+      "size": [
+        148,
+        156
+      ]
+    },
+    {
+      "id": "dice_result",
+      "category": "dice",
+      "path": "sprites_all/dice/dice_result.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        312,
+        780,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "success",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/success.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        468,
+        780,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "great_success",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/great_success.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        624,
+        780,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "failure",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/failure.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        780,
+        780,
+        156,
+        156
+      ],
+      "size": [
+        156,
+        156
+      ]
+    },
+    {
+      "id": "critical_failure",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/critical_failure.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        936,
+        780,
+        147,
+        156
+      ],
+      "size": [
+        147,
+        156
+      ]
+    },
+    {
+      "id": "ability_up",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/ability_up.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        1101,
+        780,
+        117,
+        156
+      ],
+      "size": [
+        117,
+        156
+      ]
+    },
+    {
+      "id": "ability_down",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/ability_down.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        31,
+        936,
+        116,
+        148
+      ],
+      "size": [
+        116,
+        148
+      ]
+    },
+    {
+      "id": "batting",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/batting.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        164,
+        936,
+        148,
+        148
+      ],
+      "size": [
+        148,
+        148
+      ]
+    },
+    {
+      "id": "running",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/running.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        312,
+        936,
+        156,
+        148
+      ],
+      "size": [
+        156,
+        148
+      ]
+    },
+    {
+      "id": "defense",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/defense.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        468,
+        936,
+        156,
+        148
+      ],
+      "size": [
+        156,
+        148
+      ]
+    },
+    {
+      "id": "pitching",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/pitching.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        624,
+        936,
+        156,
+        148
+      ],
+      "size": [
+        156,
+        148
+      ]
+    },
+    {
+      "id": "catcher",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/catcher.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        780,
+        936,
+        156,
+        148
+      ],
+      "size": [
+        156,
+        148
+      ]
+    },
+    {
+      "id": "infielder",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/infielder.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        936,
+        936,
+        147,
+        148
+      ],
+      "size": [
+        147,
+        148
+      ]
+    },
+    {
+      "id": "outfielder",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/outfielder.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        1102,
+        936,
+        116,
+        148
+      ],
+      "size": [
+        116,
+        148
+      ]
+    },
+    {
+      "id": "ace",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/ace.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        31,
+        1107,
+        117,
+        114
+      ],
+      "size": [
+        117,
+        114
+      ]
+    },
+    {
+      "id": "substitute",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/substitute.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        164,
+        1107,
+        148,
+        114
+      ],
+      "size": [
+        148,
+        114
+      ]
+    },
+    {
+      "id": "fatigue_internal",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/fatigue_internal.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        312,
+        1107,
+        156,
+        114
+      ],
+      "size": [
+        156,
+        114
+      ]
+    },
+    {
+      "id": "parley",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/parley.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        468,
+        1107,
+        156,
+        114
+      ],
+      "size": [
+        156,
+        114
+      ]
+    },
+    {
+      "id": "stay",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/stay.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        624,
+        1107,
+        156,
+        114
+      ],
+      "size": [
+        156,
+        114
+      ]
+    },
+    {
+      "id": "cash_out",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/cash_out.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        780,
+        1107,
+        156,
+        114
+      ],
+      "size": [
+        156,
+        114
+      ]
+    },
+    {
+      "id": "opponent_raise",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/opponent_raise.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        936,
+        1107,
+        147,
+        114
+      ],
+      "size": [
+        147,
+        114
+      ]
+    },
+    {
+      "id": "fan_bet",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/fan_bet.png",
+      "sourceAtlas": "atlases/atlas_status_icons.png",
+      "sourceRect": [
+        1102,
+        1107,
+        116,
+        114
+      ],
+      "size": [
+        116,
+        114
+      ]
+    },
+    {
+      "id": "icon_next_match",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_next_match.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        51,
+        44,
+        158,
+        160
+      ],
+      "size": [
+        158,
+        160
+      ]
+    },
+    {
+      "id": "icon_coin",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_coin.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        209,
+        44,
+        200,
+        160
+      ],
+      "size": [
+        200,
+        160
+      ]
+    },
+    {
+      "id": "icon_medical_progress",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_medical_progress.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        437,
+        44,
+        175,
+        160
+      ],
+      "size": [
+        175,
+        160
+      ]
+    },
+    {
+      "id": "icon_action_point",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_action_point.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        637,
+        44,
+        199,
+        160
+      ],
+      "size": [
+        199,
+        160
+      ]
+    },
+    {
+      "id": "icon_standings",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_standings.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        836,
+        44,
+        209,
+        160
+      ],
+      "size": [
+        209,
+        160
+      ]
+    },
+    {
+      "id": "icon_team",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_team.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        1045,
+        44,
+        146,
+        160
+      ],
+      "size": [
+        146,
+        160
+      ]
+    },
+    {
+      "id": "icon_medical",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_medical.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        51,
+        223,
+        158,
+        195
+      ],
+      "size": [
+        158,
+        195
+      ]
+    },
+    {
+      "id": "icon_club",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_club.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        209,
+        222,
+        200,
+        196
+      ],
+      "size": [
+        200,
+        196
+      ]
+    },
+    {
+      "id": "icon_records",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_records.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        436,
+        223,
+        175,
+        195
+      ],
+      "size": [
+        175,
+        195
+      ]
+    },
+    {
+      "id": "icon_settings",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_settings.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        636,
+        223,
+        200,
+        195
+      ],
+      "size": [
+        200,
+        195
+      ]
+    },
+    {
+      "id": "icon_player_detail",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_player_detail.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        836,
+        222,
+        209,
+        196
+      ],
+      "size": [
+        209,
+        196
+      ]
+    },
+    {
+      "id": "icon_role",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_role.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        1045,
+        222,
+        146,
+        196
+      ],
+      "size": [
+        146,
+        196
+      ]
+    },
+    {
+      "id": "icon_nickname",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_nickname.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        51,
+        418,
+        158,
+        209
+      ],
+      "size": [
+        158,
+        209
+      ]
+    },
+    {
+      "id": "icon_bet_card",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_bet_card.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        209,
+        418,
+        199,
+        209
+      ],
+      "size": [
+        199,
+        209
+      ]
+    },
+    {
+      "id": "icon_payout",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_payout.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        435,
+        418,
+        176,
+        209
+      ],
+      "size": [
+        176,
+        209
+      ]
+    },
+    {
+      "id": "icon_injury",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_injury.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        636,
+        418,
+        200,
+        209
+      ],
+      "size": [
+        200,
+        209
+      ]
+    },
+    {
+      "id": "icon_surgery_scalpel",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_surgery_scalpel.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        836,
+        418,
+        209,
+        209
+      ],
+      "size": [
+        209,
+        209
+      ]
+    },
+    {
+      "id": "icon_research",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_research.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        1045,
+        418,
+        146,
+        209
+      ],
+      "size": [
+        146,
+        209
+      ]
+    },
+    {
+      "id": "icon_sponsor",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_sponsor.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        51,
+        627,
+        158,
+        209
+      ],
+      "size": [
+        158,
+        209
+      ]
+    },
+    {
+      "id": "icon_debt",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_debt.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        209,
+        627,
+        199,
+        209
+      ],
+      "size": [
+        199,
+        209
+      ]
+    },
+    {
+      "id": "icon_save",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_save.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        435,
+        627,
+        176,
+        209
+      ],
+      "size": [
+        176,
+        209
+      ]
+    },
+    {
+      "id": "icon_load",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_load.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        636,
+        627,
+        200,
+        209
+      ],
+      "size": [
+        200,
+        209
+      ]
+    },
+    {
+      "id": "icon_spirit",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_spirit.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        836,
+        627,
+        209,
+        209
+      ],
+      "size": [
+        209,
+        209
+      ]
+    },
+    {
+      "id": "icon_tension",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_tension.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        1045,
+        627,
+        146,
+        209
+      ],
+      "size": [
+        146,
+        209
+      ]
+    },
+    {
+      "id": "icon_baseball",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_baseball.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        51,
+        836,
+        158,
+        209
+      ],
+      "size": [
+        158,
+        209
+      ]
+    },
+    {
+      "id": "icon_bat",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_bat.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        209,
+        836,
+        199,
+        209
+      ],
+      "size": [
+        199,
+        209
+      ]
+    },
+    {
+      "id": "icon_glove",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_glove.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        435,
+        836,
+        176,
+        209
+      ],
+      "size": [
+        176,
+        209
+      ]
+    },
+    {
+      "id": "icon_syringe",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_syringe.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        636,
+        836,
+        200,
+        209
+      ],
+      "size": [
+        200,
+        209
+      ]
+    },
+    {
+      "id": "icon_dice",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_dice.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        836,
+        836,
+        209,
+        209
+      ],
+      "size": [
+        209,
+        209
+      ]
+    },
+    {
+      "id": "icon_warning",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_warning.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        1045,
+        836,
+        146,
+        209
+      ],
+      "size": [
+        146,
+        209
+      ]
+    },
+    {
+      "id": "icon_auto_bet",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_auto_bet.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        51,
+        1045,
+        158,
+        175
+      ],
+      "size": [
+        158,
+        175
+      ]
+    },
+    {
+      "id": "icon_stay",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_stay.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        209,
+        1045,
+        199,
+        175
+      ],
+      "size": [
+        199,
+        175
+      ]
+    },
+    {
+      "id": "icon_cash_out",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_cash_out.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        435,
+        1045,
+        176,
+        175
+      ],
+      "size": [
+        176,
+        175
+      ]
+    },
+    {
+      "id": "icon_replay",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_replay.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        636,
+        1045,
+        200,
+        175
+      ],
+      "size": [
+        200,
+        175
+      ]
+    },
+    {
+      "id": "icon_home",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_home.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        836,
+        1045,
+        209,
+        27
+      ],
+      "size": [
+        209,
+        27
+      ]
+    },
+    {
+      "id": "icon_sound",
+      "category": "ui_icons",
+      "path": "sprites_all/ui_icons/icon_sound.png",
+      "sourceAtlas": "atlases/atlas_ui_icons_base.png",
+      "sourceRect": [
+        1045,
+        1045,
+        146,
+        27
+      ],
+      "size": [
+        146,
+        27
+      ]
+    },
+    {
+      "id": "cutin_pitch",
+      "category": "cutins",
+      "path": "sprites_all/cutins/cutin_pitch.png",
+      "sourceAtlas": "atlases/atlas_match_cutins.png",
+      "sourceRect": [
+        20,
+        21,
+        733,
+        235
+      ],
+      "size": [
+        733,
+        235
+      ]
+    },
+    {
+      "id": "cutin_bat_impact",
+      "category": "cutins",
+      "path": "sprites_all/cutins/cutin_bat_impact.png",
+      "sourceAtlas": "atlases/atlas_match_cutins.png",
+      "sourceRect": [
+        782,
+        21,
+        733,
+        235
+      ],
+      "size": [
+        733,
+        235
+      ]
+    },
+    {
+      "id": "cutin_steal",
+      "category": "cutins",
+      "path": "sprites_all/cutins/cutin_steal.png",
+      "sourceAtlas": "atlases/atlas_match_cutins.png",
+      "sourceRect": [
+        20,
+        256,
+        733,
+        249
+      ],
+      "size": [
+        733,
+        249
+      ]
+    },
+    {
+      "id": "cutin_diving_catch",
+      "category": "cutins",
+      "path": "sprites_all/cutins/cutin_diving_catch.png",
+      "sourceAtlas": "atlases/atlas_match_cutins.png",
+      "sourceRect": [
+        782,
+        256,
+        733,
+        250
+      ],
+      "size": [
+        733,
+        250
+      ]
+    },
+    {
+      "id": "cutin_injury_warning",
+      "category": "cutins",
+      "path": "sprites_all/cutins/cutin_injury_warning.png",
+      "sourceAtlas": "atlases/atlas_match_cutins.png",
+      "sourceRect": [
+        20,
+        520,
+        732,
+        248
+      ],
+      "size": [
+        732,
+        248
+      ]
+    },
+    {
+      "id": "cutin_bet_accepted",
+      "category": "cutins",
+      "path": "sprites_all/cutins/cutin_bet_accepted.png",
+      "sourceAtlas": "atlases/atlas_match_cutins.png",
+      "sourceRect": [
+        782,
+        520,
+        733,
+        248
+      ],
+      "size": [
+        733,
+        248
+      ]
+    },
+    {
+      "id": "cutin_bet_failed",
+      "category": "cutins",
+      "path": "sprites_all/cutins/cutin_bet_failed.png",
+      "sourceAtlas": "atlases/atlas_match_cutins.png",
+      "sourceRect": [
+        20,
+        768,
+        732,
+        230
+      ],
+      "size": [
+        732,
+        230
+      ]
+    },
+    {
+      "id": "cutin_explosive_state",
+      "category": "cutins",
+      "path": "sprites_all/cutins/cutin_explosive_state.png",
+      "sourceAtlas": "atlases/atlas_match_cutins.png",
+      "sourceRect": [
+        782,
+        768,
+        733,
+        230
+      ],
+      "size": [
+        733,
+        230
+      ]
+    },
+    {
+      "id": "event_intro_nine",
+      "category": "events",
+      "path": "sprites_all/events/event_intro_nine.png",
+      "sourceAtlas": "events/sheet_story_events.png",
+      "sourceRect": [
+        0,
+        0,
+        768,
+        341
+      ],
+      "size": [
+        768,
+        341
+      ]
+    },
+    {
+      "id": "event_first_treatment",
+      "category": "events",
+      "path": "sprites_all/events/event_first_treatment.png",
+      "sourceAtlas": "events/sheet_story_events.png",
+      "sourceRect": [
+        768,
+        0,
+        768,
+        341
+      ],
+      "size": [
+        768,
+        341
+      ]
+    },
+    {
+      "id": "event_betting_decision",
+      "category": "events",
+      "path": "sprites_all/events/event_betting_decision.png",
+      "sourceAtlas": "events/sheet_story_events.png",
+      "sourceRect": [
+        0,
+        341,
+        768,
+        341
+      ],
+      "size": [
+        768,
+        341
+      ]
+    },
+    {
+      "id": "event_post_defeat",
+      "category": "events",
+      "path": "sprites_all/events/event_post_defeat.png",
+      "sourceAtlas": "events/sheet_story_events.png",
+      "sourceRect": [
+        768,
+        341,
+        768,
+        341
+      ],
+      "size": [
+        768,
+        341
+      ]
+    },
+    {
+      "id": "event_final_boss_pressure",
+      "category": "events",
+      "path": "sprites_all/events/event_final_boss_pressure.png",
+      "sourceAtlas": "events/sheet_story_events.png",
+      "sourceRect": [
+        0,
+        682,
+        768,
+        342
+      ],
+      "size": [
+        768,
+        342
+      ]
+    },
+    {
+      "id": "event_doctor_registration",
+      "category": "events",
+      "path": "sprites_all/events/event_doctor_registration.png",
+      "sourceAtlas": "events/sheet_story_events.png",
+      "sourceRect": [
+        768,
+        682,
+        768,
+        342
+      ],
+      "size": [
+        768,
+        342
+      ]
+    },
+    {
+      "id": "mimi_neutral",
+      "category": "mimi",
+      "path": "sprites_all/mimi/mimi_neutral.png",
+      "sourceAtlas": "atlases/atlas_mimi.png",
+      "sourceRect": [
+        88,
+        4,
+        215,
+        596
+      ],
+      "size": [
+        215,
+        596
+      ]
+    },
+    {
+      "id": "mimi_embarrassed_pashipashi",
+      "category": "mimi",
+      "path": "sprites_all/mimi/mimi_embarrassed_pashipashi.png",
+      "sourceAtlas": "atlases/atlas_mimi.png",
+      "sourceRect": [
+        452,
+        5,
+        350,
+        596
+      ],
+      "size": [
+        350,
+        596
+      ]
+    },
+    {
+      "id": "mimi_match_cut_in",
+      "category": "mimi",
+      "path": "sprites_all/mimi/mimi_match_cut_in.png",
+      "sourceAtlas": "atlases/atlas_mimi.png",
+      "sourceRect": [
+        801,
+        5,
+        305,
+        596
+      ],
+      "size": [
+        305,
+        596
+      ]
+    },
+    {
+      "id": "mimi_surgery_mask",
+      "category": "mimi",
+      "path": "sprites_all/mimi/mimi_surgery_mask.png",
+      "sourceAtlas": "atlases/atlas_mimi.png",
+      "sourceRect": [
+        128,
+        600,
+        272,
+        568
+      ],
+      "size": [
+        272,
+        568
+      ]
+    },
+    {
+      "id": "mimi_dice_throw",
+      "category": "mimi",
+      "path": "sprites_all/mimi/mimi_dice_throw.png",
+      "sourceAtlas": "atlases/atlas_mimi.png",
+      "sourceRect": [
+        400,
+        600,
+        310,
+        598
+      ],
+      "size": [
+        310,
+        598
+      ]
+    },
+    {
+      "id": "mimi_doctor_clear",
+      "category": "mimi",
+      "path": "sprites_all/mimi/mimi_doctor_clear.png",
+      "sourceAtlas": "atlases/atlas_mimi.png",
+      "sourceRect": [
+        807,
+        600,
+        310,
+        574
+      ],
+      "size": [
+        310,
+        574
+      ]
+    },
+    {
+      "id": "research_card_01",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_01.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        52,
+        30,
+        157,
+        220
+      ],
+      "size": [
+        157,
+        220
+      ]
+    },
+    {
+      "id": "research_card_02",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_02.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        209,
+        30,
+        209,
+        220
+      ],
+      "size": [
+        209,
+        220
+      ]
+    },
+    {
+      "id": "research_card_03",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_03.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        454,
+        30,
+        157,
+        220
+      ],
+      "size": [
+        157,
+        220
+      ]
+    },
+    {
+      "id": "research_card_04",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_04.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        644,
+        30,
+        157,
+        220
+      ],
+      "size": [
+        157,
+        220
+      ]
+    },
+    {
+      "id": "research_card_05",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_05.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        836,
+        30,
+        209,
+        220
+      ],
+      "size": [
+        209,
+        220
+      ]
+    },
+    {
+      "id": "research_card_06",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_06.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        1045,
+        30,
+        140,
+        220
+      ],
+      "size": [
+        140,
+        220
+      ]
+    },
+    {
+      "id": "research_card_07",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_07.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        52,
+        250,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ]
+    },
+    {
+      "id": "research_card_08",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_08.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        209,
+        250,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ]
+    },
+    {
+      "id": "research_card_09",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_09.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        454,
+        250,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ]
+    },
+    {
+      "id": "research_card_10",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_10.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        644,
+        250,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ]
+    },
+    {
+      "id": "research_card_11",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_11.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        836,
+        250,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ]
+    },
+    {
+      "id": "research_card_12",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_12.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        1045,
+        250,
+        140,
+        250
+      ],
+      "size": [
+        140,
+        250
+      ]
+    },
+    {
+      "id": "research_card_13",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_13.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        52,
+        500,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ]
+    },
+    {
+      "id": "research_card_14",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_14.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        209,
+        500,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ]
+    },
+    {
+      "id": "research_card_15",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_15.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        454,
+        500,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ]
+    },
+    {
+      "id": "research_card_16",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_16.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        644,
+        500,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ]
+    },
+    {
+      "id": "research_card_17",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_17.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        836,
+        500,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ]
+    },
+    {
+      "id": "research_card_18",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_18.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        1045,
+        500,
+        140,
+        250
+      ],
+      "size": [
+        140,
+        250
+      ]
+    },
+    {
+      "id": "research_card_19",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_19.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        52,
+        750,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ]
+    },
+    {
+      "id": "research_card_20",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_20.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        209,
+        750,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ]
+    },
+    {
+      "id": "research_card_21",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_21.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        454,
+        750,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ]
+    },
+    {
+      "id": "research_card_22",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_22.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        644,
+        750,
+        157,
+        250
+      ],
+      "size": [
+        157,
+        250
+      ]
+    },
+    {
+      "id": "research_card_23",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_23.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        836,
+        750,
+        209,
+        250
+      ],
+      "size": [
+        209,
+        250
+      ]
+    },
+    {
+      "id": "research_card_24",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_24.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        1045,
+        750,
+        140,
+        250
+      ],
+      "size": [
+        140,
+        250
+      ]
+    },
+    {
+      "id": "research_card_25",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_25.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        52,
+        1000,
+        157,
+        228
+      ],
+      "size": [
+        157,
+        228
+      ]
+    },
+    {
+      "id": "research_card_26",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_26.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        209,
+        1000,
+        209,
+        228
+      ],
+      "size": [
+        209,
+        228
+      ]
+    },
+    {
+      "id": "research_card_27",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_27.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        454,
+        1000,
+        157,
+        228
+      ],
+      "size": [
+        157,
+        228
+      ]
+    },
+    {
+      "id": "research_card_28",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_28.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        643,
+        1000,
+        157,
+        228
+      ],
+      "size": [
+        157,
+        228
+      ]
+    },
+    {
+      "id": "research_card_29",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_29.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        836,
+        1000,
+        209,
+        228
+      ],
+      "size": [
+        209,
+        228
+      ]
+    },
+    {
+      "id": "research_card_30",
+      "category": "status_icons",
+      "path": "sprites_all/status_icons/research_card_30.png",
+      "sourceAtlas": "atlases/atlas_research_cards.png",
+      "sourceRect": [
+        1045,
+        1000,
+        140,
+        100
+      ],
+      "size": [
+        140,
+        100
+      ]
+    },
+    {
+      "id": "mod_part_01",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_01.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        30,
+        30,
+        126,
+        220
+      ],
+      "size": [
+        126,
+        220
+      ]
+    },
+    {
+      "id": "mod_part_02",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_02.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        170,
+        36,
+        142,
+        214
+      ],
+      "size": [
+        142,
+        214
+      ]
+    },
+    {
+      "id": "mod_part_03",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_03.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        312,
+        33,
+        156,
+        217
+      ],
+      "size": [
+        156,
+        217
+      ]
+    },
+    {
+      "id": "mod_part_04",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_04.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        468,
+        33,
+        127,
+        217
+      ],
+      "size": [
+        127,
+        217
+      ]
+    },
+    {
+      "id": "mod_part_05",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_05.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        628,
+        34,
+        125,
+        216
+      ],
+      "size": [
+        125,
+        216
+      ]
+    },
+    {
+      "id": "mod_part_06",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_06.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        792,
+        49,
+        112,
+        153
+      ],
+      "size": [
+        112,
+        153
+      ]
+    },
+    {
+      "id": "mod_part_07",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_07.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        939,
+        35,
+        153,
+        181
+      ],
+      "size": [
+        153,
+        181
+      ]
+    },
+    {
+      "id": "mod_part_08",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_08.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        1092,
+        27,
+        132,
+        223
+      ],
+      "size": [
+        132,
+        223
+      ]
+    },
+    {
+      "id": "mod_part_09",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_09.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        28,
+        250,
+        102,
+        250
+      ],
+      "size": [
+        102,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_10",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_10.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        170,
+        250,
+        142,
+        250
+      ],
+      "size": [
+        142,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_11",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_11.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        312,
+        250,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_12",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_12.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        468,
+        250,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_13",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_13.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        624,
+        250,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_14",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_14.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        780,
+        250,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_15",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_15.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        936,
+        250,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_16",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_16.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        1092,
+        250,
+        125,
+        250
+      ],
+      "size": [
+        125,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_17",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_17.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        23,
+        500,
+        126,
+        250
+      ],
+      "size": [
+        126,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_18",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_18.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        161,
+        500,
+        140,
+        250
+      ],
+      "size": [
+        140,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_19",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_19.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        319,
+        500,
+        136,
+        250
+      ],
+      "size": [
+        136,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_20",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_20.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        472,
+        500,
+        135,
+        229
+      ],
+      "size": [
+        135,
+        229
+      ]
+    },
+    {
+      "id": "mod_part_21",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_21.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        624,
+        500,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_22",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_22.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        780,
+        500,
+        156,
+        240
+      ],
+      "size": [
+        156,
+        240
+      ]
+    },
+    {
+      "id": "mod_part_23",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_23.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        936,
+        500,
+        131,
+        231
+      ],
+      "size": [
+        131,
+        231
+      ]
+    },
+    {
+      "id": "mod_part_24",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_24.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        1092,
+        500,
+        118,
+        235
+      ],
+      "size": [
+        118,
+        235
+      ]
+    },
+    {
+      "id": "mod_part_25",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_25.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        19,
+        750,
+        126,
+        250
+      ],
+      "size": [
+        126,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_26",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_26.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        180,
+        750,
+        132,
+        250
+      ],
+      "size": [
+        132,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_27",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_27.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        312,
+        750,
+        156,
+        250
+      ],
+      "size": [
+        156,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_28",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_28.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        468,
+        760,
+        154,
+        240
+      ],
+      "size": [
+        154,
+        240
+      ]
+    },
+    {
+      "id": "mod_part_29",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_29.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        638,
+        750,
+        129,
+        250
+      ],
+      "size": [
+        129,
+        250
+      ]
+    },
+    {
+      "id": "mod_part_30",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_30.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        790,
+        765,
+        127,
+        235
+      ],
+      "size": [
+        127,
+        235
+      ]
+    },
+    {
+      "id": "mod_part_31",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_31.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        937,
+        752,
+        142,
+        248
+      ],
+      "size": [
+        142,
+        248
+      ]
+    },
+    {
+      "id": "mod_part_32",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_32.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        1102,
+        756,
+        120,
+        244
+      ],
+      "size": [
+        120,
+        244
+      ]
+    },
+    {
+      "id": "mod_part_33",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_33.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        24,
+        1000,
+        132,
+        235
+      ],
+      "size": [
+        132,
+        235
+      ]
+    },
+    {
+      "id": "mod_part_34",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_34.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        156,
+        1000,
+        156,
+        237
+      ],
+      "size": [
+        156,
+        237
+      ]
+    },
+    {
+      "id": "mod_part_35",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_35.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        312,
+        1000,
+        156,
+        221
+      ],
+      "size": [
+        156,
+        221
+      ]
+    },
+    {
+      "id": "mod_part_36",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_36.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        468,
+        1000,
+        135,
+        234
+      ],
+      "size": [
+        135,
+        234
+      ]
+    },
+    {
+      "id": "mod_part_37",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_37.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        635,
+        1000,
+        145,
+        223
+      ],
+      "size": [
+        145,
+        223
+      ]
+    },
+    {
+      "id": "mod_part_38",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_38.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        780,
+        1000,
+        156,
+        226
+      ],
+      "size": [
+        156,
+        226
+      ]
+    },
+    {
+      "id": "mod_part_39",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_39.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        936,
+        1000,
+        156,
+        233
+      ],
+      "size": [
+        156,
+        233
+      ]
+    },
+    {
+      "id": "mod_part_40",
+      "category": "mod_parts",
+      "path": "sprites_all/mod_parts/mod_part_40.png",
+      "sourceAtlas": "atlases/atlas_mod_parts_expanded.png",
+      "sourceRect": [
+        1092,
+        1000,
+        136,
+        228
+      ],
+      "size": [
+        136,
+        228
+      ]
+    },
+    {
+      "id": "surgery_ui_01",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_01.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        27,
+        43,
+        229,
+        213
+      ],
+      "size": [
+        229,
+        213
+      ]
+    },
+    {
+      "id": "surgery_ui_02",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_02.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        256,
+        16,
+        256,
+        240
+      ],
+      "size": [
+        256,
+        240
+      ]
+    },
+    {
+      "id": "surgery_ui_03",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_03.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        512,
+        35,
+        256,
+        221
+      ],
+      "size": [
+        256,
+        221
+      ]
+    },
+    {
+      "id": "surgery_ui_04",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_04.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        768,
+        34,
+        256,
+        222
+      ],
+      "size": [
+        256,
+        222
+      ]
+    },
+    {
+      "id": "surgery_ui_05",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_05.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        1024,
+        34,
+        256,
+        222
+      ],
+      "size": [
+        256,
+        222
+      ]
+    },
+    {
+      "id": "surgery_ui_06",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_06.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        1280,
+        35,
+        223,
+        221
+      ],
+      "size": [
+        223,
+        221
+      ]
+    },
+    {
+      "id": "surgery_ui_07",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_07.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        30,
+        256,
+        226,
+        254
+      ],
+      "size": [
+        226,
+        254
+      ]
+    },
+    {
+      "id": "surgery_ui_08",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_08.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        256,
+        256,
+        256,
+        254
+      ],
+      "size": [
+        256,
+        254
+      ]
+    },
+    {
+      "id": "surgery_ui_09",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_09.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        512,
+        256,
+        256,
+        254
+      ],
+      "size": [
+        256,
+        254
+      ]
+    },
+    {
+      "id": "surgery_ui_10",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_10.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        768,
+        256,
+        256,
+        250
+      ],
+      "size": [
+        256,
+        250
+      ]
+    },
+    {
+      "id": "surgery_ui_11",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_11.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        1024,
+        256,
+        256,
+        243
+      ],
+      "size": [
+        256,
+        243
+      ]
+    },
+    {
+      "id": "surgery_ui_12",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_12.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        1280,
+        256,
+        218,
+        249
+      ],
+      "size": [
+        218,
+        249
+      ]
+    },
+    {
+      "id": "surgery_ui_13",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_13.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        23,
+        527,
+        233,
+        233
+      ],
+      "size": [
+        233,
+        233
+      ]
+    },
+    {
+      "id": "surgery_ui_14",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_14.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        256,
+        527,
+        256,
+        234
+      ],
+      "size": [
+        256,
+        234
+      ]
+    },
+    {
+      "id": "surgery_ui_15",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_15.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        512,
+        527,
+        256,
+        234
+      ],
+      "size": [
+        256,
+        234
+      ]
+    },
+    {
+      "id": "surgery_ui_16",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_16.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        768,
+        527,
+        256,
+        234
+      ],
+      "size": [
+        256,
+        234
+      ]
+    },
+    {
+      "id": "surgery_ui_17",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_17.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        1024,
+        537,
+        256,
+        216
+      ],
+      "size": [
+        256,
+        216
+      ]
+    },
+    {
+      "id": "surgery_ui_18",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_18.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        1280,
+        537,
+        230,
+        216
+      ],
+      "size": [
+        230,
+        216
+      ]
+    },
+    {
+      "id": "surgery_ui_19",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_19.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        49,
+        785,
+        207,
+        192
+      ],
+      "size": [
+        207,
+        192
+      ]
+    },
+    {
+      "id": "surgery_ui_20",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_20.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        256,
+        787,
+        256,
+        181
+      ],
+      "size": [
+        256,
+        181
+      ]
+    },
+    {
+      "id": "surgery_ui_21",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_21.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        512,
+        782,
+        256,
+        226
+      ],
+      "size": [
+        256,
+        226
+      ]
+    },
+    {
+      "id": "surgery_ui_22",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_22.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        768,
+        778,
+        256,
+        223
+      ],
+      "size": [
+        256,
+        223
+      ]
+    },
+    {
+      "id": "surgery_ui_23",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_23.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        1024,
+        778,
+        256,
+        190
+      ],
+      "size": [
+        256,
+        190
+      ]
+    },
+    {
+      "id": "surgery_ui_24",
+      "category": "surgery",
+      "path": "sprites_all/surgery/surgery_ui_24.png",
+      "sourceAtlas": "atlases/atlas_surgery_ui.png",
+      "sourceRect": [
+        1280,
+        778,
+        206,
+        199
+      ],
+      "size": [
+        206,
+        199
+      ]
+    },
+    {
+      "id": "panel_01",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_01.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        17,
+        24,
+        263,
+        256
+      ],
+      "size": [
+        263,
+        256
+      ]
+    },
+    {
+      "id": "panel_02",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_02.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        280,
+        12,
+        280,
+        268
+      ],
+      "size": [
+        280,
+        268
+      ]
+    },
+    {
+      "id": "panel_03",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_03.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        560,
+        34,
+        280,
+        246
+      ],
+      "size": [
+        280,
+        246
+      ]
+    },
+    {
+      "id": "panel_04",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_04.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        840,
+        41,
+        280,
+        239
+      ],
+      "size": [
+        280,
+        239
+      ]
+    },
+    {
+      "id": "panel_05",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_05.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        1120,
+        23,
+        264,
+        257
+      ],
+      "size": [
+        264,
+        257
+      ]
+    },
+    {
+      "id": "panel_06",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_06.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        11,
+        280,
+        269,
+        271
+      ],
+      "size": [
+        269,
+        271
+      ]
+    },
+    {
+      "id": "panel_07",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_07.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        280,
+        280,
+        280,
+        273
+      ],
+      "size": [
+        280,
+        273
+      ]
+    },
+    {
+      "id": "panel_08",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_08.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        560,
+        280,
+        280,
+        274
+      ],
+      "size": [
+        280,
+        274
+      ]
+    },
+    {
+      "id": "panel_09",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_09.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        840,
+        280,
+        280,
+        276
+      ],
+      "size": [
+        280,
+        276
+      ]
+    },
+    {
+      "id": "panel_10",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_10.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        1120,
+        280,
+        276,
+        269
+      ],
+      "size": [
+        276,
+        269
+      ]
+    },
+    {
+      "id": "panel_11",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_11.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        5,
+        586,
+        275,
+        240
+      ],
+      "size": [
+        275,
+        240
+      ]
+    },
+    {
+      "id": "panel_12",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_12.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        280,
+        560,
+        280,
+        280
+      ],
+      "size": [
+        280,
+        280
+      ]
+    },
+    {
+      "id": "panel_13",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_13.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        560,
+        578,
+        280,
+        262
+      ],
+      "size": [
+        280,
+        262
+      ]
+    },
+    {
+      "id": "panel_14",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_14.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        840,
+        570,
+        280,
+        270
+      ],
+      "size": [
+        280,
+        270
+      ]
+    },
+    {
+      "id": "panel_15",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_15.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        1120,
+        560,
+        268,
+        280
+      ],
+      "size": [
+        268,
+        280
+      ]
+    },
+    {
+      "id": "panel_16",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_16.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        9,
+        908,
+        271,
+        189
+      ],
+      "size": [
+        271,
+        189
+      ]
+    },
+    {
+      "id": "panel_17",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_17.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        280,
+        840,
+        280,
+        258
+      ],
+      "size": [
+        280,
+        258
+      ]
+    },
+    {
+      "id": "panel_18",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_18.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        560,
+        840,
+        280,
+        256
+      ],
+      "size": [
+        280,
+        256
+      ]
+    },
+    {
+      "id": "panel_19",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_19.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        840,
+        840,
+        280,
+        257
+      ],
+      "size": [
+        280,
+        257
+      ]
+    },
+    {
+      "id": "panel_20",
+      "category": "ui_panels",
+      "path": "sprites_all/ui_panels/panel_20.png",
+      "sourceAtlas": "ui/atlas_result_panels.png",
+      "sourceRect": [
+        1120,
+        840,
+        254,
+        257
+      ],
+      "size": [
+        254,
+        257
+      ]
+    },
+    {
+      "id": "sil_pitcher_windup_1",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_pitcher_windup_1.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        44,
+        12,
+        95,
+        148
+      ],
+      "size": [
+        95,
+        148
+      ]
+    },
+    {
+      "id": "sil_pitcher_windup_2",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_pitcher_windup_2.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        192,
+        12,
+        107,
+        148
+      ],
+      "size": [
+        107,
+        148
+      ]
+    },
+    {
+      "id": "sil_pitcher_windup_3",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_pitcher_windup_3.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        344,
+        10,
+        115,
+        150
+      ],
+      "size": [
+        115,
+        150
+      ]
+    },
+    {
+      "id": "sil_pitcher_windup_4",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_pitcher_windup_4.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        524,
+        12,
+        95,
+        148
+      ],
+      "size": [
+        95,
+        148
+      ]
+    },
+    {
+      "id": "sil_pitcher_throw_1",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_pitcher_throw_1.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        706,
+        12,
+        94,
+        125
+      ],
+      "size": [
+        94,
+        125
+      ]
+    },
+    {
+      "id": "sil_pitcher_throw_2",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_pitcher_throw_2.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        800,
+        12,
+        160,
+        119
+      ],
+      "size": [
+        160,
+        119
+      ]
+    },
+    {
+      "id": "sil_pitcher_throw_3",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_pitcher_throw_3.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        960,
+        12,
+        160,
+        117
+      ],
+      "size": [
+        160,
+        117
+      ]
+    },
+    {
+      "id": "sil_pitcher_throw_4",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_pitcher_throw_4.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        1120,
+        12,
+        160,
+        119
+      ],
+      "size": [
+        160,
+        119
+      ]
+    },
+    {
+      "id": "sil_batter_idle",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_batter_idle.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        27,
+        160,
+        126,
+        137
+      ],
+      "size": [
+        126,
+        137
+      ]
+    },
+    {
+      "id": "sil_batter_swing_1",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_batter_swing_1.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        187,
+        160,
+        133,
+        135
+      ],
+      "size": [
+        133,
+        135
+      ]
+    },
+    {
+      "id": "sil_batter_contact",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_batter_contact.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        347,
+        160,
+        133,
+        130
+      ],
+      "size": [
+        133,
+        130
+      ]
+    },
+    {
+      "id": "sil_batter_follow",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_batter_follow.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        480,
+        160,
+        160,
+        133
+      ],
+      "size": [
+        160,
+        133
+      ]
+    },
+    {
+      "id": "sil_runner_1",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_runner_1.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        640,
+        163,
+        141,
+        131
+      ],
+      "size": [
+        141,
+        131
+      ]
+    },
+    {
+      "id": "sil_runner_2",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_runner_2.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        861,
+        172,
+        80,
+        121
+      ],
+      "size": [
+        80,
+        121
+      ]
+    },
+    {
+      "id": "sil_runner_3",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_runner_3.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        1011,
+        172,
+        90,
+        122
+      ],
+      "size": [
+        90,
+        122
+      ]
+    },
+    {
+      "id": "sil_runner_4",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_runner_4.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        1181,
+        172,
+        80,
+        121
+      ],
+      "size": [
+        80,
+        121
+      ]
+    },
+    {
+      "id": "sil_runner_5",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_runner_5.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        51,
+        332,
+        90,
+        122
+      ],
+      "size": [
+        90,
+        122
+      ]
+    },
+    {
+      "id": "sil_runner_6",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_runner_6.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        221,
+        332,
+        80,
+        121
+      ],
+      "size": [
+        80,
+        121
+      ]
+    },
+    {
+      "id": "sil_fielder_ready",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_fielder_ready.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        365,
+        332,
+        115,
+        125
+      ],
+      "size": [
+        115,
+        125
+      ]
+    },
+    {
+      "id": "sil_fielder_dive",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_fielder_dive.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        480,
+        332,
+        87,
+        126
+      ],
+      "size": [
+        87,
+        126
+      ]
+    },
+    {
+      "id": "sil_fielder_catch",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_fielder_catch.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        640,
+        332,
+        97,
+        125
+      ],
+      "size": [
+        97,
+        125
+      ]
+    },
+    {
+      "id": "sil_fielder_throw",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_fielder_throw.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        864,
+        332,
+        96,
+        125
+      ],
+      "size": [
+        96,
+        125
+      ]
+    },
+    {
+      "id": "sil_catcher_crouch",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_catcher_crouch.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        960,
+        332,
+        110,
+        115
+      ],
+      "size": [
+        110,
+        115
+      ]
+    },
+    {
+      "id": "sil_catcher_catch",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_catcher_catch.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        1142,
+        332,
+        82,
+        115
+      ],
+      "size": [
+        82,
+        115
+      ]
+    },
+    {
+      "id": "sil_catcher_throw",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_catcher_throw.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        65,
+        492,
+        95,
+        115
+      ],
+      "size": [
+        95,
+        115
+      ]
+    },
+    {
+      "id": "sil_official_signal_1",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_official_signal_1.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        160,
+        492,
+        129,
+        125
+      ],
+      "size": [
+        129,
+        125
+      ]
+    },
+    {
+      "id": "sil_official_signal_2",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_official_signal_2.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        352,
+        492,
+        98,
+        125
+      ],
+      "size": [
+        98,
+        125
+      ]
+    },
+    {
+      "id": "sil_official_signal_3",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_official_signal_3.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        535,
+        492,
+        51,
+        125
+      ],
+      "size": [
+        51,
+        125
+      ]
+    },
+    {
+      "id": "sil_injured_stumble_1",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_injured_stumble_1.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        673,
+        492,
+        81,
+        125
+      ],
+      "size": [
+        81,
+        125
+      ]
+    },
+    {
+      "id": "sil_injured_stumble_2",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_injured_stumble_2.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        828,
+        492,
+        86,
+        125
+      ],
+      "size": [
+        86,
+        125
+      ]
+    },
+    {
+      "id": "sil_explosive_pose_1",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_explosive_pose_1.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        983,
+        492,
+        111,
+        126
+      ],
+      "size": [
+        111,
+        126
+      ]
+    },
+    {
+      "id": "sil_explosive_pose_2",
+      "category": "match_silhouettes",
+      "path": "sprites_all/match_silhouettes/sil_explosive_pose_2.png",
+      "sourceAtlas": "atlases/atlas_match_silhouettes.png",
+      "sourceRect": [
+        1143,
+        492,
+        116,
+        124
+      ],
+      "size": [
+        116,
+        124
+      ]
+    },
+    {
+      "id": "ball_idle",
+      "category": "match_props",
+      "path": "sprites_all/match_props/ball_idle.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        56,
+        56,
+        29,
+        29
+      ],
+      "size": [
+        29,
+        29
+      ]
+    },
+    {
+      "id": "ball_fast_streak_1",
+      "category": "match_props",
+      "path": "sprites_all/match_props/ball_fast_streak_1.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        158,
+        60,
+        93,
+        23
+      ],
+      "size": [
+        93,
+        23
+      ]
+    },
+    {
+      "id": "ball_fast_streak_2",
+      "category": "match_props",
+      "path": "sprites_all/match_props/ball_fast_streak_2.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        298,
+        60,
+        93,
+        23
+      ],
+      "size": [
+        93,
+        23
+      ]
+    },
+    {
+      "id": "ball_fast_streak_3",
+      "category": "match_props",
+      "path": "sprites_all/match_props/ball_fast_streak_3.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        438,
+        60,
+        93,
+        23
+      ],
+      "size": [
+        93,
+        23
+      ]
+    },
+    {
+      "id": "ball_fast_streak_4",
+      "category": "match_props",
+      "path": "sprites_all/match_props/ball_fast_streak_4.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        578,
+        60,
+        93,
+        23
+      ],
+      "size": [
+        93,
+        23
+      ]
+    },
+    {
+      "id": "ball_impact_burst",
+      "category": "match_props",
+      "path": "sprites_all/match_props/ball_impact_burst.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        724,
+        24,
+        93,
+        93
+      ],
+      "size": [
+        93,
+        93
+      ]
+    },
+    {
+      "id": "bat_swing_arc_1",
+      "category": "match_props",
+      "path": "sprites_all/match_props/bat_swing_arc_1.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        882,
+        18,
+        81,
+        53
+      ],
+      "size": [
+        81,
+        53
+      ]
+    },
+    {
+      "id": "bat_swing_arc_2",
+      "category": "match_props",
+      "path": "sprites_all/match_props/bat_swing_arc_2.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        1028,
+        18,
+        75,
+        60
+      ],
+      "size": [
+        75,
+        60
+      ]
+    },
+    {
+      "id": "bat_swing_arc_3",
+      "category": "match_props",
+      "path": "sprites_all/match_props/bat_swing_arc_3.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        54,
+        158,
+        69,
+        67
+      ],
+      "size": [
+        69,
+        67
+      ]
+    },
+    {
+      "id": "bat_swing_arc_4",
+      "category": "match_props",
+      "path": "sprites_all/match_props/bat_swing_arc_4.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        201,
+        158,
+        62,
+        73
+      ],
+      "size": [
+        62,
+        73
+      ]
+    },
+    {
+      "id": "bat_swing_arc_5",
+      "category": "match_props",
+      "path": "sprites_all/match_props/bat_swing_arc_5.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        348,
+        158,
+        55,
+        79
+      ],
+      "size": [
+        55,
+        79
+      ]
+    },
+    {
+      "id": "bat_swing_arc_6",
+      "category": "match_props",
+      "path": "sprites_all/match_props/bat_swing_arc_6.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        494,
+        158,
+        49,
+        85
+      ],
+      "size": [
+        49,
+        85
+      ]
+    },
+    {
+      "id": "dust_ground_1",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_ground_1.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        583,
+        202,
+        81,
+        37
+      ],
+      "size": [
+        81,
+        37
+      ]
+    },
+    {
+      "id": "dust_ground_2",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_ground_2.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        723,
+        202,
+        81,
+        35
+      ],
+      "size": [
+        81,
+        35
+      ]
+    },
+    {
+      "id": "dust_ground_3",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_ground_3.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        863,
+        200,
+        81,
+        39
+      ],
+      "size": [
+        81,
+        39
+      ]
+    },
+    {
+      "id": "dust_ground_4",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_ground_4.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        1003,
+        204,
+        81,
+        33
+      ],
+      "size": [
+        81,
+        33
+      ]
+    },
+    {
+      "id": "dust_ground_5",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_ground_5.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        23,
+        348,
+        81,
+        31
+      ],
+      "size": [
+        81,
+        31
+      ]
+    },
+    {
+      "id": "dust_ground_6",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_ground_6.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        163,
+        344,
+        81,
+        32
+      ],
+      "size": [
+        81,
+        32
+      ]
+    },
+    {
+      "id": "dust_slide_1",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_slide_1.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        308,
+        343,
+        93,
+        28
+      ],
+      "size": [
+        93,
+        28
+      ]
+    },
+    {
+      "id": "dust_slide_2",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_slide_2.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        448,
+        343,
+        93,
+        28
+      ],
+      "size": [
+        93,
+        28
+      ]
+    },
+    {
+      "id": "dust_slide_3",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_slide_3.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        588,
+        345,
+        93,
+        26
+      ],
+      "size": [
+        93,
+        26
+      ]
+    },
+    {
+      "id": "dust_slide_4",
+      "category": "match_props",
+      "path": "sprites_all/match_props/dust_slide_4.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        728,
+        346,
+        93,
+        25
+      ],
+      "size": [
+        93,
+        25
+      ]
+    },
+    {
+      "id": "base_home",
+      "category": "match_props",
+      "path": "sprites_all/match_props/base_home.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        884,
+        324,
+        53,
+        53
+      ],
+      "size": [
+        53,
+        53
+      ]
+    },
+    {
+      "id": "base_first",
+      "category": "match_props",
+      "path": "sprites_all/match_props/base_first.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        1024,
+        324,
+        53,
+        53
+      ],
+      "size": [
+        53,
+        53
+      ]
+    },
+    {
+      "id": "base_second",
+      "category": "match_props",
+      "path": "sprites_all/match_props/base_second.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        44,
+        464,
+        53,
+        53
+      ],
+      "size": [
+        53,
+        53
+      ]
+    },
+    {
+      "id": "base_third",
+      "category": "match_props",
+      "path": "sprites_all/match_props/base_third.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        184,
+        464,
+        53,
+        53
+      ],
+      "size": [
+        53,
+        53
+      ]
+    },
+    {
+      "id": "base_glow_home",
+      "category": "match_props",
+      "path": "sprites_all/match_props/base_glow_home.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        324,
+        464,
+        53,
+        53
+      ],
+      "size": [
+        53,
+        53
+      ]
+    },
+    {
+      "id": "base_glow_first",
+      "category": "match_props",
+      "path": "sprites_all/match_props/base_glow_first.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        464,
+        464,
+        53,
+        53
+      ],
+      "size": [
+        53,
+        53
+      ]
+    },
+    {
+      "id": "base_glow_second",
+      "category": "match_props",
+      "path": "sprites_all/match_props/base_glow_second.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        604,
+        464,
+        53,
+        53
+      ],
+      "size": [
+        53,
+        53
+      ]
+    },
+    {
+      "id": "base_glow_third",
+      "category": "match_props",
+      "path": "sprites_all/match_props/base_glow_third.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        744,
+        464,
+        53,
+        53
+      ],
+      "size": [
+        53,
+        53
+      ]
+    },
+    {
+      "id": "shadow_ellipse_1",
+      "category": "match_props",
+      "path": "sprites_all/match_props/shadow_ellipse_1.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        888,
+        483,
+        45,
+        15
+      ],
+      "size": [
+        45,
+        15
+      ]
+    },
+    {
+      "id": "shadow_ellipse_2",
+      "category": "match_props",
+      "path": "sprites_all/match_props/shadow_ellipse_2.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        1016,
+        480,
+        69,
+        21
+      ],
+      "size": [
+        69,
+        21
+      ]
+    },
+    {
+      "id": "shadow_ellipse_3",
+      "category": "match_props",
+      "path": "sprites_all/match_props/shadow_ellipse_3.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        24,
+        617,
+        93,
+        27
+      ],
+      "size": [
+        93,
+        27
+      ]
+    },
+    {
+      "id": "shadow_ellipse_4",
+      "category": "match_props",
+      "path": "sprites_all/match_props/shadow_ellipse_4.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        152,
+        614,
+        117,
+        33
+      ],
+      "size": [
+        117,
+        33
+      ]
+    },
+    {
+      "id": "shadow_ellipse_5",
+      "category": "match_props",
+      "path": "sprites_all/match_props/shadow_ellipse_5.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        280,
+        611,
+        140,
+        39
+      ],
+      "size": [
+        140,
+        39
+      ]
+    },
+    {
+      "id": "shadow_ellipse_6",
+      "category": "match_props",
+      "path": "sprites_all/match_props/shadow_ellipse_6.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        420,
+        608,
+        140,
+        45
+      ],
+      "size": [
+        140,
+        45
+      ]
+    },
+    {
+      "id": "speed_line_1",
+      "category": "match_props",
+      "path": "sprites_all/match_props/speed_line_1.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        560,
+        606,
+        123,
+        37
+      ],
+      "size": [
+        123,
+        37
+      ]
+    },
+    {
+      "id": "speed_line_2",
+      "category": "match_props",
+      "path": "sprites_all/match_props/speed_line_2.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        718,
+        626,
+        105,
+        9
+      ],
+      "size": [
+        105,
+        9
+      ]
+    },
+    {
+      "id": "speed_line_3",
+      "category": "match_props",
+      "path": "sprites_all/match_props/speed_line_3.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        858,
+        626,
+        105,
+        29
+      ],
+      "size": [
+        105,
+        29
+      ]
+    },
+    {
+      "id": "speed_line_4",
+      "category": "match_props",
+      "path": "sprites_all/match_props/speed_line_4.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        998,
+        606,
+        105,
+        29
+      ],
+      "size": [
+        105,
+        29
+      ]
+    },
+    {
+      "id": "speed_line_5",
+      "category": "match_props",
+      "path": "sprites_all/match_props/speed_line_5.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        18,
+        766,
+        105,
+        9
+      ],
+      "size": [
+        105,
+        9
+      ]
+    },
+    {
+      "id": "speed_line_6",
+      "category": "match_props",
+      "path": "sprites_all/match_props/speed_line_6.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        158,
+        766,
+        105,
+        29
+      ],
+      "size": [
+        105,
+        29
+      ]
+    },
+    {
+      "id": "hit_spark_1",
+      "category": "match_props",
+      "path": "sprites_all/match_props/hit_spark_1.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        306,
+        733,
+        89,
+        78
+      ],
+      "size": [
+        89,
+        78
+      ]
+    },
+    {
+      "id": "hit_spark_2",
+      "category": "match_props",
+      "path": "sprites_all/match_props/hit_spark_2.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        446,
+        733,
+        89,
+        78
+      ],
+      "size": [
+        89,
+        78
+      ]
+    },
+    {
+      "id": "hit_spark_3",
+      "category": "match_props",
+      "path": "sprites_all/match_props/hit_spark_3.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        586,
+        733,
+        89,
+        78
+      ],
+      "size": [
+        89,
+        78
+      ]
+    },
+    {
+      "id": "hit_spark_4",
+      "category": "match_props",
+      "path": "sprites_all/match_props/hit_spark_4.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        726,
+        733,
+        89,
+        78
+      ],
+      "size": [
+        89,
+        78
+      ]
+    },
+    {
+      "id": "catch_pop",
+      "category": "match_props",
+      "path": "sprites_all/match_props/catch_pop.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        868,
+        743,
+        85,
+        55
+      ],
+      "size": [
+        85,
+        55
+      ]
+    },
+    {
+      "id": "foul_effect",
+      "category": "match_props",
+      "path": "sprites_all/match_props/foul_effect.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        1008,
+        743,
+        85,
+        55
+      ],
+      "size": [
+        85,
+        55
+      ]
+    },
+    {
+      "id": "safe_burst",
+      "category": "match_props",
+      "path": "sprites_all/match_props/safe_burst.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        0,
+        840,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ]
+    },
+    {
+      "id": "out_burst",
+      "category": "match_props",
+      "path": "sprites_all/match_props/out_burst.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        140,
+        840,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ]
+    },
+    {
+      "id": "steal_marker",
+      "category": "match_props",
+      "path": "sprites_all/match_props/steal_marker.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        280,
+        840,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ]
+    },
+    {
+      "id": "injury_warning_spark",
+      "category": "match_props",
+      "path": "sprites_all/match_props/injury_warning_spark.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        420,
+        840,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ]
+    },
+    {
+      "id": "betting_coin_pop",
+      "category": "match_props",
+      "path": "sprites_all/match_props/betting_coin_pop.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        560,
+        840,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ]
+    },
+    {
+      "id": "scoreboard_blip",
+      "category": "match_props",
+      "path": "sprites_all/match_props/scoreboard_blip.png",
+      "sourceAtlas": "atlases/atlas_match_props_effects.png",
+      "sourceRect": [
+        700,
+        840,
+        140,
+        140
+      ],
+      "size": [
+        140,
+        140
+      ]
+    },
+    {
+      "id": "fx_explosive_aura_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_explosive_aura_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        26,
+        26,
+        119,
+        119
+      ],
+      "size": [
+        119,
+        119
+      ]
+    },
+    {
+      "id": "fx_explosive_aura_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_explosive_aura_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        196,
+        26,
+        119,
+        119
+      ],
+      "size": [
+        119,
+        119
+      ]
+    },
+    {
+      "id": "fx_explosive_aura_3",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_explosive_aura_3.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        366,
+        26,
+        119,
+        119
+      ],
+      "size": [
+        119,
+        119
+      ]
+    },
+    {
+      "id": "fx_explosive_aura_4",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_explosive_aura_4.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        536,
+        26,
+        119,
+        119
+      ],
+      "size": [
+        119,
+        119
+      ]
+    },
+    {
+      "id": "fx_spirit_flame_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_spirit_flame_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        753,
+        41,
+        43,
+        82
+      ],
+      "size": [
+        43,
+        82
+      ]
+    },
+    {
+      "id": "fx_spirit_flame_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_spirit_flame_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        923,
+        39,
+        51,
+        84
+      ],
+      "size": [
+        51,
+        84
+      ]
+    },
+    {
+      "id": "fx_spirit_flame_3",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_spirit_flame_3.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        73,
+        207,
+        59,
+        86
+      ],
+      "size": [
+        59,
+        86
+      ]
+    },
+    {
+      "id": "fx_spirit_flame_4",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_spirit_flame_4.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        243,
+        205,
+        67,
+        88
+      ],
+      "size": [
+        67,
+        88
+      ]
+    },
+    {
+      "id": "fx_spirit_flame_5",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_spirit_flame_5.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        413,
+        203,
+        75,
+        90
+      ],
+      "size": [
+        75,
+        90
+      ]
+    },
+    {
+      "id": "fx_tension_electric_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_tension_electric_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        532,
+        193,
+        38,
+        96
+      ],
+      "size": [
+        38,
+        96
+      ]
+    },
+    {
+      "id": "fx_tension_electric_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_tension_electric_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        702,
+        193,
+        56,
+        96
+      ],
+      "size": [
+        56,
+        96
+      ]
+    },
+    {
+      "id": "fx_tension_electric_3",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_tension_electric_3.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        872,
+        193,
+        74,
+        96
+      ],
+      "size": [
+        74,
+        96
+      ]
+    },
+    {
+      "id": "fx_tension_electric_4",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_tension_electric_4.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        22,
+        363,
+        92,
+        96
+      ],
+      "size": [
+        92,
+        96
+      ]
+    },
+    {
+      "id": "fx_tension_electric_5",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_tension_electric_5.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        192,
+        363,
+        110,
+        96
+      ],
+      "size": [
+        110,
+        96
+      ]
+    },
+    {
+      "id": "fx_injury_crack_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_injury_crack_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        367,
+        367,
+        117,
+        117
+      ],
+      "size": [
+        117,
+        117
+      ]
+    },
+    {
+      "id": "fx_injury_crack_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_injury_crack_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        537,
+        367,
+        117,
+        117
+      ],
+      "size": [
+        117,
+        117
+      ]
+    },
+    {
+      "id": "fx_injury_crack_3",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_injury_crack_3.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        707,
+        367,
+        117,
+        117
+      ],
+      "size": [
+        117,
+        117
+      ]
+    },
+    {
+      "id": "fx_injury_crack_4",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_injury_crack_4.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        877,
+        367,
+        117,
+        117
+      ],
+      "size": [
+        117,
+        117
+      ]
+    },
+    {
+      "id": "fx_hidden_injury_pulse_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_hidden_injury_pulse_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        38,
+        548,
+        95,
+        95
+      ],
+      "size": [
+        95,
+        95
+      ]
+    },
+    {
+      "id": "fx_hidden_injury_pulse_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_hidden_injury_pulse_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        208,
+        548,
+        95,
+        95
+      ],
+      "size": [
+        95,
+        95
+      ]
+    },
+    {
+      "id": "fx_hidden_injury_pulse_3",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_hidden_injury_pulse_3.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        378,
+        548,
+        95,
+        95
+      ],
+      "size": [
+        95,
+        95
+      ]
+    },
+    {
+      "id": "fx_mod_activation_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_mod_activation_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        543,
+        533,
+        105,
+        125
+      ],
+      "size": [
+        105,
+        125
+      ]
+    },
+    {
+      "id": "fx_mod_activation_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_mod_activation_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        713,
+        533,
+        105,
+        125
+      ],
+      "size": [
+        105,
+        125
+      ]
+    },
+    {
+      "id": "fx_mod_activation_3",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_mod_activation_3.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        883,
+        533,
+        105,
+        125
+      ],
+      "size": [
+        105,
+        125
+      ]
+    },
+    {
+      "id": "fx_mod_activation_4",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_mod_activation_4.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        33,
+        703,
+        105,
+        125
+      ],
+      "size": [
+        105,
+        125
+      ]
+    },
+    {
+      "id": "fx_surgery_scar_flash_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_surgery_scar_flash_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        193,
+        703,
+        121,
+        125
+      ],
+      "size": [
+        121,
+        125
+      ]
+    },
+    {
+      "id": "fx_surgery_scar_flash_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_surgery_scar_flash_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        363,
+        703,
+        121,
+        125
+      ],
+      "size": [
+        121,
+        125
+      ]
+    },
+    {
+      "id": "fx_surgery_scar_flash_3",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_surgery_scar_flash_3.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        533,
+        703,
+        121,
+        125
+      ],
+      "size": [
+        121,
+        125
+      ]
+    },
+    {
+      "id": "fx_betting_pressure_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_betting_pressure_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        693,
+        703,
+        145,
+        47
+      ],
+      "size": [
+        145,
+        47
+      ]
+    },
+    {
+      "id": "fx_betting_pressure_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_betting_pressure_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        863,
+        703,
+        145,
+        47
+      ],
+      "size": [
+        145,
+        47
+      ]
+    },
+    {
+      "id": "fx_betting_pressure_3",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_betting_pressure_3.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        13,
+        873,
+        145,
+        47
+      ],
+      "size": [
+        145,
+        47
+      ]
+    },
+    {
+      "id": "fx_betting_pressure_4",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_betting_pressure_4.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        183,
+        873,
+        145,
+        47
+      ],
+      "size": [
+        145,
+        47
+      ]
+    },
+    {
+      "id": "fx_final_boss_gold_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_final_boss_gold_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        358,
+        868,
+        135,
+        135
+      ],
+      "size": [
+        135,
+        135
+      ]
+    },
+    {
+      "id": "fx_final_boss_gold_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_final_boss_gold_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        528,
+        868,
+        135,
+        135
+      ],
+      "size": [
+        135,
+        135
+      ]
+    },
+    {
+      "id": "fx_post_clear_hazard_1",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_post_clear_hazard_1.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        703,
+        868,
+        125,
+        135
+      ],
+      "size": [
+        125,
+        135
+      ]
+    },
+    {
+      "id": "fx_post_clear_hazard_2",
+      "category": "match_overlays",
+      "path": "sprites_all/match_overlays/fx_post_clear_hazard_2.png",
+      "sourceAtlas": "atlases/atlas_match_status_overlays.png",
+      "sourceRect": [
+        873,
+        868,
+        125,
+        135
+      ],
+      "size": [
+        125,
+        135
+      ]
+    },
+    {
+      "id": "field_home_plate",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_home_plate.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        51,
+        51,
+        49,
+        49
+      ],
+      "size": [
+        49,
+        49
+      ]
+    },
+    {
+      "id": "field_base_first",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_base_first.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        201,
+        51,
+        49,
+        49
+      ],
+      "size": [
+        49,
+        49
+      ]
+    },
+    {
+      "id": "field_base_second",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_base_second.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        351,
+        51,
+        49,
+        49
+      ],
+      "size": [
+        49,
+        49
+      ]
+    },
+    {
+      "id": "field_base_third",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_base_third.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        501,
+        51,
+        49,
+        49
+      ],
+      "size": [
+        49,
+        49
+      ]
+    },
+    {
+      "id": "field_pitcher_mound",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_pitcher_mound.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        631,
+        55,
+        89,
+        41
+      ],
+      "size": [
+        89,
+        41
+      ]
+    },
+    {
+      "id": "field_infield_dirt",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_infield_dirt.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        770,
+        38,
+        111,
+        75
+      ],
+      "size": [
+        111,
+        75
+      ]
+    },
+    {
+      "id": "field_outfield_stripe",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_outfield_stripe.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        920,
+        38,
+        111,
+        75
+      ],
+      "size": [
+        111,
+        75
+      ]
+    },
+    {
+      "id": "field_foul_line",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_foul_line.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        1067,
+        22,
+        117,
+        107
+      ],
+      "size": [
+        117,
+        107
+      ]
+    },
+    {
+      "id": "field_chalk_curve",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_chalk_curve.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        17,
+        172,
+        117,
+        107
+      ],
+      "size": [
+        117,
+        107
+      ]
+    },
+    {
+      "id": "field_dugout",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_dugout.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        168,
+        198,
+        115,
+        50
+      ],
+      "size": [
+        115,
+        50
+      ]
+    },
+    {
+      "id": "field_bench",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_bench.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        318,
+        198,
+        115,
+        50
+      ],
+      "size": [
+        115,
+        50
+      ]
+    },
+    {
+      "id": "field_betting_side_rail",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_betting_side_rail.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        478,
+        168,
+        95,
+        115
+      ],
+      "size": [
+        95,
+        115
+      ]
+    },
+    {
+      "id": "field_light_cone",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_light_cone.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        618,
+        168,
+        115,
+        110
+      ],
+      "size": [
+        115,
+        110
+      ]
+    },
+    {
+      "id": "field_crowd_strip_1",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_crowd_strip_1.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        753,
+        203,
+        145,
+        35
+      ],
+      "size": [
+        145,
+        35
+      ]
+    },
+    {
+      "id": "field_crowd_strip_2",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_crowd_strip_2.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        903,
+        203,
+        145,
+        35
+      ],
+      "size": [
+        145,
+        35
+      ]
+    },
+    {
+      "id": "field_crowd_strip_3",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_crowd_strip_3.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        1053,
+        203,
+        145,
+        35
+      ],
+      "size": [
+        145,
+        35
+      ]
+    },
+    {
+      "id": "field_crowd_strip_4",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_crowd_strip_4.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        3,
+        353,
+        145,
+        35
+      ],
+      "size": [
+        145,
+        35
+      ]
+    },
+    {
+      "id": "field_score_light_1",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_score_light_1.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        170,
+        333,
+        111,
+        65
+      ],
+      "size": [
+        111,
+        65
+      ]
+    },
+    {
+      "id": "field_score_light_2",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_score_light_2.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        320,
+        333,
+        111,
+        65
+      ],
+      "size": [
+        111,
+        65
+      ]
+    },
+    {
+      "id": "field_score_light_3",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_score_light_3.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        470,
+        333,
+        111,
+        65
+      ],
+      "size": [
+        111,
+        65
+      ]
+    },
+    {
+      "id": "field_score_light_4",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_score_light_4.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        620,
+        333,
+        111,
+        65
+      ],
+      "size": [
+        111,
+        65
+      ]
+    },
+    {
+      "id": "field_league_ai_booth",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_league_ai_booth.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        783,
+        323,
+        117,
+        127
+      ],
+      "size": [
+        117,
+        127
+      ]
+    },
+    {
+      "id": "field_medical_stretcher",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_medical_stretcher.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        900,
+        328,
+        150,
+        122
+      ],
+      "size": [
+        150,
+        122
+      ]
+    },
+    {
+      "id": "field_ball_shadow",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_ball_shadow.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        1050,
+        363,
+        150,
+        87
+      ],
+      "size": [
+        150,
+        87
+      ]
+    },
+    {
+      "id": "field_player_shadow",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_player_shadow.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        37,
+        513,
+        77,
+        25
+      ],
+      "size": [
+        77,
+        25
+      ]
+    },
+    {
+      "id": "field_camera_cut_marker",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_camera_cut_marker.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        188,
+        488,
+        75,
+        75
+      ],
+      "size": [
+        75,
+        75
+      ]
+    },
+    {
+      "id": "field_inning_marker_blank",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_inning_marker_blank.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        343,
+        493,
+        65,
+        65
+      ],
+      "size": [
+        65,
+        65
+      ]
+    },
+    {
+      "id": "field_hazard_stripe",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_hazard_stripe.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        466,
+        493,
+        119,
+        30
+      ],
+      "size": [
+        119,
+        30
+      ]
+    },
+    {
+      "id": "field_base_path_arrow",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_base_path_arrow.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        628,
+        489,
+        110,
+        73
+      ],
+      "size": [
+        110,
+        73
+      ]
+    },
+    {
+      "id": "field_dust_overlay",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_dust_overlay.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        768,
+        450,
+        132,
+        103
+      ],
+      "size": [
+        132,
+        103
+      ]
+    },
+    {
+      "id": "field_vignette_corner",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_vignette_corner.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        900,
+        450,
+        150,
+        78
+      ],
+      "size": [
+        150,
+        78
+      ]
+    },
+    {
+      "id": "field_prop_extra_1",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_prop_extra_1.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        1050,
+        450,
+        150,
+        78
+      ],
+      "size": [
+        150,
+        78
+      ]
+    },
+    {
+      "id": "field_prop_extra_2",
+      "category": "field_props",
+      "path": "sprites_all/field_props/field_prop_extra_2.png",
+      "sourceAtlas": "atlases/atlas_field_props.png",
+      "sourceRect": [
+        0,
+        600,
+        150,
+        150
+      ],
+      "size": [
+        150,
+        150
+      ]
+    }
+  ]
+}

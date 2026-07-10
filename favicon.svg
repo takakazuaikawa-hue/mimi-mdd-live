@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0a0a0a" />
+  <!-- バニー耳 + 十字（医療）のミニマーク。仮アイコン、差し替え可。 -->
+  <path d="M24 18c-2-8 2-12 4-12s2 6 1 12z" fill="#ff7a1a" />
+  <path d="M40 18c2-8-2-12-4-12s-2 6-1 12z" fill="#ff7a1a" />
+  <rect x="29" y="30" width="6" height="22" rx="2" fill="#ff7a1a" />
+  <rect x="21" y="38" width="22" height="6" rx="2" fill="#ff7a1a" />
+</svg>

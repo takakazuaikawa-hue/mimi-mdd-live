@@ -1,0 +1,103 @@
+{
+  "pack": "modular_character_parts_v5",
+  "source": "new fixed-nine V5 sheet supplied 2026-06-22",
+  "cell_size": [
+    512,
+    512
+  ],
+  "atlas": "modular_character_parts_v5/atlases/fixed_nine_fullbody_transparent_atlas_v5.png",
+  "preview": "modular_character_parts_v5/previews/fixed_nine_fullbody_transparent_atlas_v5_preview.png",
+  "players": [
+    {
+      "id": "player_01_shun_hanashiro",
+      "name": "Shun Hanashiro",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_01_shun_hanashiro_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_01_shun_hanashiro_fullbody_transparent_v5.png",
+      "transparent_size": [
+        158,
+        403
+      ]
+    },
+    {
+      "id": "player_02_yu_igarashi",
+      "name": "Yu Igarashi",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_02_yu_igarashi_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_02_yu_igarashi_fullbody_transparent_v5.png",
+      "transparent_size": [
+        153,
+        410
+      ]
+    },
+    {
+      "id": "player_03_kazuki_osawa",
+      "name": "Kazuki Osawa",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_03_kazuki_osawa_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_03_kazuki_osawa_fullbody_transparent_v5.png",
+      "transparent_size": [
+        193,
+        409
+      ]
+    },
+    {
+      "id": "player_04_go_takayasu",
+      "name": "Go Takayasu",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_04_go_takayasu_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_04_go_takayasu_fullbody_transparent_v5.png",
+      "transparent_size": [
+        196,
+        413
+      ]
+    },
+    {
+      "id": "player_05_ryota_araki",
+      "name": "Ryota Araki",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_05_ryota_araki_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_05_ryota_araki_fullbody_transparent_v5.png",
+      "transparent_size": [
+        146,
+        412
+      ]
+    },
+    {
+      "id": "player_06_miki_yamamoto",
+      "name": "Miki Yamamoto",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_06_miki_yamamoto_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_06_miki_yamamoto_fullbody_transparent_v5.png",
+      "transparent_size": [
+        227,
+        392
+      ]
+    },
+    {
+      "id": "player_07_naoyuki_haruno",
+      "name": "Naoyuki Haruno",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_07_naoyuki_haruno_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_07_naoyuki_haruno_fullbody_transparent_v5.png",
+      "transparent_size": [
+        146,
+        412
+      ]
+    },
+    {
+      "id": "player_08_mochikane_suzuki",
+      "name": "Mochikane Suzuki",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_08_mochikane_suzuki_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_08_mochikane_suzuki_fullbody_transparent_v5.png",
+      "transparent_size": [
+        159,
+        411
+      ]
+    },
+    {
+      "id": "player_09_takuro_miyazaki",
+      "name": "Takuro Miyazaki",
+      "fullbody_rgb": "modular_character_parts_v5/fullbody_rgb_v5/player_09_takuro_miyazaki_fullbody_rgb_v5.png",
+      "fullbody_transparent": "modular_character_parts_v5/fullbody_transparent_v5/player_09_takuro_miyazaki_fullbody_transparent_v5.png",
+      "transparent_size": [
+        150,
+        413
+      ]
+    }
+  ],
+  "alpha_note": "V5 green-sheet background removed with guarded chroma key preserving black uniforms; RGB originals included as fallback."
+}

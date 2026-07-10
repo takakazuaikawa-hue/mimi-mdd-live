@@ -1,0 +1,534 @@
+{
+  "version": "3.1.0",
+  "generatedDate": "2026-06-18",
+  "root": "asset_pack_v3",
+  "naming": "lowercase snake_case; stable runtime filenames; raw sources kept separately",
+  "assets": [
+    {
+      "id": "bg_medical_room",
+      "kind": "background",
+      "path": "backgrounds/bg_medical_room.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_stadium_default",
+      "kind": "background",
+      "path": "backgrounds/bg_stadium_default.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_stadium_imperial",
+      "kind": "background",
+      "path": "backgrounds/bg_stadium_imperial.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_stadium_kanayama",
+      "kind": "background",
+      "path": "backgrounds/bg_stadium_kanayama.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_stadium_modified",
+      "kind": "background",
+      "path": "backgrounds/bg_stadium_modified.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_stadium_shirogane",
+      "kind": "background",
+      "path": "backgrounds/bg_stadium_shirogane.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_stadium_yamanobe",
+      "kind": "background",
+      "path": "backgrounds/bg_stadium_yamanobe.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_surgery_room",
+      "kind": "background",
+      "path": "backgrounds/bg_surgery_room.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_title_a",
+      "kind": "background",
+      "path": "backgrounds/bg_title_a.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "bg_title_b",
+      "kind": "background",
+      "path": "backgrounds/bg_title_b.png",
+      "width": 1920,
+      "height": 1080,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "atlas_dice",
+      "kind": "atlas",
+      "path": "atlases/atlas_dice.png",
+      "width": 1774,
+      "height": 887,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_enemy_teams",
+      "kind": "atlas",
+      "path": "atlases/atlas_enemy_teams.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_field_props",
+      "kind": "atlas",
+      "path": "atlases/atlas_field_props.png",
+      "width": 1200,
+      "height": 600,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_match_cutins",
+      "kind": "atlas",
+      "path": "atlases/atlas_match_cutins.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_match_props_effects",
+      "kind": "atlas",
+      "path": "atlases/atlas_match_props_effects.png",
+      "width": 1120,
+      "height": 840,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_match_silhouettes",
+      "kind": "atlas",
+      "path": "atlases/atlas_match_silhouettes.png",
+      "width": 1280,
+      "height": 640,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_match_status_overlays",
+      "kind": "atlas",
+      "path": "atlases/atlas_match_status_overlays.png",
+      "width": 1020,
+      "height": 1020,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_mimi",
+      "kind": "atlas",
+      "path": "atlases/atlas_mimi.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_mod_parts_expanded",
+      "kind": "atlas",
+      "path": "atlases/atlas_mod_parts_expanded.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_player_parts",
+      "kind": "atlas",
+      "path": "atlases/atlas_player_parts.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_players",
+      "kind": "atlas",
+      "path": "atlases/atlas_players.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_research_cards",
+      "kind": "atlas",
+      "path": "atlases/atlas_research_cards.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_sponsor_logos_full",
+      "kind": "atlas",
+      "path": "atlases/atlas_sponsor_logos_full.png",
+      "width": 1402,
+      "height": 1122,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_status_icons",
+      "kind": "atlas",
+      "path": "atlases/atlas_status_icons.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_surgery_methods",
+      "kind": "atlas",
+      "path": "atlases/atlas_surgery_methods.png",
+      "width": 1310,
+      "height": 1201,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_surgery_ui",
+      "kind": "atlas",
+      "path": "atlases/atlas_surgery_ui.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_team_logos",
+      "kind": "atlas",
+      "path": "atlases/atlas_team_logos.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_ui_icons_base",
+      "kind": "atlas",
+      "path": "atlases/atlas_ui_icons_base.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "sheet_player_expressions",
+      "kind": "atlas",
+      "path": "atlases/sheet_player_expressions.png",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "atlas_result_panels",
+      "kind": "ui",
+      "path": "ui/atlas_result_panels.png",
+      "width": 1402,
+      "height": 1122,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "title_logo",
+      "kind": "ui",
+      "path": "ui/title_logo.png",
+      "width": 1774,
+      "height": 887,
+      "alpha": true,
+      "status": "ready",
+      "notes": "runtime atlas; use atlas_frames_runtime.json"
+    },
+    {
+      "id": "sheet_story_events",
+      "kind": "event_sheet",
+      "path": "events/sheet_story_events.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": false,
+      "status": "ready",
+      "notes": ""
+    },
+    {
+      "id": "dice_explosive_red",
+      "kind": "sprite",
+      "path": "sprites/dice_explosive_red.png",
+      "width": 299,
+      "height": 354,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "dice_mutation_purple",
+      "kind": "sprite",
+      "path": "sprites/dice_mutation_purple.png",
+      "width": 301,
+      "height": 355,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "dice_normal_white",
+      "kind": "sprite",
+      "path": "sprites/dice_normal_white.png",
+      "width": 301,
+      "height": 356,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "dice_result",
+      "kind": "sprite",
+      "path": "sprites/dice_result.png",
+      "width": 156,
+      "height": 156,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "dice_stable_blue",
+      "kind": "sprite",
+      "path": "sprites/dice_stable_blue.png",
+      "width": 299,
+      "height": 353,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "dice_sync_yellow",
+      "kind": "sprite",
+      "path": "sprites/dice_sync_yellow.png",
+      "width": 299,
+      "height": 355,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "enemy_ace_imperial",
+      "kind": "sprite",
+      "path": "sprites/enemy_ace_imperial.png",
+      "width": 374,
+      "height": 479,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "enemy_ace_kanayama",
+      "kind": "sprite",
+      "path": "sprites/enemy_ace_kanayama.png",
+      "width": 384,
+      "height": 479,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "enemy_ace_shirogane",
+      "kind": "sprite",
+      "path": "sprites/enemy_ace_shirogane.png",
+      "width": 360,
+      "height": 479,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "enemy_ace_yamanobe",
+      "kind": "sprite",
+      "path": "sprites/enemy_ace_yamanobe.png",
+      "width": 384,
+      "height": 479,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "enemy_body_imperial",
+      "kind": "sprite",
+      "path": "sprites/enemy_body_imperial.png",
+      "width": 360,
+      "height": 487,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "enemy_body_kanayama",
+      "kind": "sprite",
+      "path": "sprites/enemy_body_kanayama.png",
+      "width": 340,
+      "height": 489,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "enemy_body_shirogane",
+      "kind": "sprite",
+      "path": "sprites/enemy_body_shirogane.png",
+      "width": 327,
+      "height": 485,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "enemy_body_yamanobe",
+      "kind": "sprite",
+      "path": "sprites/enemy_body_yamanobe.png",
+      "width": 350,
+      "height": 486,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "mimi_dice_throw",
+      "kind": "sprite",
+      "path": "sprites/mimi_dice_throw.png",
+      "width": 310,
+      "height": 598,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "mimi_doctor_clear",
+      "kind": "sprite",
+      "path": "sprites/mimi_doctor_clear.png",
+      "width": 310,
+      "height": 574,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "mimi_embarrassed_pashipashi",
+      "kind": "sprite",
+      "path": "sprites/mimi_embarrassed_pashipashi.png",
+      "width": 350,
+      "height": 596,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "mimi_match_cut_in",
+      "kind": "sprite",
+      "path": "sprites/mimi_match_cut_in.png",
+      "width": 305,
+      "height": 596,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "mimi_neutral",
+      "kind": "sprite",
+      "path": "sprites/mimi_neutral.png",
+      "width": 215,
+      "height": 596,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    },
+    {
+      "id": "mimi_surgery_mask",
+      "kind": "sprite",
+      "path": "sprites/mimi_surgery_mask.png",
+      "width": 272,
+      "height": 568,
+      "alpha": true,
+      "status": "ready",
+      "notes": "individual export from runtime atlas frame"
+    }
+  ],
+  "supplementalIndexes": [
+    "sprite_exports_index.json",
+    "sprite_layout_hints.json",
+    "preload_bundles.json",
+    "match_animation_sets.json"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "schema": "characters-v5-current-1",
+  "updated_at": "2026-06-24T23:43:32",
+  "canonical_directory": "public/assets/characters",
+  "canonical_assets": [
+    {
+      "name": "fixed_nine_character_sheet_chromakey.png",
+      "exists": true,
+      "bytes": 2073365,
+      "mode": "RGB",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": null
+    },
+    {
+      "name": "fixed_nine_character_sheet.png",
+      "exists": true,
+      "bytes": 2331076,
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "fixed_nine_fullbody_transparent_atlas_v5.png",
+      "exists": true,
+      "bytes": 1152765,
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1536
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "modular_character_parts.png",
+      "exists": true,
+      "bytes": 2331076,
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "modular_character_parts_chromakey.png",
+      "exists": true,
+      "bytes": 2073365,
+      "mode": "RGB",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": null
+    },
+    {
+      "name": "modular_player_expressions_sheet_v5.png",
+      "exists": true,
+      "bytes": 1194576,
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "name": "mimi_character_sheet_chromakey.png",
+      "exists": true,
+      "bytes": 740028,
+      "mode": "RGB",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": null
+    },
+    {
+      "name": "mimi_character_sheet_v5_transparent.png",
+      "exists": true,
+      "bytes": 827345,
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "name": "mimi_character_sheet_refined.png",
+      "exists": true,
+      "bytes": 598778,
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "mimi_mad_doctor_ad_style_character_sheet.png",
+      "exists": true,
+      "bytes": 508661,
+      "mode": "RGB",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": null
+    },
+    {
+      "name": "enemy_team_variations.png",
+      "exists": true,
+      "bytes": 2465777,
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "match_event_cutins.png",
+      "exists": true,
+      "bytes": 3573446,
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha": [
+        0,
+        255
+      ]
+    }
+  ],
+  "fixed_nine_locks": [
+    {
+      "id": "player_01_shun_hanashiro",
+      "name": "Shun Hanashiro",
+      "hair": "smooth straight blond hair",
+      "position": "center fielder",
+      "medical_lock": "Achilles/ankle taping"
+    },
+    {
+      "id": "player_02_yu_igarashi",
+      "name": "Yu Igarashi",
+      "hair": "stylish soft afro",
+      "position": "second baseman",
+      "medical_lock": "wrist supporter"
+    },
+    {
+      "id": "player_03_kazuki_osawa",
+      "name": "Kazuki Osawa",
+      "hair": "short spiky dark hair",
+      "position": "third baseman",
+      "medical_lock": "single sports-medical eyepiece"
+    },
+    {
+      "id": "player_04_go_takayasu",
+      "name": "Go Takayasu",
+      "hair": "tight stylish perm",
+      "position": "left fielder / slugger",
+      "medical_lock": "waist support belt"
+    },
+    {
+      "id": "player_05_ryota_araki",
+      "name": "Ryota Araki",
+      "hair": "forehead-exposed short hair",
+      "position": "right fielder",
+      "medical_lock": "thigh supporter"
+    },
+    {
+      "id": "player_06_miki_yamamoto",
+      "name": "Miki Yamamoto",
+      "hair": "slim blond buzzcut",
+      "position": "shortstop",
+      "medical_lock": "one knee taped"
+    },
+    {
+      "id": "player_07_naoyuki_haruno",
+      "name": "Naoyuki Haruno",
+      "hair": "salon-style spiral perm",
+      "position": "first baseman",
+      "medical_lock": "thigh tape"
+    },
+    {
+      "id": "player_08_mochikane_suzuki",
+      "name": "Mochikane Suzuki",
+      "hair": "center-parted dark hair, narrow smiling eyes",
+      "position": "catcher",
+      "medical_lock": "knee pads and finger supports"
+    },
+    {
+      "id": "player_09_takuro_miyazaki",
+      "name": "Takuro Miyazaki",
+      "hair": "shaved head",
+      "position": "left-handed pitcher",
+      "medical_lock": "elbow supporter"
+    }
+  ],
+  "global_style_locks": [
+    "modern muted pop-ad anime",
+    "SSR-level clean character art",
+    "charcoal black + cream/off-white + muted hazard orange",
+    "adult human male athletes",
+    "no bunny traits on players",
+    "no gore or blood",
+    "head and feet visible in fullbody assets"
+  ],
+  "pending_replacement": [
+    "enemy_team_variations.png",
+    "match_event_cutins.png"
+  ],
+  "archive": "public/assets/_asset_archives/obsolete_pre_v5_assets_20260624_034656.zip"
+}

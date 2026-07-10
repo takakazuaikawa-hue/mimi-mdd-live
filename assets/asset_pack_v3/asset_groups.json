@@ -1,0 +1,480 @@
+{
+  "backgrounds": [
+    {
+      "id": "bg_medical_room",
+      "path": "backgrounds/bg_medical_room.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_stadium_default",
+      "path": "backgrounds/bg_stadium_default.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_stadium_imperial",
+      "path": "backgrounds/bg_stadium_imperial.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_stadium_kanayama",
+      "path": "backgrounds/bg_stadium_kanayama.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_stadium_modified",
+      "path": "backgrounds/bg_stadium_modified.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_stadium_shirogane",
+      "path": "backgrounds/bg_stadium_shirogane.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_stadium_yamanobe",
+      "path": "backgrounds/bg_stadium_yamanobe.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_surgery_room",
+      "path": "backgrounds/bg_surgery_room.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_title_a",
+      "path": "backgrounds/bg_title_a.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    },
+    {
+      "id": "bg_title_b",
+      "path": "backgrounds/bg_title_b.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "alpha": false
+    }
+  ],
+  "atlases": [
+    {
+      "id": "atlas_dice",
+      "path": "atlases/atlas_dice.png",
+      "size": [
+        1774,
+        887
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_enemy_teams",
+      "path": "atlases/atlas_enemy_teams.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_field_props",
+      "path": "atlases/atlas_field_props.png",
+      "size": [
+        1200,
+        600
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_match_cutins",
+      "path": "atlases/atlas_match_cutins.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_match_props_effects",
+      "path": "atlases/atlas_match_props_effects.png",
+      "size": [
+        1120,
+        840
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_match_silhouettes",
+      "path": "atlases/atlas_match_silhouettes.png",
+      "size": [
+        1280,
+        640
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_match_status_overlays",
+      "path": "atlases/atlas_match_status_overlays.png",
+      "size": [
+        1020,
+        1020
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_mimi",
+      "path": "atlases/atlas_mimi.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_mod_parts_expanded",
+      "path": "atlases/atlas_mod_parts_expanded.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_player_parts",
+      "path": "atlases/atlas_player_parts.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_players",
+      "path": "atlases/atlas_players.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_research_cards",
+      "path": "atlases/atlas_research_cards.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_sponsor_logos_full",
+      "path": "atlases/atlas_sponsor_logos_full.png",
+      "size": [
+        1402,
+        1122
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_status_icons",
+      "path": "atlases/atlas_status_icons.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_surgery_methods",
+      "path": "atlases/atlas_surgery_methods.png",
+      "size": [
+        1310,
+        1201
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_surgery_ui",
+      "path": "atlases/atlas_surgery_ui.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_team_logos",
+      "path": "atlases/atlas_team_logos.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "id": "atlas_ui_icons_base",
+      "path": "atlases/atlas_ui_icons_base.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "id": "sheet_player_expressions",
+      "path": "atlases/sheet_player_expressions.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    }
+  ],
+  "ui": [
+    {
+      "id": "atlas_result_panels",
+      "path": "ui/atlas_result_panels.png",
+      "size": [
+        1402,
+        1122
+      ],
+      "alpha": true
+    },
+    {
+      "id": "title_logo",
+      "path": "ui/title_logo.png",
+      "size": [
+        1774,
+        887
+      ],
+      "alpha": true
+    }
+  ],
+  "events": [
+    {
+      "id": "sheet_story_events",
+      "path": "events/sheet_story_events.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha": false
+    }
+  ],
+  "sprites": [
+    {
+      "id": "dice_explosive_red",
+      "path": "sprites/dice_explosive_red.png",
+      "size": [
+        299,
+        354
+      ],
+      "alpha": true
+    },
+    {
+      "id": "dice_mutation_purple",
+      "path": "sprites/dice_mutation_purple.png",
+      "size": [
+        301,
+        355
+      ],
+      "alpha": true
+    },
+    {
+      "id": "dice_normal_white",
+      "path": "sprites/dice_normal_white.png",
+      "size": [
+        301,
+        356
+      ],
+      "alpha": true
+    },
+    {
+      "id": "dice_result",
+      "path": "sprites/dice_result.png",
+      "size": [
+        156,
+        156
+      ],
+      "alpha": true
+    },
+    {
+      "id": "dice_stable_blue",
+      "path": "sprites/dice_stable_blue.png",
+      "size": [
+        299,
+        353
+      ],
+      "alpha": true
+    },
+    {
+      "id": "dice_sync_yellow",
+      "path": "sprites/dice_sync_yellow.png",
+      "size": [
+        299,
+        355
+      ],
+      "alpha": true
+    },
+    {
+      "id": "enemy_ace_imperial",
+      "path": "sprites/enemy_ace_imperial.png",
+      "size": [
+        374,
+        479
+      ],
+      "alpha": true
+    },
+    {
+      "id": "enemy_ace_kanayama",
+      "path": "sprites/enemy_ace_kanayama.png",
+      "size": [
+        384,
+        479
+      ],
+      "alpha": true
+    },
+    {
+      "id": "enemy_ace_shirogane",
+      "path": "sprites/enemy_ace_shirogane.png",
+      "size": [
+        360,
+        479
+      ],
+      "alpha": true
+    },
+    {
+      "id": "enemy_ace_yamanobe",
+      "path": "sprites/enemy_ace_yamanobe.png",
+      "size": [
+        384,
+        479
+      ],
+      "alpha": true
+    },
+    {
+      "id": "enemy_body_imperial",
+      "path": "sprites/enemy_body_imperial.png",
+      "size": [
+        360,
+        487
+      ],
+      "alpha": true
+    },
+    {
+      "id": "enemy_body_kanayama",
+      "path": "sprites/enemy_body_kanayama.png",
+      "size": [
+        340,
+        489
+      ],
+      "alpha": true
+    },
+    {
+      "id": "enemy_body_shirogane",
+      "path": "sprites/enemy_body_shirogane.png",
+      "size": [
+        327,
+        485
+      ],
+      "alpha": true
+    },
+    {
+      "id": "enemy_body_yamanobe",
+      "path": "sprites/enemy_body_yamanobe.png",
+      "size": [
+        350,
+        486
+      ],
+      "alpha": true
+    },
+    {
+      "id": "mimi_dice_throw",
+      "path": "sprites/mimi_dice_throw.png",
+      "size": [
+        310,
+        598
+      ],
+      "alpha": true
+    },
+    {
+      "id": "mimi_doctor_clear",
+      "path": "sprites/mimi_doctor_clear.png",
+      "size": [
+        310,
+        574
+      ],
+      "alpha": true
+    },
+    {
+      "id": "mimi_embarrassed_pashipashi",
+      "path": "sprites/mimi_embarrassed_pashipashi.png",
+      "size": [
+        350,
+        596
+      ],
+      "alpha": true
+    },
+    {
+      "id": "mimi_match_cut_in",
+      "path": "sprites/mimi_match_cut_in.png",
+      "size": [
+        305,
+        596
+      ],
+      "alpha": true
+    },
+    {
+      "id": "mimi_neutral",
+      "path": "sprites/mimi_neutral.png",
+      "size": [
+        215,
+        596
+      ],
+      "alpha": true
+    },
+    {
+      "id": "mimi_surgery_mask",
+      "path": "sprites/mimi_surgery_mask.png",
+      "size": [
+        272,
+        568
+      ],
+      "alpha": true
+    }
+  ]
+}
