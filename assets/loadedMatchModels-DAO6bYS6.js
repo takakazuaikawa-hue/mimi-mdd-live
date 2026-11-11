@@ -1,4 +1,4 @@
-import{M as Fu}from"./index-Cc2vU8Lx.js";/**
+import{M as Fu}from"./index-CHq28h0s.js";/**
  * @license
  * Copyright 2010-2024 Three.js Authors
  * SPDX-License-Identifier: MIT
